@@ -360,6 +360,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="explanation ${isCorrect ? '' : 'wrong'}">
                 <h4>${isCorrect ? '✓ Correct!' : '✗ Not quite right'}</h4>
                 <p>${q.explanation}</p>
+                ${q.source ? `<p class="source-tag">📚 Source: ${q.source}</p>` : ''}
             </div>
         `;
         

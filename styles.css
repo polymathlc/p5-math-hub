@@ -580,3 +580,15 @@ footer {
         padding: 20px;
     }
 }
+
+/* Source tag styling */
+.source-tag {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #e8f4f8, #d4e9ed);
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: #2980b9;
+    display: inline-block;
+    font-weight: 500;
+}
