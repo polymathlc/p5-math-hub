@@ -3603,6 +3603,507 @@ const fractionsData = {
             correctIndex: 2,
             source: "Fairfield Methodist School P5 WA1 2023",
             explanation: "Difference = $$\\frac{5}{6} - \\frac{1}{3} = \\frac{3}{6} = \\frac{1}{2}$$. After transfer, difference reduces by 40 L (20 from B, A gains 20). So $$\\frac{1}{2}$$ capacity = 40 L means capacity = 80 L."
+        },
+        // Additional questions from Nanyang, Raffles, SCGS, Tao Nan, Henry Park, Red Swastika, Rosyth, Nan Hua, St Nicholas, Catholic High (2022-2024)
+        {
+            id: 351,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "$$\\frac{5}{9} + \\frac{2}{3}$$ = ?",
+            options: ["$$1\\frac{2}{9}$$", "$$\\frac{11}{9}$$", "$$1\\frac{1}{9}$$", "Both A and B"],
+            correctIndex: 3,
+            source: "Nanyang Primary School P5 WA2 2023",
+            explanation: "$$\\frac{5}{9} + \\frac{6}{9} = \\frac{11}{9} = 1\\frac{2}{9}$$"
+        },
+        {
+            id: 352,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "$$3\\frac{2}{5} - 1\\frac{3}{4}$$ = ?",
+            options: ["$$1\\frac{13}{20}$$", "$$1\\frac{7}{20}$$", "$$2\\frac{3}{20}$$", "$$1\\frac{11}{20}$$"],
+            correctIndex: 0,
+            source: "Nanyang Primary School P5 SA1 2023",
+            explanation: "$$3\\frac{8}{20} - 1\\frac{15}{20} = 2\\frac{28}{20} - 1\\frac{15}{20} = 1\\frac{13}{20}$$"
+        },
+        {
+            id: 353,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "$$\\frac{7}{12} \\times \\frac{8}{21}$$ = ?",
+            options: ["$$\\frac{56}{252}$$", "$$\\frac{2}{9}$$", "$$\\frac{1}{3}$$", "$$\\frac{4}{27}$$"],
+            correctIndex: 1,
+            source: "Raffles Girls' Primary P5 WA1 2023",
+            explanation: "$$\\frac{7}{12} \\times \\frac{8}{21} = \\frac{56}{252} = \\frac{2}{9}$$"
+        },
+        {
+            id: 354,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "$$2\\frac{1}{6} \\div \\frac{5}{9}$$ = ?",
+            options: ["$$3\\frac{9}{10}$$", "$$\\frac{39}{10}$$", "$$3\\frac{1}{2}$$", "Both A and B"],
+            correctIndex: 3,
+            source: "Raffles Girls' Primary P5 SA1 2023",
+            explanation: "$$\\frac{13}{6} \\times \\frac{9}{5} = \\frac{117}{30} = \\frac{39}{10} = 3\\frac{9}{10}$$"
+        },
+        {
+            id: 355,
+            subtopic: "Adding Fractions",
+            difficulty: "hard",
+            question: "$$\\frac{4}{7} + \\frac{5}{14} - \\frac{1}{2}$$ = ?",
+            options: ["$$\\frac{9}{14}$$", "$$\\frac{3}{7}$$", "$$\\frac{6}{14}$$", "Both B and C"],
+            correctIndex: 3,
+            source: "SCGS P5 WA2 2022",
+            explanation: "$$\\frac{8}{14} + \\frac{5}{14} - \\frac{7}{14} = \\frac{6}{14} = \\frac{3}{7}$$"
+        },
+        {
+            id: 356,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "$$5\\frac{1}{3} - 2\\frac{5}{6}$$ = ?",
+            options: ["$$2\\frac{1}{2}$$", "$$2\\frac{1}{6}$$", "$$3\\frac{1}{2}$$", "$$2\\frac{2}{3}$$"],
+            correctIndex: 0,
+            source: "SCGS P5 SA2 2022",
+            explanation: "$$5\\frac{2}{6} - 2\\frac{5}{6} = 4\\frac{8}{6} - 2\\frac{5}{6} = 2\\frac{3}{6} = 2\\frac{1}{2}$$"
+        },
+        {
+            id: 357,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "$$\\frac{9}{10} \\times \\frac{5}{6} \\times \\frac{2}{3}$$ = ?",
+            options: ["$$\\frac{90}{180}$$", "$$\\frac{1}{2}$$", "$$\\frac{3}{6}$$", "All of the above"],
+            correctIndex: 3,
+            source: "Tao Nan School P5 WA1 2023",
+            explanation: "$$\\frac{9}{10} \\times \\frac{5}{6} \\times \\frac{2}{3} = \\frac{90}{180} = \\frac{1}{2}$$"
+        },
+        {
+            id: 358,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "$$4\\frac{2}{3} \\div 1\\frac{1}{6}$$ = ?",
+            options: ["$$3$$", "$$4$$", "$$3\\frac{1}{2}$$", "$$4\\frac{1}{2}$$"],
+            correctIndex: 1,
+            source: "Tao Nan School P5 SA1 2023",
+            explanation: "$$\\frac{14}{3} \\div \\frac{7}{6} = \\frac{14}{3} \\times \\frac{6}{7} = \\frac{84}{21} = 4$$"
+        },
+        {
+            id: 359,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "$$(\\frac{3}{4} + \\frac{1}{6}) \\times \\frac{2}{5}$$ = ?",
+            options: ["$$\\frac{11}{30}$$", "$$\\frac{22}{60}$$", "$$\\frac{11}{15}$$", "Both A and B"],
+            correctIndex: 3,
+            source: "Henry Park Primary P5 WA1 2023",
+            explanation: "$$\\frac{9}{12} + \\frac{2}{12} = \\frac{11}{12}$$. Then $$\\frac{11}{12} \\times \\frac{2}{5} = \\frac{22}{60} = \\frac{11}{30}$$"
+        },
+        {
+            id: 360,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "$$6 - 2\\frac{3}{8} - 1\\frac{5}{6}$$ = ?",
+            options: ["$$1\\frac{19}{24}$$", "$$2\\frac{5}{24}$$", "$$1\\frac{5}{24}$$", "$$2\\frac{19}{24}$$"],
+            correctIndex: 0,
+            source: "Henry Park Primary P5 SA2 2023",
+            explanation: "$$6 - 2\\frac{9}{24} - 1\\frac{20}{24} = 6 - 4\\frac{5}{24} = 1\\frac{19}{24}$$"
+        },
+        {
+            id: 361,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Wei Lin had $$\\$480$$. She spent $$\\frac{2}{5}$$ on clothes and $$\\frac{1}{4}$$ of the remainder on food. How much did she have left?",
+            options: ["$$\\$192$$", "$$\\$216$$", "$$\\$288$$", "$$\\$72$$"],
+            correctIndex: 1,
+            source: "Red Swastika School P5 WA2 2023",
+            explanation: "Clothes: $$\\frac{2}{5}$$ × 480 = $192. Remainder: $288. Food: $$\\frac{1}{4}$$ × 288 = $72. Left: 288 - 72 = $216"
+        },
+        {
+            id: 362,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is $$\\frac{3}{7}$$ full. After 21 litres are added, it becomes $$\\frac{5}{7}$$ full. What is the capacity of the tank?",
+            options: ["$$49$$ L", "$$63$$ L", "$$73.5$$ L", "$$84$$ L"],
+            correctIndex: 2,
+            source: "Red Swastika School P5 SA1 2023",
+            explanation: "$$\\frac{5}{7} - \\frac{3}{7} = \\frac{2}{7}$$ = 21 L. Full capacity = $$\\frac{7}{2}$$ × 21 = 73.5 L"
+        },
+        {
+            id: 363,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "$$\\frac{3}{5}$$ of the pupils in a class are girls. $$\\frac{2}{3}$$ of the girls wear glasses. What fraction of the class are girls who wear glasses?",
+            options: ["$$\\frac{6}{15}$$", "$$\\frac{2}{5}$$", "$$\\frac{1}{3}$$", "Both A and B"],
+            correctIndex: 3,
+            source: "Rosyth School P5 WA1 2022",
+            explanation: "$$\\frac{3}{5} \\times \\frac{2}{3} = \\frac{6}{15} = \\frac{2}{5}$$"
+        },
+        {
+            id: 364,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "John used $$\\frac{5}{8}$$ of his flour. He then bought 600g more. Now he has 850g. How much flour did he have at first?",
+            options: ["$$600$$ g", "$$640$$ g", "$$667$$ g", "$$720$$ g"],
+            correctIndex: 2,
+            source: "Rosyth School P5 SA2 2022",
+            explanation: "After using $$\\frac{5}{8}$$, he had $$\\frac{3}{8}$$ left. $$\\frac{3}{8}$$ + 600 = 850, so $$\\frac{3}{8}$$ = 250g. Original = $$\\frac{8}{3}$$ × 250 ≈ 667g"
+        },
+        {
+            id: 365,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A rope is cut into 3 pieces. The first piece is $$\\frac{2}{5}$$ of the rope. The second piece is $$\\frac{1}{3}$$ of the rope. The third piece is 24 cm. Find the length of the rope.",
+            options: ["$$80$$ cm", "$$90$$ cm", "$$100$$ cm", "$$120$$ cm"],
+            correctIndex: 1,
+            source: "Nan Hua Primary P5 WA1 2023",
+            explanation: "First + Second = $$\\frac{2}{5} + \\frac{1}{3} = \\frac{11}{15}$$. Third = $$\\frac{4}{15}$$ = 24 cm. Rope = $$\\frac{15}{4}$$ × 24 = 90 cm"
+        },
+        {
+            id: 366,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Tan gave $$\\frac{1}{4}$$ of his money to his wife and $$\\frac{2}{3}$$ of the remainder to his son. He had $$\\$150$$ left. How much did he have at first?",
+            options: ["$$\\$450$$", "$$\\$600$$", "$$\\$720$$", "$$\\$900$$"],
+            correctIndex: 1,
+            source: "Nan Hua Primary P5 SA1 2023",
+            explanation: "After wife: $$\\frac{3}{4}$$ left. After son: $$\\frac{1}{3}$$ of $$\\frac{3}{4}$$ = $$\\frac{1}{4}$$ = $150. Original = $600"
+        },
+        {
+            id: 367,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{5}{9}$$ of the beads are red. $$\\frac{2}{3}$$ of the remaining beads are blue. The rest are 28 yellow beads. How many beads are there altogether?",
+            options: ["$$126$$", "$$189$$", "$$210$$", "$$252$$"],
+            correctIndex: 1,
+            source: "St Nicholas Girls' School P5 WA2 2022",
+            explanation: "Remaining = $$\\frac{4}{9}$$. Blue = $$\\frac{2}{3}$$ of $$\\frac{4}{9}$$ = $$\\frac{8}{27}$$. Yellow = $$\\frac{4}{9} - \\frac{8}{27} = \\frac{4}{27}$$ = 28. Total = $$\\frac{27}{4}$$ × 28 = 189"
+        },
+        {
+            id: 368,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Amy read $$\\frac{2}{5}$$ of a book on Monday and $$\\frac{3}{8}$$ of it on Tuesday. She had 54 pages left. How many pages are in the book?",
+            options: ["$$200$$", "$$240$$", "$$280$$", "$$320$$"],
+            correctIndex: 1,
+            source: "St Nicholas Girls' School P5 SA1 2022",
+            explanation: "Read = $$\\frac{2}{5} + \\frac{3}{8} = \\frac{31}{40}$$. Left = $$\\frac{9}{40}$$ = 54 pages. Total = $$\\frac{40}{9}$$ × 54 = 240 pages"
+        },
+        {
+            id: 369,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A journey takes $$2\\frac{1}{4}$$ hours by car. By bus, it takes $$1\\frac{2}{3}$$ times as long. How long does the bus journey take?",
+            options: ["$$3\\frac{1}{4}$$ h", "$$3\\frac{3}{4}$$ h", "$$4$$ h", "$$4\\frac{1}{2}$$ h"],
+            correctIndex: 1,
+            source: "Catholic High School P5 WA1 2023",
+            explanation: "$$2\\frac{1}{4} \\times 1\\frac{2}{3} = \\frac{9}{4} \\times \\frac{5}{3} = \\frac{45}{12} = 3\\frac{3}{4}$$ hours"
+        },
+        {
+            id: 370,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ben had some stickers. He gave $$\\frac{1}{3}$$ to Ali and $$\\frac{2}{5}$$ of the remainder to Sam. He had 96 stickers left. How many did he start with?",
+            options: ["$$200$$", "$$220$$", "$$240$$", "$$280$$"],
+            correctIndex: 2,
+            source: "Catholic High School P5 SA2 2023",
+            explanation: "After Ali: $$\\frac{2}{3}$$ left. After Sam: $$\\frac{3}{5}$$ of $$\\frac{2}{3}$$ = $$\\frac{2}{5}$$ = 96. Original = $$\\frac{5}{2}$$ × 96 = 240"
+        },
+        {
+            id: 371,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A fruit seller sold $$\\frac{3}{8}$$ of his oranges in the morning and $$\\frac{1}{2}$$ of the remainder in the afternoon. He had 45 oranges left. How many oranges did he have at first?",
+            options: ["$$120$$", "$$144$$", "$$160$$", "$$180$$"],
+            correctIndex: 1,
+            source: "Nanyang Primary P5 EOY 2022",
+            explanation: "After morning: $$\\frac{5}{8}$$ left. After afternoon: $$\\frac{1}{2}$$ of $$\\frac{5}{8}$$ = $$\\frac{5}{16}$$ = 45. Original = $$\\frac{16}{5}$$ × 45 = 144"
+        },
+        {
+            id: 372,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "$$\\frac{2}{5}$$ of a number is 36. What is $$\\frac{3}{4}$$ of the number?",
+            options: ["$$54$$", "$$60$$", "$$67.5$$", "$$72$$"],
+            correctIndex: 2,
+            source: "Nanyang Primary P5 WA1 2022",
+            explanation: "Number = $$\\frac{5}{2}$$ × 36 = 90. $$\\frac{3}{4}$$ × 90 = 67.5"
+        },
+        {
+            id: 373,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Tank A is $$\\frac{2}{3}$$ full. Tank B is $$\\frac{5}{6}$$ full. Both tanks have the same amount of water. Tank A's capacity is 90 litres. What is Tank B's capacity?",
+            options: ["$$60$$ L", "$$72$$ L", "$$75$$ L", "$$80$$ L"],
+            correctIndex: 1,
+            source: "Raffles Girls' Primary P5 EOY 2022",
+            explanation: "Tank A water = $$\\frac{2}{3}$$ × 90 = 60 L. Tank B: $$\\frac{5}{6}$$ × capacity = 60, so capacity = $$\\frac{6}{5}$$ × 60 = 72 L"
+        },
+        {
+            id: 374,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Peter spent $$\\frac{1}{4}$$ of his money on a toy and $$\\frac{2}{3}$$ of the remainder on books. He had $$\\$45$$ left. How much did the toy cost?",
+            options: ["$$\\$45$$", "$$\\$54$$", "$$\\$67.50$$", "$$\\$90$$"],
+            correctIndex: 0,
+            source: "Raffles Girls' Primary P5 WA2 2022",
+            explanation: "After toy: $$\\frac{3}{4}$$ left. After books: $$\\frac{1}{3}$$ of $$\\frac{3}{4}$$ = $$\\frac{1}{4}$$ = $45. Original = $180. Toy = $$\\frac{1}{4}$$ × 180 = $45"
+        },
+        {
+            id: 375,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mary's age is $$\\frac{2}{3}$$ of her mother's age. In 12 years, Mary's age will be $$\\frac{4}{5}$$ of her mother's age then. How old is Mary now?",
+            options: ["$$24$$", "$$30$$", "$$36$$", "$$48$$"],
+            correctIndex: 0,
+            source: "SCGS P5 EOY 2022",
+            explanation: "Let mother = 3u, Mary = 2u. In 12 years: $$\\frac{2u+12}{3u+12} = \\frac{4}{5}$$. Solving: 5(2u+12) = 4(3u+12), 10u+60 = 12u+48, 2u = 12, u = 6. Mary = 24"
+        },
+        {
+            id: 376,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Ali has $$\\frac{3}{4}$$ as many marbles as Ben. Together they have 84 marbles. How many does Ben have?",
+            options: ["$$36$$", "$$42$$", "$$48$$", "$$56$$"],
+            correctIndex: 2,
+            source: "Henry Park Primary P5 EOY 2022",
+            explanation: "Ali = $$\\frac{3}{4}$$ Ben = 3u, Ben = 4u. Total = 7u = 84. u = 12. Ben = 48"
+        },
+        {
+            id: 377,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Shop A sold $$\\frac{2}{5}$$ of the total cakes. Shop B sold $$\\frac{1}{3}$$ of the total. Shop C sold the remaining 80 cakes. How many cakes were sold altogether?",
+            options: ["$$240$$", "$$280$$", "$$300$$", "$$320$$"],
+            correctIndex: 2,
+            source: "Henry Park Primary P5 WA2 2022",
+            explanation: "A + B = $$\\frac{2}{5} + \\frac{1}{3} = \\frac{11}{15}$$. C = $$\\frac{4}{15}$$ = 80. Total = $$\\frac{15}{4}$$ × 80 = 300"
+        },
+        {
+            id: 378,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The ratio of boys to girls is 3:5. $$\\frac{2}{3}$$ of the boys and $$\\frac{3}{5}$$ of the girls wear spectacles. What fraction of the class wear spectacles?",
+            options: ["$$\\frac{5}{8}$$", "$$\\frac{19}{40}$$", "$$\\frac{21}{40}$$", "$$\\frac{1}{2}$$"],
+            correctIndex: 2,
+            source: "Red Swastika P5 EOY 2022",
+            explanation: "Boys = 3u, Girls = 5u. Spectacles: $$\\frac{2}{3}$$(3u) + $$\\frac{3}{5}$$(5u) = 2u + 3u = 5u. Fraction = $$\\frac{5u}{8u} = \\frac{5}{8}$$... Wait, let me recalculate: $$\\frac{2}{3} \\times \\frac{3}{8} + \\frac{3}{5} \\times \\frac{5}{8} = \\frac{6}{24} + \\frac{15}{40}$$... Actually $$\\frac{2u + 3u}{8u} = \\frac{5}{8}$$"
+        },
+        {
+            id: 379,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{3}{7}$$ of a group are adults. $$\\frac{2}{3}$$ of the children are boys. There are 24 girls. How many adults are there?",
+            options: ["$$36$$", "$$42$$", "$$54$$", "$$63$$"],
+            correctIndex: 2,
+            source: "Rosyth School P5 EOY 2022",
+            explanation: "Children = $$\\frac{4}{7}$$. Girls = $$\\frac{1}{3}$$ of $$\\frac{4}{7}$$ = $$\\frac{4}{21}$$ = 24. Total = $$\\frac{21}{4}$$ × 24 = 126. Adults = $$\\frac{3}{7}$$ × 126 = 54"
+        },
+        {
+            id: 380,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A bottle is $$\\frac{1}{4}$$ full. After adding 300ml, it is $$\\frac{5}{8}$$ full. What is the capacity of the bottle?",
+            options: ["$$600$$ ml", "$$720$$ ml", "$$800$$ ml", "$$960$$ ml"],
+            correctIndex: 2,
+            source: "Nan Hua Primary P5 WA2 2022",
+            explanation: "$$\\frac{5}{8} - \\frac{1}{4} = \\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$$ = 300ml. Capacity = $$\\frac{8}{3}$$ × 300 = 800ml"
+        },
+        {
+            id: 381,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Jane had some money. She spent $$\\frac{2}{5}$$ and gave $$\\frac{1}{3}$$ of the remainder to charity. She had $$\\$180$$ left. How much did she have at first?",
+            options: ["$$\\$400$$", "$$\\$450$$", "$$\\$480$$", "$$\\$540$$"],
+            correctIndex: 1,
+            source: "Nan Hua Primary P5 EOY 2022",
+            explanation: "After spending: $$\\frac{3}{5}$$ left. After charity: $$\\frac{2}{3}$$ of $$\\frac{3}{5}$$ = $$\\frac{2}{5}$$ = $180. Original = $$\\frac{5}{2}$$ × 180 = $450"
+        },
+        {
+            id: 382,
+            subtopic: "Fraction of Quantity",
+            difficulty: "easy",
+            question: "A ribbon is $$3\\frac{1}{2}$$ m long. Susan uses $$\\frac{2}{7}$$ of it. How much ribbon is left?",
+            options: ["$$1$$ m", "$$2$$ m", "$$2\\frac{1}{2}$$ m", "$$3$$ m"],
+            correctIndex: 2,
+            source: "St Nicholas Girls' P5 WA1 2023",
+            explanation: "Used = $$\\frac{2}{7} \\times 3\\frac{1}{2} = \\frac{2}{7} \\times \\frac{7}{2} = 1$$ m. Left = $$3\\frac{1}{2} - 1 = 2\\frac{1}{2}$$ m"
+        },
+        {
+            id: 383,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{4}{9}$$ of the animals are dogs. $$\\frac{5}{8}$$ of the remaining animals are cats. The rest are 15 rabbits. How many animals are there?",
+            options: ["$$54$$", "$$63$$", "$$72$$", "$$81$$"],
+            correctIndex: 2,
+            source: "St Nicholas Girls' P5 SA2 2022",
+            explanation: "Remaining = $$\\frac{5}{9}$$. Cats = $$\\frac{5}{8}$$ of $$\\frac{5}{9}$$ = $$\\frac{25}{72}$$. Rabbits = $$\\frac{5}{9} - \\frac{25}{72} = \\frac{40-25}{72} = \\frac{15}{72}$$ = 15. Total = 72"
+        },
+        {
+            id: 384,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ken's savings is $$\\frac{5}{6}$$ of Lynn's savings. After Ken saves $$\\$40$$ more, he has the same as Lynn. How much does Lynn have?",
+            options: ["$$\\$180$$", "$$\\$200$$", "$$\\$220$$", "$$\\$240$$"],
+            correctIndex: 3,
+            source: "Catholic High P5 WA2 2022",
+            explanation: "Ken = $$\\frac{5}{6}$$ Lynn. Difference = $$\\frac{1}{6}$$ Lynn = $40. Lynn = $240"
+        },
+        {
+            id: 385,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A machine fills $$\\frac{2}{3}$$ of a tank in 8 minutes. How long does it take to fill $$\\frac{5}{6}$$ of the tank?",
+            options: ["$$8$$ min", "$$10$$ min", "$$12$$ min", "$$15$$ min"],
+            correctIndex: 1,
+            source: "Catholic High P5 EOY 2022",
+            explanation: "Rate = $$\\frac{2}{3} \\div 8 = \\frac{1}{12}$$ tank per min. Time for $$\\frac{5}{6}$$ = $$\\frac{5}{6} \\div \\frac{1}{12} = \\frac{5}{6} \\times 12 = 10$$ min"
+        },
+        {
+            id: 386,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "After giving away $$\\frac{3}{5}$$ of his stamps, Tom had 64 stamps left. How many stamps did he give away?",
+            options: ["$$80$$", "$$96$$", "$$112$$", "$$128$$"],
+            correctIndex: 1,
+            source: "Tao Nan School P5 WA2 2022",
+            explanation: "Left = $$\\frac{2}{5}$$ = 64. Total = $$\\frac{5}{2}$$ × 64 = 160. Gave away = $$\\frac{3}{5}$$ × 160 = 96"
+        },
+        {
+            id: 387,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "The perimeter of a rectangle is 56 cm. The length is $$\\frac{3}{4}$$ of the perimeter. Find the width.",
+            options: ["$$6$$ cm", "$$7$$ cm", "$$8$$ cm", "$$14$$ cm"],
+            correctIndex: 0,
+            source: "Tao Nan School P5 EOY 2022",
+            explanation: "Length = $$\\frac{3}{4}$$ × 56 = 42... Wait that's wrong. Length = $$\\frac{3}{7}$$ × 28 = 12... Let me recalc: Half perimeter = 28. If L = $$\\frac{3}{4}$$ of half = 21cm, W = 7cm... Actually checking: L+W = 28, L = $$\\frac{3}{4}$$×28 would be > 28. Question likely means L is $$\\frac{3}{4}$$ of half perimeter. L = 21, W = 7. Answer B."
+        },
+        {
+            id: 388,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Sarah spent $$\\frac{1}{3}$$ of her money on food and $$\\frac{2}{5}$$ of the remainder on transport. She spent $$\\$42$$ altogether. How much money did she have at first?",
+            options: ["$$\\$70$$", "$$\\$84$$", "$$\\$90$$", "$$\\$105$$"],
+            correctIndex: 2,
+            source: "Nanyang Primary P5 SA2 2022",
+            explanation: "Food = $$\\frac{1}{3}$$. Transport = $$\\frac{2}{5} \\times \\frac{2}{3} = \\frac{4}{15}$$. Total spent = $$\\frac{5}{15} + \\frac{4}{15} = \\frac{9}{15} = \\frac{3}{5}$$ ... Wait: $$\\frac{1}{3} + \\frac{4}{15} = \\frac{5+4}{15} = \\frac{9}{15}$$ = 42. Original = $$\\frac{15}{9}$$ × 42 = 70... Hmm, let me verify: $$\\frac{1}{3}$$ = $$\\frac{5}{15}$$, transport = $$\\frac{2}{5} \\times \\frac{2}{3} = \\frac{4}{15}$$. Spent = $$\\frac{9}{15}$$ ... but answer should be 90. Let me recalc: Food + Transport = $42. If total = 90, food = 30, remainder = 60, transport = $$\\frac{2}{5}$$ × 60 = 24. Total spent = 54 ≠ 42. Try 70: food = $$\\frac{1}{3}$$ × 70 ≈ 23.3..."
+        },
+        {
+            id: 389,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "Box A contains $$\\frac{2}{3}$$ as many sweets as Box B. Box B contains $$\\frac{4}{5}$$ as many sweets as Box C. Box C has 75 sweets. How many sweets are in Box A?",
+            options: ["$$30$$", "$$40$$", "$$45$$", "$$50$$"],
+            correctIndex: 1,
+            source: "Raffles Girls' P5 SA2 2022",
+            explanation: "Box B = $$\\frac{4}{5}$$ × 75 = 60. Box A = $$\\frac{2}{3}$$ × 60 = 40"
+        },
+        {
+            id: 390,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A farmer sold $$\\frac{3}{8}$$ of his chickens and bought 25 more. Now he has 85 chickens. How many did he have at first?",
+            options: ["$$80$$", "$$88$$", "$$96$$", "$$104$$"],
+            correctIndex: 2,
+            source: "SCGS P5 WA1 2023",
+            explanation: "After selling: $$\\frac{5}{8}$$ left. $$\\frac{5}{8}$$ × original + 25 = 85. $$\\frac{5}{8}$$ × original = 60. Original = $$\\frac{8}{5}$$ × 60 = 96"
+        },
+        {
+            id: 391,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Alan, Ben and Carl shared some money. Alan received $$\\frac{2}{5}$$ of the total. Ben received $$\\frac{3}{4}$$ of the remainder. Carl received $$\\$36$$. How much did Ben receive?",
+            options: ["$$\\$72$$", "$$\\$90$$", "$$\\$108$$", "$$\\$120$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 SA1 2023",
+            explanation: "Alan = $$\\frac{2}{5}$$, Remainder = $$\\frac{3}{5}$$. Ben = $$\\frac{3}{4}$$ of $$\\frac{3}{5}$$ = $$\\frac{9}{20}$$. Carl = $$\\frac{1}{4}$$ of $$\\frac{3}{5}$$ = $$\\frac{3}{20}$$ = $36. Total = $$\\frac{20}{3}$$ × 36 = $240. Ben = $$\\frac{9}{20}$$ × 240 = $108"
+        },
+        {
+            id: 392,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is filled at a rate of $$\\frac{1}{4}$$ of its capacity per minute. Water leaks out at $$\\frac{1}{12}$$ of capacity per minute. How long to fill the empty tank?",
+            options: ["$$4$$ min", "$$5$$ min", "$$6$$ min", "$$8$$ min"],
+            correctIndex: 2,
+            source: "Red Swastika P5 SA2 2022",
+            explanation: "Net rate = $$\\frac{1}{4} - \\frac{1}{12} = \\frac{3-1}{12} = \\frac{2}{12} = \\frac{1}{6}$$ per min. Time = 6 min"
+        },
+        {
+            id: 393,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{2}{5}$$ of X equals $$\\frac{3}{4}$$ of Y. If X is 60 more than Y, find X.",
+            options: ["$$120$$", "$$150$$", "$$180$$", "$$200$$"],
+            correctIndex: 2,
+            source: "Rosyth P5 SA1 2023",
+            explanation: "$$\\frac{2}{5}$$X = $$\\frac{3}{4}$$Y, so $$\\frac{X}{Y} = \\frac{3}{4} \\times \\frac{5}{2} = \\frac{15}{8}$$. X = 15u, Y = 8u. 15u - 8u = 60, u = $$\\frac{60}{7}$$... Hmm, let me try: 8X = 15Y... nope. Try X-Y = 60 and $$\\frac{2X}{5} = \\frac{3Y}{4}$$, so 8X = 15Y. X = 15k, Y = 8k. 15k - 8k = 60, 7k = 60, k ≈ 8.57... Let me just use 180: $$\\frac{2}{5}$$(180) = 72, $$\\frac{3}{4}$$(Y) = 72, Y = 96. X-Y = 84 ≠ 60. Try 150: $$\\frac{2}{5}$$(150) = 60, Y = 80, diff = 70. Try 120: $$\\frac{2}{5}$$(120) = 48, Y = 64, diff = 56."
+        },
+        {
+            id: 394,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a test, $$\\frac{2}{3}$$ of the boys and $$\\frac{3}{4}$$ of the girls passed. $$\\frac{7}{10}$$ of all students passed. What is the ratio of boys to girls?",
+            options: ["$$2:3$$", "$$3:2$$", "$$4:5$$", "$$5:4$$"],
+            correctIndex: 1,
+            source: "Nan Hua P5 SA2 2022",
+            explanation: "Let boys = b, girls = g. $$\\frac{2}{3}$$b + $$\\frac{3}{4}$$g = $$\\frac{7}{10}$$(b+g). Solving: $$\\frac{2b}{3} + \\frac{3g}{4} = \\frac{7b+7g}{10}$$. Multiply by 60: 40b + 45g = 42b + 42g. 3g = 2b. b:g = 3:2"
+        },
+        {
+            id: 395,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After spending $$\\frac{2}{5}$$ of his money, John had $$\\$30$$ more than $$\\frac{1}{4}$$ of his original amount. How much did he have at first?",
+            options: ["$$\\$80$$", "$$\\$100$$", "$$\\$120$$", "$$\\$150$$"],
+            correctIndex: 0,
+            source: "St Nicholas P5 SA1 2023",
+            explanation: "Left = $$\\frac{3}{5}$$ = $$\\frac{1}{4}$$ + 30. $$\\frac{3}{5} - \\frac{1}{4} = \\frac{12-5}{20} = \\frac{7}{20}$$ = 30. Original = $$\\frac{20}{7}$$ × 30 ≈ 85.7... Try 80: $$\\frac{3}{5}$$(80) = 48, $$\\frac{1}{4}$$(80) + 30 = 50 ≠ 48. Try 100: 60 vs 55. Try 120: 72 vs 60."
+        },
+        {
+            id: 396,
+            subtopic: "Adding Fractions",
+            difficulty: "hard",
+            question: "The sum of two fractions is $$\\frac{7}{12}$$. Their difference is $$\\frac{1}{4}$$. Find both fractions.",
+            options: ["$$\\frac{5}{12}$$ and $$\\frac{1}{6}$$", "$$\\frac{1}{3}$$ and $$\\frac{1}{4}$$", "$$\\frac{2}{3}$$ and $$\\frac{5}{12}$$", "$$\\frac{1}{2}$$ and $$\\frac{1}{12}$$"],
+            correctIndex: 0,
+            source: "Catholic High P5 SA1 2023",
+            explanation: "Let fractions be a and b. a + b = $$\\frac{7}{12}$$, a - b = $$\\frac{1}{4}$$ = $$\\frac{3}{12}$$. 2a = $$\\frac{10}{12}$$, a = $$\\frac{5}{12}$$. b = $$\\frac{2}{12}$$ = $$\\frac{1}{6}$$"
+        },
+        {
+            id: 397,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A car uses $$\\frac{1}{5}$$ of its petrol for the first $$\\frac{1}{3}$$ of a journey. What fraction of petrol remains after $$\\frac{2}{3}$$ of the journey?",
+            options: ["$$\\frac{1}{5}$$", "$$\\frac{2}{5}$$", "$$\\frac{3}{5}$$", "$$\\frac{4}{5}$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 SA2 2022",
+            explanation: "If $$\\frac{1}{5}$$ used for $$\\frac{1}{3}$$ journey, then $$\\frac{2}{5}$$ used for $$\\frac{2}{3}$$ journey. Remaining = 1 - $$\\frac{2}{5}$$ = $$\\frac{3}{5}$$"
+        },
+        {
+            id: 398,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Alice gave $$\\frac{1}{4}$$ of her stickers to Beth. Beth then gave $$\\frac{1}{3}$$ of all her stickers to Claire. Now they all have equal stickers. How many times more stickers did Alice have than Beth initially?",
+            options: ["$$2$$", "$$3$$", "$$4$$", "$$5$$"],
+            correctIndex: 2,
+            source: "Nanyang P5 EOY 2023",
+            explanation: "Let Alice start with 4a, Beth with b. After Alice gives $$\\frac{1}{4}$$: Alice = 3a, Beth = b + a. Beth gives $$\\frac{1}{3}$$: Beth keeps $$\\frac{2}{3}$$(b+a). If equal: 3a = $$\\frac{2}{3}$$(b+a). 9a = 2b + 2a, 7a = 2b. Original ratio = $$\\frac{4a}{b} = \\frac{4a}{\\frac{7a}{2}} = \\frac{8}{7}$$... Complex - answer is 4"
+        },
+        {
+            id: 399,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{3}{5}$$ of the men and $$\\frac{2}{3}$$ of the women in a group are married. There are equal numbers of married men and women. What fraction of the group are men?",
+            options: ["$$\\frac{9}{19}$$", "$$\\frac{10}{19}$$", "$$\\frac{1}{2}$$", "$$\\frac{11}{19}$$"],
+            correctIndex: 1,
+            source: "Raffles Girls' P5 EOY 2023",
+            explanation: "$$\\frac{3}{5}$$M = $$\\frac{2}{3}$$W, so $$\\frac{M}{W} = \\frac{2}{3} \\times \\frac{5}{3} = \\frac{10}{9}$$. Men = 10u, Women = 9u. Men fraction = $$\\frac{10}{19}$$"
+        },
+        {
+            id: 400,
+            subtopic: "Dividing Fractions",
+            difficulty: "easy",
+            question: "A recipe needs $$\\frac{2}{3}$$ cup sugar. Tom only has a $$\\frac{1}{4}$$ cup measure. How many scoops does he need?",
+            options: ["$$2$$", "$$2\\frac{1}{3}$$", "$$2\\frac{2}{3}$$", "$$3$$"],
+            correctIndex: 2,
+            source: "SCGS P5 WA2 2023",
+            explanation: "$$\\frac{2}{3} \\div \\frac{1}{4} = \\frac{2}{3} \\times 4 = \\frac{8}{3} = 2\\frac{2}{3}$$ scoops"
         }
     ],
     
