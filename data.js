@@ -1831,6 +1831,230 @@ const fractionsData = {
             correctIndex: 0,
             source: "Henry Park Primary School P5 EOY 2024",
             explanation: "After friend: $$\\frac{3}{5}$$ left. After sister: $$\\frac{1}{4} \\times \\frac{3}{5} = \\frac{3}{20}$$ left = 18. Total = 120. Friend = $$\\frac{2}{5}$$ × 120 = 48"
+        },
+
+        // ==========================================
+        // 2023 Top School Papers
+        // ==========================================
+
+        // Raffles Girls' Primary School P5 EOY 2023
+        {
+            id: 181,
+            subtopic: "Mixed Numbers",
+            difficulty: "medium",
+            question: "Express $$1\\frac{1}{50}$$ as a decimal.",
+            options: ["$$1.1$$", "$$1.2$$", "$$1.02$$", "$$1.15$$"],
+            correctIndex: 2,
+            source: "Raffles Girls' Primary School P5 EOY 2023",
+            explanation: "$$\\frac{1}{50} = \\frac{2}{100} = 0.02$$. So $$1\\frac{1}{50} = 1.02$$"
+        },
+        {
+            id: 182,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Hamid wanted to transfer 12 of his plants into bigger pots. He used $$\\frac{3}{8}$$ kg of soil to fill each big pot. He ran out of soil after transferring 5 plants. How much more soil would he need to fill the big pots for the remaining plants?",
+            options: ["$$\\frac{7}{8}$$ kg", "$$1\\frac{7}{8}$$ kg", "$$2\\frac{5}{8}$$ kg", "$$4\\frac{1}{2}$$ kg"],
+            correctIndex: 2,
+            source: "Raffles Girls' Primary School P5 EOY 2023",
+            explanation: "Remaining plants = 12 - 5 = 7 plants. Soil needed = 7 × $$\\frac{3}{8}$$ = $$\\frac{21}{8}$$ = $$2\\frac{5}{8}$$ kg"
+        },
+
+        // Nanyang Primary School P5 EOY 2023
+        {
+            id: 183,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "$$\\frac{5}{6}$$ of 48 = ?",
+            options: ["$$8$$", "$$40$$", "$$42$$", "$$44$$"],
+            correctIndex: 1,
+            source: "Nanyang Primary School P5 EOY 2023",
+            explanation: "$$\\frac{5}{6}$$ × 48 = $$\\frac{240}{6}$$ = 40"
+        },
+        {
+            id: 184,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mrs Lee bought some eggs. She used $$\\frac{1}{4}$$ of them on Monday and $$\\frac{2}{3}$$ of the remainder on Tuesday. She had 15 eggs left. How many eggs did she buy?",
+            options: ["$$60$$", "$$72$$", "$$80$$", "$$90$$"],
+            correctIndex: 0,
+            source: "Nanyang Primary School P5 EOY 2023",
+            explanation: "After Monday: $$\\frac{3}{4}$$ left. After Tuesday: $$\\frac{1}{3} \\times \\frac{3}{4} = \\frac{1}{4}$$ left = 15 eggs. Total = 60"
+        },
+
+        // Tao Nan School P5 EOY 2023
+        {
+            id: 185,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "How many $$\\frac{2}{5}$$ are there in $$3\\frac{1}{5}$$?",
+            options: ["$$6$$", "$$8$$", "$$10$$", "$$12$$"],
+            correctIndex: 1,
+            source: "Tao Nan School P5 EOY 2023",
+            explanation: "$$3\\frac{1}{5} \\div \\frac{2}{5} = \\frac{16}{5} \\times \\frac{5}{2} = \\frac{16}{2} = 8$$"
+        },
+        {
+            id: 186,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Tom had some marbles. He gave $$\\frac{3}{7}$$ of them to Ali and $$\\frac{1}{2}$$ of the remainder to Ben. If Ben received 24 marbles, how many marbles did Tom have at first?",
+            options: ["$$84$$", "$$96$$", "$$108$$", "$$112$$"],
+            correctIndex: 0,
+            source: "Tao Nan School P5 EOY 2023",
+            explanation: "Ben received $$\\frac{1}{2} \\times \\frac{4}{7} = \\frac{2}{7}$$ = 24 marbles. Total = 84"
+        },
+
+        // Rosyth School P5 EOY 2023
+        {
+            id: 187,
+            subtopic: "Subtracting Fractions",
+            difficulty: "medium",
+            question: "$$4\\frac{1}{3} - 1\\frac{5}{6}$$ = ?",
+            options: ["$$2\\frac{1}{2}$$", "$$2\\frac{1}{3}$$", "$$2\\frac{2}{3}$$", "$$3\\frac{1}{6}$$"],
+            correctIndex: 0,
+            source: "Rosyth School P5 EOY 2023",
+            explanation: "$$4\\frac{2}{6} - 1\\frac{5}{6} = 3\\frac{8}{6} - 1\\frac{5}{6} = 2\\frac{3}{6} = 2\\frac{1}{2}$$"
+        },
+        {
+            id: 188,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A container is $$\\frac{3}{4}$$ full of water. When 12 litres of water are added, it becomes $$\\frac{7}{8}$$ full. Find the capacity of the container.",
+            options: ["$$72$$ L", "$$84$$ L", "$$96$$ L", "$$108$$ L"],
+            correctIndex: 2,
+            source: "Rosyth School P5 EOY 2023",
+            explanation: "Difference = $$\\frac{7}{8} - \\frac{3}{4} = \\frac{7}{8} - \\frac{6}{8} = \\frac{1}{8}$$ = 12 L. Capacity = 96 L"
+        },
+
+        // Ai Tong School P5 EOY 2023
+        {
+            id: 189,
+            subtopic: "Adding Fractions",
+            difficulty: "easy",
+            question: "$$\\frac{2}{5} + \\frac{1}{3}$$ = ?",
+            options: ["$$\\frac{3}{8}$$", "$$\\frac{3}{15}$$", "$$\\frac{11}{15}$$", "$$\\frac{1}{2}$$"],
+            correctIndex: 2,
+            source: "Ai Tong School P5 EOY 2023",
+            explanation: "LCM of 5 and 3 is 15. $$\\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$$"
+        },
+        {
+            id: 190,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A ribbon is $$2\\frac{1}{4}$$ m long. Jane cuts off $$\\frac{3}{4}$$ m. How long is the remaining ribbon?",
+            options: ["$$1\\frac{1}{4}$$ m", "$$1\\frac{1}{2}$$ m", "$$1\\frac{3}{4}$$ m", "$$2$$ m"],
+            correctIndex: 1,
+            source: "Ai Tong School P5 EOY 2023",
+            explanation: "$$2\\frac{1}{4} - \\frac{3}{4} = 2\\frac{1}{4} - \\frac{3}{4} = 1\\frac{2}{4} = 1\\frac{1}{2}$$ m"
+        },
+
+        // Maris Stella High School P5 EOY 2023
+        {
+            id: 191,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "$$2\\frac{1}{3} \\times 1\\frac{2}{5}$$ = ?",
+            options: ["$$2\\frac{2}{15}$$", "$$3\\frac{4}{15}$$", "$$3\\frac{1}{3}$$", "$$3\\frac{7}{15}$$"],
+            correctIndex: 1,
+            source: "Maris Stella High School P5 EOY 2023",
+            explanation: "$$\\frac{7}{3} \\times \\frac{7}{5} = \\frac{49}{15} = 3\\frac{4}{15}$$"
+        },
+        {
+            id: 192,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "John spent $$\\frac{2}{5}$$ of his money on a toy. He spent $$\\frac{3}{4}$$ of the remainder on a book. He had $12 left. How much money did he have at first?",
+            options: ["$$\\$60$$", "$$\\$80$$", "$$\\$100$$", "$$\\$120$$"],
+            correctIndex: 1,
+            source: "Maris Stella High School P5 EOY 2023",
+            explanation: "After toy: $$\\frac{3}{5}$$ left. After book: $$\\frac{1}{4} \\times \\frac{3}{5} = \\frac{3}{20}$$ left = $12. Total = $80"
+        },
+
+        // ACSP P5 EOY 2023
+        {
+            id: 193,
+            subtopic: "Comparing Fractions",
+            difficulty: "medium",
+            question: "Which fraction is closest to $$\\frac{1}{2}$$?",
+            options: ["$$\\frac{2}{5}$$", "$$\\frac{4}{9}$$", "$$\\frac{5}{9}$$", "$$\\frac{3}{7}$$"],
+            correctIndex: 2,
+            source: "ACSP P5 EOY 2023",
+            explanation: "$$\\frac{1}{2} = 0.5$$. $$\\frac{2}{5} = 0.4$$, $$\\frac{4}{9} ≈ 0.44$$, $$\\frac{5}{9} ≈ 0.56$$, $$\\frac{3}{7} ≈ 0.43$$. $$\\frac{5}{9}$$ is closest (0.06 away)"
+        },
+        {
+            id: 194,
+            subtopic: "Fraction of Quantity",
+            difficulty: "easy",
+            question: "$$\\frac{3}{7}$$ of 56 = ?",
+            options: ["$$21$$", "$$24$$", "$$27$$", "$$32$$"],
+            correctIndex: 1,
+            source: "ACSP P5 EOY 2023",
+            explanation: "$$\\frac{3}{7}$$ × 56 = 3 × 8 = 24"
+        },
+
+        // St Nicholas Girls' School P5 EOY 2023
+        {
+            id: 195,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "$$2\\frac{2}{3} \\div \\frac{4}{9}$$ = ?",
+            options: ["$$6$$", "$$5$$", "$$4$$", "$$3$$"],
+            correctIndex: 0,
+            source: "St Nicholas Girls' School P5 EOY 2023",
+            explanation: "$$\\frac{8}{3} \\div \\frac{4}{9} = \\frac{8}{3} \\times \\frac{9}{4} = \\frac{72}{12} = 6$$"
+        },
+        {
+            id: 196,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Linda had some stickers. She gave $$\\frac{1}{5}$$ to Amy and $$\\frac{2}{3}$$ of the remainder to Betty. She had 40 stickers left. How many stickers did she give to Betty?",
+            options: ["$$80$$", "$$100$$", "$$120$$", "$$150$$"],
+            correctIndex: 0,
+            source: "St Nicholas Girls' School P5 EOY 2023",
+            explanation: "After Amy: $$\\frac{4}{5}$$ left. After Betty: $$\\frac{1}{3} \\times \\frac{4}{5} = \\frac{4}{15}$$ left = 40. Total = 150. Betty = $$\\frac{2}{3} \\times \\frac{4}{5}$$ × 150 = 80"
+        },
+
+        // Nan Hua Primary School P5 EOY 2023
+        {
+            id: 197,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "$$\\frac{5}{8} + \\frac{3}{4} + \\frac{1}{2}$$ = ?",
+            options: ["$$1\\frac{1}{8}$$", "$$1\\frac{3}{8}$$", "$$1\\frac{5}{8}$$", "$$1\\frac{7}{8}$$"],
+            correctIndex: 3,
+            source: "Nan Hua Primary School P5 EOY 2023",
+            explanation: "LCM is 8. $$\\frac{5}{8} + \\frac{6}{8} + \\frac{4}{8} = \\frac{15}{8} = 1\\frac{7}{8}$$"
+        },
+        {
+            id: 198,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank was $$\\frac{2}{5}$$ full of water. After 24 litres of water was added, it became $$\\frac{4}{5}$$ full. What was the capacity of the tank?",
+            options: ["$$40$$ L", "$$50$$ L", "$$60$$ L", "$$80$$ L"],
+            correctIndex: 2,
+            source: "Nan Hua Primary School P5 EOY 2023",
+            explanation: "Increase = $$\\frac{4}{5} - \\frac{2}{5} = \\frac{2}{5}$$ = 24 L. Capacity = 60 L"
+        },
+
+        // Red Swastika School P5 EOY 2023
+        {
+            id: 199,
+            subtopic: "Multiplying Fractions",
+            difficulty: "easy",
+            question: "$$\\frac{4}{5} \\times \\frac{5}{8}$$ = ?",
+            options: ["$$\\frac{9}{13}$$", "$$\\frac{20}{40}$$", "$$\\frac{1}{2}$$", "Both B and C"],
+            correctIndex: 3,
+            source: "Red Swastika School P5 EOY 2023",
+            explanation: "$$\\frac{4}{5} \\times \\frac{5}{8} = \\frac{20}{40} = \\frac{1}{2}$$"
+        },
+        {
+            id: 200,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Peter spent $$\\frac{1}{3}$$ of his allowance on food and $$\\frac{2}{5}$$ of the remainder on transport. If he had $16 left, how much was his allowance?",
+            options: ["$$\\$40$$", "$$\\$48$$", "$$\\$50$$", "$$\\$60$$"],
+            correctIndex: 0,
+            source: "Red Swastika School P5 EOY 2023",
+            explanation: "After food: $$\\frac{2}{3}$$ left. After transport: $$\\frac{3}{5} \\times \\frac{2}{3} = \\frac{2}{5}$$ left = $16. Total = $40"
         }
     ],
     
