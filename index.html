@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5 Math Hub - Fractions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔢 P5 Math Hub</h1>
+            <p class="subtitle">Interactive Practice for Primary 5 Mathematics</p>
+        </header>
+
+        <nav class="topic-nav">
+            <button class="topic-btn active" data-topic="fractions">
+                <span class="topic-icon">🍕</span>
+                <span class="topic-name">Fractions</span>
+            </button>
+            <button class="topic-btn" data-topic="decimals" disabled>
+                <span class="topic-icon">🔢</span>
+                <span class="topic-name">Decimals</span>
+                <span class="coming-soon">Soon</span>
+            </button>
+            <button class="topic-btn" data-topic="percentage" disabled>
+                <span class="topic-icon">💯</span>
+                <span class="topic-name">Percentage</span>
+                <span class="coming-soon">Soon</span>
+            </button>
+            <button class="topic-btn" data-topic="ratio" disabled>
+                <span class="topic-icon">⚖️</span>
+                <span class="topic-name">Ratio</span>
+                <span class="coming-soon">Soon</span>
+            </button>
+        </nav>
+
+        <main id="main-content">
+            <section class="mode-selector">
+                <button class="mode-btn active" data-mode="learn">📚 Learn</button>
+                <button class="mode-btn" data-mode="practice">✏️ Practice</button>
+                <button class="mode-btn" data-mode="quiz">🎯 Quiz</button>
+            </section>
+
+            <div id="content-area">
+                <!-- Content loads here -->
+            </div>
+        </main>
+
+        <footer>
+            <p>P5 Math Hub • Top School Exam Practice</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
