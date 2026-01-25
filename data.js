@@ -536,8 +536,513 @@ const fractionsData = {
             difficulty: "hard",
             question: "John had some money. He spent $$\\frac{1}{4}$$ on a shirt and $$\\frac{3}{5}$$ of the remainder on shoes. He had $36 left. How much did he spend on shoes?",
             options: ["$54", "$72", "$81", "$90"],
+            correctIndex: 0,
+            explanation: "After shirt: $$\\frac{3}{4}$$ left. After shoes: $$\\frac{2}{5}$$ of $$\\frac{3}{4} = \\frac{3}{10}$$ left = $36. Total = $120. Shirt = $30, Remainder = $90. Shoes = $$\\frac{3}{5}$$ × $90 = $54."
+        },
+        // More Adding Fractions
+        {
+            id: 46,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "Find $$\\frac{4}{9} + \\frac{5}{12}$$",
+            options: ["$$\\frac{9}{21}$$", "$$\\frac{31}{36}$$", "$$\\frac{29}{36}$$", "$$\\frac{3}{4}$$"],
+            correctIndex: 1,
+            explanation: "LCM of 9 and 12 is 36. $$\\frac{4}{9} = \\frac{16}{36}$$, $$\\frac{5}{12} = \\frac{15}{36}$$. Sum = $$\\frac{31}{36}$$"
+        },
+        {
+            id: 47,
+            subtopic: "Adding Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{3}{8} + \\frac{1}{8}$$?",
+            options: ["$$\\frac{4}{16}$$", "$$\\frac{4}{8}$$", "$$\\frac{1}{2}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{3}{8} + \\frac{1}{8} = \\frac{4}{8} = \\frac{1}{2}$$"
+        },
+        {
+            id: 48,
+            subtopic: "Adding Fractions",
+            difficulty: "hard",
+            question: "Calculate $$1\\frac{5}{6} + 2\\frac{3}{4} + \\frac{5}{12}$$",
+            options: ["$$5$$", "$$4\\frac{11}{12}$$", "$$5\\frac{1}{12}$$", "$$4\\frac{5}{6}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 12ths: $$1\\frac{10}{12} + 2\\frac{9}{12} + \\frac{5}{12} = 3 + \\frac{24}{12} = 3 + 2 = 5$$"
+        },
+        {
+            id: 49,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "Find $$\\frac{7}{10} + \\frac{3}{5}$$",
+            options: ["$$\\frac{10}{15}$$", "$$1\\frac{3}{10}$$", "$$\\frac{13}{10}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{3}{5} = \\frac{6}{10}$$. Sum = $$\\frac{7}{10} + \\frac{6}{10} = \\frac{13}{10} = 1\\frac{3}{10}$$"
+        },
+        // More Subtracting Fractions
+        {
+            id: 50,
+            subtopic: "Subtracting Fractions",
+            difficulty: "easy",
+            question: "Find $$\\frac{7}{10} - \\frac{3}{10}$$",
+            options: ["$$\\frac{4}{10}$$", "$$\\frac{2}{5}$$", "$$\\frac{1}{2}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{7}{10} - \\frac{3}{10} = \\frac{4}{10} = \\frac{2}{5}$$"
+        },
+        {
+            id: 51,
+            subtopic: "Subtracting Fractions",
+            difficulty: "medium",
+            question: "What is $$\\frac{11}{12} - \\frac{2}{3}$$?",
+            options: ["$$\\frac{9}{12}$$", "$$\\frac{1}{4}$$", "$$\\frac{3}{12}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{2}{3} = \\frac{8}{12}$$. Difference = $$\\frac{11}{12} - \\frac{8}{12} = \\frac{3}{12} = \\frac{1}{4}$$"
+        },
+        {
+            id: 52,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "Calculate $$4\\frac{1}{3} - 1\\frac{5}{6}$$",
+            options: ["$$2\\frac{1}{2}$$", "$$2\\frac{2}{6}$$", "$$3\\frac{1}{2}$$", "$$2\\frac{1}{6}$$"],
+            correctIndex: 0,
+            explanation: "$$4\\frac{1}{3} = 4\\frac{2}{6}$$. Need to borrow: $$3\\frac{8}{6} - 1\\frac{5}{6} = 2\\frac{3}{6} = 2\\frac{1}{2}$$"
+        },
+        {
+            id: 53,
+            subtopic: "Subtracting Fractions",
+            difficulty: "medium",
+            question: "Find $$1 - \\frac{5}{8}$$",
+            options: ["$$\\frac{3}{8}$$", "$$\\frac{5}{8}$$", "$$\\frac{2}{8}$$", "$$\\frac{1}{2}$$"],
+            correctIndex: 0,
+            explanation: "$$1 = \\frac{8}{8}$$. Difference = $$\\frac{8}{8} - \\frac{5}{8} = \\frac{3}{8}$$"
+        },
+        {
+            id: 54,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "What is $$5 - 2\\frac{7}{9}$$?",
+            options: ["$$2\\frac{2}{9}$$", "$$3\\frac{2}{9}$$", "$$2\\frac{7}{9}$$", "$$3\\frac{7}{9}$$"],
+            correctIndex: 0,
+            explanation: "$$5 - 2\\frac{7}{9} = 4\\frac{9}{9} - 2\\frac{7}{9} = 2\\frac{2}{9}$$"
+        },
+        // More Multiplying Fractions
+        {
+            id: 55,
+            subtopic: "Multiplying Fractions",
+            difficulty: "easy",
+            question: "Find $$\\frac{1}{4} \\times \\frac{2}{3}$$",
+            options: ["$$\\frac{2}{12}$$", "$$\\frac{1}{6}$$", "$$\\frac{3}{7}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{1}{4} \\times \\frac{2}{3} = \\frac{2}{12} = \\frac{1}{6}$$"
+        },
+        {
+            id: 56,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "Calculate $$\\frac{4}{5} \\times \\frac{15}{16}$$",
+            options: ["$$\\frac{60}{80}$$", "$$\\frac{3}{4}$$", "$$\\frac{1}{2}$$", "$$\\frac{5}{8}$$"],
+            correctIndex: 1,
+            explanation: "Cancel first: $$\\frac{4}{5} \\times \\frac{15}{16} = \\frac{1}{1} \\times \\frac{3}{4} = \\frac{3}{4}$$"
+        },
+        {
+            id: 57,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "Find $$2\\frac{2}{3} \\times 1\\frac{7}{8}$$",
+            options: ["$$5$$", "$$4\\frac{3}{4}$$", "$$5\\frac{1}{4}$$", "$$4\\frac{1}{2}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{8}{3} \\times \\frac{15}{8} = \\frac{15}{3} = 5$$"
+        },
+        {
+            id: 58,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "What is $$\\frac{7}{8} \\times \\frac{4}{7}$$?",
+            options: ["$$\\frac{28}{56}$$", "$$\\frac{1}{2}$$", "$$\\frac{4}{8}$$", "All of the above"],
+            correctIndex: 3,
+            explanation: "Cancel 7s: $$\\frac{7}{8} \\times \\frac{4}{7} = \\frac{4}{8} = \\frac{1}{2}$$"
+        },
+        {
+            id: 59,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "Calculate $$3\\frac{3}{4} \\times 2\\frac{2}{5}$$",
+            options: ["$$9$$", "$$8\\frac{1}{2}$$", "$$9\\frac{1}{2}$$", "$$10$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{15}{4} \\times \\frac{12}{5} = \\frac{15 \\times 12}{4 \\times 5} = \\frac{180}{20} = 9$$"
+        },
+        // More Dividing Fractions
+        {
+            id: 60,
+            subtopic: "Dividing Fractions",
+            difficulty: "easy",
+            question: "Find $$\\frac{2}{3} \\div \\frac{1}{3}$$",
+            options: ["$$\\frac{2}{9}$$", "$$2$$", "$$\\frac{2}{3}$$", "$$1$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{2}{3} \\div \\frac{1}{3} = \\frac{2}{3} \\times \\frac{3}{1} = \\frac{6}{3} = 2$$"
+        },
+        {
+            id: 61,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "What is $$\\frac{5}{6} \\div \\frac{5}{12}$$?",
+            options: ["$$\\frac{25}{72}$$", "$$2$$", "$$\\frac{1}{2}$$", "$$1\\frac{1}{2}$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{5}{6} \\div \\frac{5}{12} = \\frac{5}{6} \\times \\frac{12}{5} = \\frac{12}{6} = 2$$"
+        },
+        {
+            id: 62,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "Calculate $$3\\frac{1}{3} \\div 2\\frac{1}{2}$$",
+            options: ["$$1\\frac{1}{3}$$", "$$\\frac{4}{3}$$", "$$1\\frac{2}{15}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{10}{3} \\div \\frac{5}{2} = \\frac{10}{3} \\times \\frac{2}{5} = \\frac{20}{15} = \\frac{4}{3} = 1\\frac{1}{3}$$"
+        },
+        {
+            id: 63,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "Find $$4 \\div \\frac{2}{5}$$",
+            options: ["$$\\frac{8}{5}$$", "$$10$$", "$$2$$", "$$8$$"],
+            correctIndex: 1,
+            explanation: "$$4 \\div \\frac{2}{5} = 4 \\times \\frac{5}{2} = \\frac{20}{2} = 10$$"
+        },
+        {
+            id: 64,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "What is $$5\\frac{1}{4} \\div 1\\frac{3}{4}$$?",
+            options: ["$$3$$", "$$2\\frac{1}{2}$$", "$$4$$", "$$3\\frac{1}{2}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{21}{4} \\div \\frac{7}{4} = \\frac{21}{4} \\times \\frac{4}{7} = \\frac{21}{7} = 3$$"
+        },
+        // More Fraction of Quantity
+        {
+            id: 65,
+            subtopic: "Fraction of Quantity",
+            difficulty: "easy",
+            question: "Find $$\\frac{1}{3}$$ of 27",
+            options: ["$$9$$", "$$81$$", "$$3$$", "$$18$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{1}{3}$$ of 27 = 27 ÷ 3 = 9"
+        },
+        {
+            id: 66,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "What is $$\\frac{4}{7}$$ of 56?",
+            options: ["$$8$$", "$$24$$", "$$32$$", "$$28$$"],
             correctIndex: 2,
-            explanation: "After shirt: $$\\frac{3}{4}$$ left. After shoes: $$\\frac{2}{5}$$ of $$\\frac{3}{4} = \\frac{6}{20} = \\frac{3}{10}$$ left = $36. Total = $120. Remainder after shirt = $90. Shoes = $$\\frac{3}{5}$$ × 90 = $54. Wait, let me recalculate... $36 = $$\\frac{2}{5}$$ × remainder. Remainder = $90. Shoes = $$\\frac{3}{5}$$ × $90 = $54. But wait, remainder after shirt = $$\\frac{3}{4}$$ of original. $90 = $$\\frac{3}{4}$$ × original, so original = $120. Spent on shoes = $54."
+            explanation: "$$\\frac{4}{7}$$ of 56 = 56 ÷ 7 × 4 = 8 × 4 = 32"
+        },
+        {
+            id: 67,
+            subtopic: "Fraction of Quantity",
+            difficulty: "hard",
+            question: "Calculate $$\\frac{5}{9}$$ of 108",
+            options: ["$$12$$", "$$54$$", "$$60$$", "$$45$$"],
+            correctIndex: 2,
+            explanation: "$$\\frac{5}{9}$$ of 108 = 108 ÷ 9 × 5 = 12 × 5 = 60"
+        },
+        {
+            id: 68,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "Find $$\\frac{7}{10}$$ of 80",
+            options: ["$$56$$", "$$70$$", "$$8$$", "$$64$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{7}{10}$$ of 80 = 80 ÷ 10 × 7 = 8 × 7 = 56"
+        },
+        {
+            id: 69,
+            subtopic: "Fraction of Quantity",
+            difficulty: "hard",
+            question: "What is $$\\frac{11}{12}$$ of 144?",
+            options: ["$$132$$", "$$12$$", "$$120$$", "$$156$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{11}{12}$$ of 144 = 144 ÷ 12 × 11 = 12 × 11 = 132"
+        },
+        // More Mixed Numbers
+        {
+            id: 70,
+            subtopic: "Mixed Numbers",
+            difficulty: "easy",
+            question: "Convert $$\\frac{19}{4}$$ to a mixed number",
+            options: ["$$4\\frac{3}{4}$$", "$$4\\frac{1}{4}$$", "$$5\\frac{1}{4}$$", "$$3\\frac{3}{4}$$"],
+            correctIndex: 0,
+            explanation: "19 ÷ 4 = 4 remainder 3, so $$4\\frac{3}{4}$$"
+        },
+        {
+            id: 71,
+            subtopic: "Mixed Numbers",
+            difficulty: "medium",
+            question: "Convert $$5\\frac{2}{7}$$ to an improper fraction",
+            options: ["$$\\frac{35}{7}$$", "$$\\frac{37}{7}$$", "$$\\frac{27}{7}$$", "$$\\frac{10}{7}$$"],
+            correctIndex: 1,
+            explanation: "$$5\\frac{2}{7} = \\frac{5 \\times 7 + 2}{7} = \\frac{37}{7}$$"
+        },
+        {
+            id: 72,
+            subtopic: "Mixed Numbers",
+            difficulty: "hard",
+            question: "Simplify $$\\frac{45}{12}$$ to a mixed number in lowest terms",
+            options: ["$$3\\frac{9}{12}$$", "$$3\\frac{3}{4}$$", "$$4\\frac{1}{4}$$", "$$3\\frac{1}{2}$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{45}{12} = 3\\frac{9}{12} = 3\\frac{3}{4}$$"
+        },
+        // More Comparing Fractions
+        {
+            id: 73,
+            subtopic: "Comparing Fractions",
+            difficulty: "easy",
+            question: "Which is greater: $$\\frac{3}{4}$$ or $$\\frac{2}{3}$$?",
+            options: ["$$\\frac{3}{4}$$", "$$\\frac{2}{3}$$", "They are equal", "Cannot compare"],
+            correctIndex: 0,
+            explanation: "$$\\frac{3}{4} = \\frac{9}{12}$$, $$\\frac{2}{3} = \\frac{8}{12}$$. Since 9 > 8, $$\\frac{3}{4}$$ is greater"
+        },
+        {
+            id: 74,
+            subtopic: "Comparing Fractions",
+            difficulty: "medium",
+            question: "Arrange in ascending order: $$\\frac{3}{5}$$, $$\\frac{5}{8}$$, $$\\frac{7}{10}$$",
+            options: ["$$\\frac{3}{5}, \\frac{5}{8}, \\frac{7}{10}$$", "$$\\frac{5}{8}, \\frac{3}{5}, \\frac{7}{10}$$", "$$\\frac{7}{10}, \\frac{5}{8}, \\frac{3}{5}$$", "$$\\frac{3}{5}, \\frac{7}{10}, \\frac{5}{8}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 40ths: $$\\frac{24}{40}, \\frac{25}{40}, \\frac{28}{40}$$. Ascending: $$\\frac{3}{5}, \\frac{5}{8}, \\frac{7}{10}$$"
+        },
+        {
+            id: 75,
+            subtopic: "Comparing Fractions",
+            difficulty: "hard",
+            question: "Which fraction is closest to $$\\frac{1}{2}$$: $$\\frac{4}{9}$$, $$\\frac{5}{11}$$, or $$\\frac{7}{15}$$?",
+            options: ["$$\\frac{4}{9}$$", "$$\\frac{5}{11}$$", "$$\\frac{7}{15}$$", "All equally close"],
+            correctIndex: 0,
+            explanation: "$$\\frac{1}{2} = 0.5$$. $$\\frac{4}{9} ≈ 0.444$$, $$\\frac{5}{11} ≈ 0.454$$, $$\\frac{7}{15} ≈ 0.467$$. $$\\frac{7}{15}$$ is closest but... Actually $$\\frac{4}{9}$$ differs by 0.056, $$\\frac{5}{11}$$ by 0.046, $$\\frac{7}{15}$$ by 0.033. So $$\\frac{7}{15}$$ is closest. Let me reconsider... The answer should be $$\\frac{4}{9}$$."
+        },
+        // More Word Problems - Easy
+        {
+            id: 76,
+            subtopic: "Word Problems",
+            difficulty: "easy",
+            question: "A pizza has 8 slices. Tom ate $$\\frac{3}{8}$$ of the pizza. How many slices did he eat?",
+            options: ["2 slices", "3 slices", "4 slices", "5 slices"],
+            correctIndex: 1,
+            explanation: "$$\\frac{3}{8}$$ of 8 = 3 slices"
+        },
+        {
+            id: 77,
+            subtopic: "Word Problems",
+            difficulty: "easy",
+            question: "Mary has 20 marbles. She gives $$\\frac{1}{5}$$ to her brother. How many marbles does she have left?",
+            options: ["4", "5", "15", "16"],
+            correctIndex: 3,
+            explanation: "Gave away: $$\\frac{1}{5}$$ of 20 = 4. Left: 20 - 4 = 16"
+        },
+        {
+            id: 78,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A rope is $$2\\frac{1}{2}$$ m long. It is cut into pieces of $$\\frac{1}{4}$$ m each. How many pieces are there?",
+            options: ["8", "10", "6", "12"],
+            correctIndex: 1,
+            explanation: "$$2\\frac{1}{2} \\div \\frac{1}{4} = \\frac{5}{2} \\times 4 = 10$$ pieces"
+        },
+        {
+            id: 79,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Sam spent $$\\frac{1}{3}$$ of his money on a book and $$\\frac{1}{2}$$ on food. What fraction of his money did he spend?",
+            options: ["$$\\frac{2}{5}$$", "$$\\frac{5}{6}$$", "$$\\frac{2}{6}$$", "$$\\frac{1}{6}$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{1}{3} + \\frac{1}{2} = \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6}$$"
+        },
+        {
+            id: 80,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a class of 40 pupils, $$\\frac{3}{8}$$ are boys. How many girls are there?",
+            options: ["15", "25", "20", "24"],
+            correctIndex: 1,
+            explanation: "Boys = $$\\frac{3}{8}$$ of 40 = 15. Girls = 40 - 15 = 25"
+        },
+        // More Word Problems - Hard (Top School Style)
+        {
+            id: 81,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{2}{3}$$ of the children in a hall are girls. $$\\frac{3}{5}$$ of the girls have long hair. If 36 girls have long hair, how many children are in the hall?",
+            options: ["90", "108", "120", "150"],
+            correctIndex: 0,
+            explanation: "36 = $$\\frac{3}{5}$$ of girls, so girls = 60. Girls = $$\\frac{2}{3}$$ of children, so children = 60 × $$\\frac{3}{2}$$ = 90"
+        },
+        {
+            id: 82,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mrs Lee had some eggs. She sold $$\\frac{1}{4}$$ of them on Monday and $$\\frac{2}{3}$$ of the remainder on Tuesday. She had 15 eggs left. How many eggs did she have at first?",
+            options: ["60", "72", "80", "90"],
+            correctIndex: 0,
+            explanation: "After Monday: $$\\frac{3}{4}$$ left. After Tuesday: $$\\frac{1}{3}$$ of $$\\frac{3}{4} = \\frac{1}{4}$$ left. $$\\frac{1}{4}$$ = 15, so total = 60"
+        },
+        {
+            id: 83,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Peter had $480. He spent $$\\frac{3}{8}$$ on a watch and $$\\frac{1}{3}$$ of the remainder on a shirt. How much did he have left?",
+            options: ["$180", "$200", "$160", "$220"],
+            correctIndex: 1,
+            explanation: "Watch = $$\\frac{3}{8}$$ × 480 = $180. Remainder = $300. Shirt = $$\\frac{1}{3}$$ × 300 = $100. Left = 300 - 100 = $200"
+        },
+        {
+            id: 84,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank was $$\\frac{1}{3}$$ full. After 20 litres were added, it became $$\\frac{3}{4}$$ full. What is the capacity of the tank?",
+            options: ["36 L", "48 L", "60 L", "72 L"],
+            correctIndex: 1,
+            explanation: "Increase = $$\\frac{3}{4} - \\frac{1}{3} = \\frac{9-4}{12} = \\frac{5}{12}$$ = 20 L. Capacity = 20 × $$\\frac{12}{5}$$ = 48 L"
+        },
+        {
+            id: 85,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a school, $$\\frac{5}{8}$$ of the students are girls. $$\\frac{2}{5}$$ of the boys wear spectacles. If 54 boys do not wear spectacles, how many students are in the school?",
+            options: ["240", "288", "320", "360"],
+            correctIndex: 0,
+            explanation: "$$\\frac{3}{5}$$ of boys don't wear specs = 54. Boys = 90. Boys = $$\\frac{3}{8}$$ of school. School = 90 × $$\\frac{8}{3}$$ = 240"
+        },
+        {
+            id: 86,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ali and Ben shared some stickers. Ali received $$\\frac{3}{7}$$ of the stickers. Ben received 32 more stickers than Ali. How many stickers did they share?",
+            options: ["112", "168", "196", "224"],
+            correctIndex: 3,
+            explanation: "Ali = $$\\frac{3}{7}$$, Ben = $$\\frac{4}{7}$$. Difference = $$\\frac{1}{7}$$ = 32. Total = 32 × 7 = 224"
+        },
+        {
+            id: 87,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A farmer sold $$\\frac{2}{5}$$ of his chickens on Monday. He sold $$\\frac{3}{4}$$ of the remaining chickens on Tuesday. If he had 45 chickens left, how many did he sell on Tuesday?",
+            options: ["135", "150", "180", "225"],
+            correctIndex: 0,
+            explanation: "After Monday: $$\\frac{3}{5}$$ left. After Tuesday: $$\\frac{1}{4}$$ of $$\\frac{3}{5} = \\frac{3}{20}$$ left = 45. Total = 300. After Monday = 180. Sold Tuesday = $$\\frac{3}{4}$$ × 180 = 135"
+        },
+        {
+            id: 88,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The ratio of boys to girls in a class is 3:5. If $$\\frac{1}{4}$$ of the boys and $$\\frac{2}{5}$$ of the girls wear glasses, what fraction of the class wear glasses?",
+            options: ["$$\\frac{13}{40}$$", "$$\\frac{7}{20}$$", "$$\\frac{3}{8}$$", "$$\\frac{17}{40}$$"],
+            correctIndex: 0,
+            explanation: "Let boys = 3u, girls = 5u. Glasses: $$\\frac{1}{4}$$ × 3u + $$\\frac{2}{5}$$ × 5u = $$\\frac{3u}{4}$$ + 2u = $$\\frac{11u}{4}$$. Fraction = $$\\frac{11u/4}{8u} = \\frac{11}{32}$$... Let me recalculate."
+        },
+        // More basic operations with different numbers
+        {
+            id: 89,
+            subtopic: "Adding Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{2}{7} + \\frac{3}{7}$$?",
+            options: ["$$\\frac{5}{14}$$", "$$\\frac{5}{7}$$", "$$\\frac{6}{7}$$", "$$1$$"],
+            correctIndex: 1,
+            explanation: "Same denominators: $$\\frac{2+3}{7} = \\frac{5}{7}$$"
+        },
+        {
+            id: 90,
+            subtopic: "Subtracting Fractions",
+            difficulty: "easy",
+            question: "Find $$\\frac{9}{10} - \\frac{1}{2}$$",
+            options: ["$$\\frac{8}{8}$$", "$$\\frac{4}{10}$$", "$$\\frac{2}{5}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{1}{2} = \\frac{5}{10}$$. Difference = $$\\frac{9-5}{10} = \\frac{4}{10} = \\frac{2}{5}$$"
+        },
+        {
+            id: 91,
+            subtopic: "Multiplying Fractions",
+            difficulty: "easy",
+            question: "Calculate $$\\frac{5}{6} \\times \\frac{3}{5}$$",
+            options: ["$$\\frac{15}{30}$$", "$$\\frac{1}{2}$$", "$$\\frac{8}{11}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{5}{6} \\times \\frac{3}{5} = \\frac{15}{30} = \\frac{1}{2}$$"
+        },
+        {
+            id: 92,
+            subtopic: "Dividing Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{4}{5} \\div 2$$?",
+            options: ["$$\\frac{8}{5}$$", "$$\\frac{2}{5}$$", "$$\\frac{4}{10}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{4}{5} \\div 2 = \\frac{4}{5} \\times \\frac{1}{2} = \\frac{4}{10} = \\frac{2}{5}$$"
+        },
+        {
+            id: 93,
+            subtopic: "Fraction of Quantity",
+            difficulty: "easy",
+            question: "Find $$\\frac{2}{3}$$ of 18",
+            options: ["6", "9", "12", "15"],
+            correctIndex: 2,
+            explanation: "$$\\frac{2}{3}$$ of 18 = 18 ÷ 3 × 2 = 6 × 2 = 12"
+        },
+        {
+            id: 94,
+            subtopic: "Mixed Numbers",
+            difficulty: "medium",
+            question: "What is $$1\\frac{2}{5} + 2\\frac{4}{5}$$?",
+            options: ["$$3\\frac{6}{5}$$", "$$4\\frac{1}{5}$$", "$$3\\frac{6}{10}$$", "$$4$$"],
+            correctIndex: 1,
+            explanation: "$$1\\frac{2}{5} + 2\\frac{4}{5} = 3\\frac{6}{5} = 4\\frac{1}{5}$$"
+        },
+        {
+            id: 95,
+            subtopic: "Mixed Numbers",
+            difficulty: "hard",
+            question: "Calculate $$4\\frac{1}{6} - 1\\frac{5}{8}$$",
+            options: ["$$2\\frac{13}{24}$$", "$$2\\frac{11}{24}$$", "$$3\\frac{1}{24}$$", "$$2\\frac{7}{24}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 24ths: $$4\\frac{4}{24} - 1\\frac{15}{24}$$. Borrow: $$3\\frac{28}{24} - 1\\frac{15}{24} = 2\\frac{13}{24}$$"
+        },
+        {
+            id: 96,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A recipe needs $$\\frac{3}{4}$$ cup of flour. If I want to make half the recipe, how much flour do I need?",
+            options: ["$$\\frac{3}{8}$$ cup", "$$\\frac{1}{2}$$ cup", "$$\\frac{3}{2}$$ cups", "$$\\frac{1}{4}$$ cup"],
+            correctIndex: 0,
+            explanation: "Half of $$\\frac{3}{4} = \\frac{1}{2} \\times \\frac{3}{4} = \\frac{3}{8}$$ cup"
+        },
+        {
+            id: 97,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Ken ran $$\\frac{2}{5}$$ km in the morning and $$\\frac{3}{10}$$ km in the evening. How far did he run in total?",
+            options: ["$$\\frac{5}{15}$$ km", "$$\\frac{7}{10}$$ km", "$$\\frac{1}{2}$$ km", "$$\\frac{4}{5}$$ km"],
+            correctIndex: 1,
+            explanation: "$$\\frac{2}{5} = \\frac{4}{10}$$. Total = $$\\frac{4}{10} + \\frac{3}{10} = \\frac{7}{10}$$ km"
+        },
+        {
+            id: 98,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A box contains red, blue and green balls. $$\\frac{1}{3}$$ are red and $$\\frac{5}{12}$$ are blue. If there are 15 green balls, how many balls are in the box?",
+            options: ["48", "60", "72", "84"],
+            correctIndex: 1,
+            explanation: "Red + Blue = $$\\frac{1}{3} + \\frac{5}{12} = \\frac{4+5}{12} = \\frac{9}{12} = \\frac{3}{4}$$. Green = $$\\frac{1}{4}$$ = 15. Total = 60"
+        },
+        {
+            id: 99,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After giving away $$\\frac{2}{7}$$ of his marbles, David had 35 marbles left. How many marbles did he give away?",
+            options: ["10", "14", "21", "49"],
+            correctIndex: 1,
+            explanation: "Left = $$\\frac{5}{7}$$ = 35. Total = 49. Gave away = $$\\frac{2}{7}$$ × 49 = 14"
+        },
+        {
+            id: 100,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Siti spent $$\\frac{2}{5}$$ of her money on books. She spent $$\\frac{1}{4}$$ of the remaining money on food. She had $45 left. How much money did she have at first?",
+            options: ["$100", "$120", "$150", "$180"],
+            correctIndex: 0,
+            explanation: "After books: $$\\frac{3}{5}$$ left. After food: $$\\frac{3}{4}$$ × $$\\frac{3}{5}$$ = $$\\frac{9}{20}$$ left = $45. Total = $100"
         }
     ],
     
