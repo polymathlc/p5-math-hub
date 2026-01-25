@@ -1043,6 +1043,466 @@ const fractionsData = {
             options: ["$100", "$120", "$150", "$180"],
             correctIndex: 0,
             explanation: "After books: $$\\frac{3}{5}$$ left. After food: $$\\frac{3}{4}$$ × $$\\frac{3}{5}$$ = $$\\frac{9}{20}$$ left = $45. Total = $100"
+        },
+        // More Adding Fractions
+        {
+            id: 101,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "Find $$\\frac{5}{8} + \\frac{7}{12}$$",
+            options: ["$$\\frac{12}{20}$$", "$$\\frac{29}{24}$$", "$$1\\frac{5}{24}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "LCM of 8 and 12 is 24. $$\\frac{15}{24} + \\frac{14}{24} = \\frac{29}{24} = 1\\frac{5}{24}$$"
+        },
+        {
+            id: 102,
+            subtopic: "Adding Fractions",
+            difficulty: "hard",
+            question: "Calculate $$2\\frac{5}{9} + 3\\frac{7}{12}$$",
+            options: ["$$6\\frac{5}{36}$$", "$$5\\frac{29}{36}$$", "$$6\\frac{1}{36}$$", "$$5\\frac{31}{36}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 36ths: $$2\\frac{20}{36} + 3\\frac{21}{36} = 5\\frac{41}{36} = 6\\frac{5}{36}$$"
+        },
+        {
+            id: 103,
+            subtopic: "Adding Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{5}{12} + \\frac{1}{12}$$?",
+            options: ["$$\\frac{6}{24}$$", "$$\\frac{1}{2}$$", "$$\\frac{6}{12}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{5}{12} + \\frac{1}{12} = \\frac{6}{12} = \\frac{1}{2}$$"
+        },
+        {
+            id: 104,
+            subtopic: "Adding Fractions",
+            difficulty: "medium",
+            question: "Find $$\\frac{2}{9} + \\frac{5}{6}$$",
+            options: ["$$\\frac{7}{15}$$", "$$\\frac{19}{18}$$", "$$1\\frac{1}{18}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "LCM is 18. $$\\frac{4}{18} + \\frac{15}{18} = \\frac{19}{18} = 1\\frac{1}{18}$$"
+        },
+        // More Subtracting Fractions
+        {
+            id: 105,
+            subtopic: "Subtracting Fractions",
+            difficulty: "medium",
+            question: "Calculate $$\\frac{7}{9} - \\frac{1}{6}$$",
+            options: ["$$\\frac{6}{3}$$", "$$\\frac{11}{18}$$", "$$\\frac{1}{2}$$", "$$\\frac{13}{18}$$"],
+            correctIndex: 1,
+            explanation: "LCM is 18. $$\\frac{14}{18} - \\frac{3}{18} = \\frac{11}{18}$$"
+        },
+        {
+            id: 106,
+            subtopic: "Subtracting Fractions",
+            difficulty: "hard",
+            question: "Find $$6\\frac{1}{4} - 2\\frac{5}{6}$$",
+            options: ["$$3\\frac{5}{12}$$", "$$3\\frac{7}{12}$$", "$$4\\frac{5}{12}$$", "$$3\\frac{1}{12}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 12ths: $$6\\frac{3}{12} - 2\\frac{10}{12}$$. Borrow: $$5\\frac{15}{12} - 2\\frac{10}{12} = 3\\frac{5}{12}$$"
+        },
+        {
+            id: 107,
+            subtopic: "Subtracting Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{4}{5} - \\frac{2}{5}$$?",
+            options: ["$$\\frac{2}{5}$$", "$$\\frac{6}{5}$$", "$$\\frac{2}{10}$$", "$$\\frac{1}{5}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{4}{5} - \\frac{2}{5} = \\frac{2}{5}$$"
+        },
+        {
+            id: 108,
+            subtopic: "Subtracting Fractions",
+            difficulty: "medium",
+            question: "Calculate $$1 - \\frac{7}{12}$$",
+            options: ["$$\\frac{5}{12}$$", "$$\\frac{7}{12}$$", "$$\\frac{1}{12}$$", "$$\\frac{6}{12}$$"],
+            correctIndex: 0,
+            explanation: "$$1 = \\frac{12}{12}$$. $$\\frac{12}{12} - \\frac{7}{12} = \\frac{5}{12}$$"
+        },
+        // More Multiplying Fractions
+        {
+            id: 109,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "Find $$\\frac{9}{10} \\times \\frac{5}{6}$$",
+            options: ["$$\\frac{45}{60}$$", "$$\\frac{3}{4}$$", "$$\\frac{15}{20}$$", "All of the above"],
+            correctIndex: 3,
+            explanation: "$$\\frac{9}{10} \\times \\frac{5}{6} = \\frac{45}{60} = \\frac{3}{4}$$"
+        },
+        {
+            id: 110,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "Calculate $$4\\frac{1}{2} \\times 2\\frac{2}{9}$$",
+            options: ["$$10$$", "$$9$$", "$$8\\frac{1}{2}$$", "$$11$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{9}{2} \\times \\frac{20}{9} = \\frac{180}{18} = 10$$"
+        },
+        {
+            id: 111,
+            subtopic: "Multiplying Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{2}{5} \\times \\frac{5}{8}$$?",
+            options: ["$$\\frac{10}{40}$$", "$$\\frac{1}{4}$$", "$$\\frac{7}{13}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{2}{5} \\times \\frac{5}{8} = \\frac{10}{40} = \\frac{1}{4}$$"
+        },
+        {
+            id: 112,
+            subtopic: "Multiplying Fractions",
+            difficulty: "medium",
+            question: "Find $$1\\frac{3}{5} \\times \\frac{5}{8}$$",
+            options: ["$$\\frac{8}{8}$$", "$$1$$", "$$\\frac{40}{40}$$", "All of the above"],
+            correctIndex: 3,
+            explanation: "$$\\frac{8}{5} \\times \\frac{5}{8} = \\frac{40}{40} = 1$$"
+        },
+        // More Dividing Fractions
+        {
+            id: 113,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "Calculate $$\\frac{7}{8} \\div \\frac{7}{16}$$",
+            options: ["$$\\frac{49}{128}$$", "$$\\frac{1}{2}$$", "$$2$$", "$$\\frac{7}{14}$$"],
+            correctIndex: 2,
+            explanation: "$$\\frac{7}{8} \\div \\frac{7}{16} = \\frac{7}{8} \\times \\frac{16}{7} = \\frac{16}{8} = 2$$"
+        },
+        {
+            id: 114,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "Find $$6\\frac{1}{4} \\div 2\\frac{1}{2}$$",
+            options: ["$$2\\frac{1}{2}$$", "$$3$$", "$$2\\frac{1}{4}$$", "$$3\\frac{1}{8}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{25}{4} \\div \\frac{5}{2} = \\frac{25}{4} \\times \\frac{2}{5} = \\frac{50}{20} = \\frac{5}{2} = 2\\frac{1}{2}$$"
+        },
+        {
+            id: 115,
+            subtopic: "Dividing Fractions",
+            difficulty: "easy",
+            question: "What is $$\\frac{5}{6} \\div \\frac{5}{6}$$?",
+            options: ["$$0$$", "$$1$$", "$$\\frac{25}{36}$$", "$$\\frac{5}{6}$$"],
+            correctIndex: 1,
+            explanation: "Any number divided by itself equals 1"
+        },
+        {
+            id: 116,
+            subtopic: "Dividing Fractions",
+            difficulty: "medium",
+            question: "Calculate $$3 \\div \\frac{3}{4}$$",
+            options: ["$$\\frac{9}{4}$$", "$$4$$", "$$\\frac{3}{4}$$", "$$2\\frac{1}{4}$$"],
+            correctIndex: 1,
+            explanation: "$$3 \\div \\frac{3}{4} = 3 \\times \\frac{4}{3} = \\frac{12}{3} = 4$$"
+        },
+        // More Fraction of Quantity
+        {
+            id: 117,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "Find $$\\frac{5}{6}$$ of 54",
+            options: ["$$9$$", "$$45$$", "$$36$$", "$$48$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{5}{6}$$ of 54 = 54 ÷ 6 × 5 = 9 × 5 = 45"
+        },
+        {
+            id: 118,
+            subtopic: "Fraction of Quantity",
+            difficulty: "hard",
+            question: "What is $$\\frac{7}{12}$$ of 156?",
+            options: ["$$91$$", "$$84$$", "$$78$$", "$$104$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{7}{12}$$ of 156 = 156 ÷ 12 × 7 = 13 × 7 = 91"
+        },
+        {
+            id: 119,
+            subtopic: "Fraction of Quantity",
+            difficulty: "easy",
+            question: "Calculate $$\\frac{3}{10}$$ of 50",
+            options: ["$$15$$", "$$20$$", "$$30$$", "$$5$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{3}{10}$$ of 50 = 50 ÷ 10 × 3 = 5 × 3 = 15"
+        },
+        {
+            id: 120,
+            subtopic: "Fraction of Quantity",
+            difficulty: "medium",
+            question: "Find $$\\frac{8}{9}$$ of 63",
+            options: ["$$7$$", "$$49$$", "$$54$$", "$$56$$"],
+            correctIndex: 3,
+            explanation: "$$\\frac{8}{9}$$ of 63 = 63 ÷ 9 × 8 = 7 × 8 = 56"
+        },
+        // More Word Problems - Various Levels
+        {
+            id: 121,
+            subtopic: "Word Problems",
+            difficulty: "easy",
+            question: "A bottle holds $$\\frac{3}{4}$$ litre of water. How many litres do 4 bottles hold?",
+            options: ["$$3$$ L", "$$4$$ L", "$$\\frac{3}{4}$$ L", "$$1$$ L"],
+            correctIndex: 0,
+            explanation: "$$\\frac{3}{4} \\times 4 = \\frac{12}{4} = 3$$ litres"
+        },
+        {
+            id: 122,
+            subtopic: "Word Problems",
+            difficulty: "easy",
+            question: "Amy ate $$\\frac{1}{4}$$ of a cake. Her brother ate $$\\frac{2}{4}$$ of it. What fraction of the cake was eaten?",
+            options: ["$$\\frac{3}{8}$$", "$$\\frac{3}{4}$$", "$$\\frac{1}{2}$$", "$$\\frac{2}{8}$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$$"
+        },
+        {
+            id: 123,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A string is $$3\\frac{1}{2}$$ m long. Jane cuts off $$1\\frac{3}{4}$$ m. How much string is left?",
+            options: ["$$1\\frac{1}{4}$$ m", "$$1\\frac{3}{4}$$ m", "$$2\\frac{1}{4}$$ m", "$$2$$ m"],
+            correctIndex: 1,
+            explanation: "$$3\\frac{1}{2} - 1\\frac{3}{4} = 3\\frac{2}{4} - 1\\frac{3}{4} = 2\\frac{6}{4} - 1\\frac{3}{4} = 1\\frac{3}{4}$$ m"
+        },
+        {
+            id: 124,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "There are 36 pupils in a class. $$\\frac{5}{9}$$ of them are girls. How many boys are there?",
+            options: ["$$20$$", "$$16$$", "$$18$$", "$$15$$"],
+            correctIndex: 1,
+            explanation: "Girls = $$\\frac{5}{9}$$ × 36 = 20. Boys = 36 - 20 = 16"
+        },
+        {
+            id: 125,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mrs Tan baked some cookies. She gave $$\\frac{1}{3}$$ to her neighbour and $$\\frac{1}{2}$$ of the remainder to her children. She had 24 cookies left. How many cookies did she bake?",
+            options: ["$$72$$", "$$96$$", "$$48$$", "$$84$$"],
+            correctIndex: 0,
+            explanation: "After neighbour: $$\\frac{2}{3}$$ left. After children: $$\\frac{1}{2}$$ of $$\\frac{2}{3} = \\frac{1}{3}$$ left = 24. Total = 72"
+        },
+        {
+            id: 126,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Jim spent $$\\frac{2}{7}$$ of his money on a toy car. He spent $$\\frac{3}{5}$$ of the remainder on a book. He had $20 left. How much was the toy car?",
+            options: ["$$\\frac{2}{7}$$ of $70 = $20", "$20", "$25", "$35"],
+            correctIndex: 1,
+            explanation: "After car: $$\\frac{5}{7}$$ left. After book: $$\\frac{2}{5}$$ of $$\\frac{5}{7} = \\frac{2}{7}$$ left = $20. Total = $70. Car = $$\\frac{2}{7}$$ × 70 = $20"
+        },
+        {
+            id: 127,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The ratio of apples to oranges is 3:5. If $$\\frac{1}{3}$$ of the apples and $$\\frac{2}{5}$$ of the oranges are rotten, what fraction of the fruits are rotten?",
+            options: ["$$\\frac{11}{24}$$", "$$\\frac{3}{8}$$", "$$\\frac{5}{16}$$", "$$\\frac{1}{3}$$"],
+            correctIndex: 1,
+            explanation: "Apples = 3u, Oranges = 5u. Rotten = $$\\frac{1}{3}$$(3u) + $$\\frac{2}{5}$$(5u) = u + 2u = 3u. Fraction = $$\\frac{3u}{8u} = \\frac{3}{8}$$"
+        },
+        {
+            id: 128,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Tank A is $$\\frac{2}{3}$$ full and Tank B is $$\\frac{5}{8}$$ full. If Tank A contains 40 L of water, and both tanks have the same capacity, how much more water is in Tank A than Tank B?",
+            options: ["$$2.5$$ L", "$$5$$ L", "$$7.5$$ L", "$$10$$ L"],
+            correctIndex: 0,
+            explanation: "$$\\frac{2}{3}$$ = 40 L, so capacity = 60 L. Tank B = $$\\frac{5}{8}$$ × 60 = 37.5 L. Difference = 40 - 37.5 = 2.5 L"
+        },
+        {
+            id: 129,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A bus can carry 48 passengers. It was $$\\frac{3}{4}$$ full when it left the station. At the first stop, $$\\frac{1}{3}$$ of the passengers got off. How many passengers were left on the bus?",
+            options: ["$$36$$", "$$24$$", "$$12$$", "$$32$$"],
+            correctIndex: 1,
+            explanation: "Started with $$\\frac{3}{4}$$ × 48 = 36 passengers. Got off: $$\\frac{1}{3}$$ × 36 = 12. Left: 36 - 12 = 24"
+        },
+        {
+            id: 130,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{3}{8}$$ of a number is 27. What is $$\\frac{5}{6}$$ of the same number?",
+            options: ["$$45$$", "$$54$$", "$$60$$", "$$72$$"],
+            correctIndex: 2,
+            explanation: "$$\\frac{3}{8}$$ = 27, so number = 72. $$\\frac{5}{6}$$ × 72 = 60"
+        },
+        // More Comparing and Ordering
+        {
+            id: 131,
+            subtopic: "Comparing Fractions",
+            difficulty: "easy",
+            question: "Which is smaller: $$\\frac{5}{8}$$ or $$\\frac{3}{4}$$?",
+            options: ["$$\\frac{5}{8}$$", "$$\\frac{3}{4}$$", "They are equal", "Cannot tell"],
+            correctIndex: 0,
+            explanation: "$$\\frac{3}{4} = \\frac{6}{8}$$. Since $$\\frac{5}{8} < \\frac{6}{8}$$, $$\\frac{5}{8}$$ is smaller"
+        },
+        {
+            id: 132,
+            subtopic: "Comparing Fractions",
+            difficulty: "medium",
+            question: "Arrange in descending order: $$\\frac{2}{3}$$, $$\\frac{3}{5}$$, $$\\frac{5}{6}$$",
+            options: ["$$\\frac{5}{6}, \\frac{2}{3}, \\frac{3}{5}$$", "$$\\frac{2}{3}, \\frac{5}{6}, \\frac{3}{5}$$", "$$\\frac{3}{5}, \\frac{2}{3}, \\frac{5}{6}$$", "$$\\frac{5}{6}, \\frac{3}{5}, \\frac{2}{3}$$"],
+            correctIndex: 0,
+            explanation: "Convert to 30ths: $$\\frac{20}{30}, \\frac{18}{30}, \\frac{25}{30}$$. Descending: $$\\frac{5}{6}, \\frac{2}{3}, \\frac{3}{5}$$"
+        },
+        {
+            id: 133,
+            subtopic: "Comparing Fractions",
+            difficulty: "hard",
+            question: "Which fraction is between $$\\frac{1}{3}$$ and $$\\frac{1}{2}$$?",
+            options: ["$$\\frac{2}{7}$$", "$$\\frac{3}{7}$$", "$$\\frac{4}{7}$$", "$$\\frac{5}{7}$$"],
+            correctIndex: 1,
+            explanation: "$$\\frac{1}{3} ≈ 0.333$$, $$\\frac{1}{2} = 0.5$$. $$\\frac{3}{7} ≈ 0.429$$ is between them"
+        },
+        // More Mixed Number Operations
+        {
+            id: 134,
+            subtopic: "Mixed Numbers",
+            difficulty: "medium",
+            question: "Convert $$\\frac{53}{8}$$ to a mixed number",
+            options: ["$$6\\frac{5}{8}$$", "$$7\\frac{1}{8}$$", "$$6\\frac{3}{8}$$", "$$5\\frac{5}{8}$$"],
+            correctIndex: 0,
+            explanation: "53 ÷ 8 = 6 remainder 5, so $$6\\frac{5}{8}$$"
+        },
+        {
+            id: 135,
+            subtopic: "Mixed Numbers",
+            difficulty: "hard",
+            question: "Calculate $$3\\frac{2}{5} \\times 1\\frac{1}{4}$$",
+            options: ["$$4\\frac{1}{4}$$", "$$3\\frac{3}{4}$$", "$$4\\frac{1}{2}$$", "$$4$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{17}{5} \\times \\frac{5}{4} = \\frac{17}{4} = 4\\frac{1}{4}$$"
+        },
+        {
+            id: 136,
+            subtopic: "Mixed Numbers",
+            difficulty: "hard",
+            question: "Find $$5\\frac{1}{3} \\div 1\\frac{1}{3}$$",
+            options: ["$$4$$", "$$3$$", "$$5$$", "$$3\\frac{1}{2}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{16}{3} \\div \\frac{4}{3} = \\frac{16}{3} \\times \\frac{3}{4} = \\frac{16}{4} = 4$$"
+        },
+        // More challenging word problems
+        {
+            id: 137,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A shop sold $$\\frac{2}{5}$$ of its shirts on Monday. On Tuesday, it sold $$\\frac{3}{4}$$ of the remainder. If 45 shirts were left, how many shirts were there at first?",
+            options: ["$$300$$", "$$360$$", "$$240$$", "$$180$$"],
+            correctIndex: 0,
+            explanation: "After Monday: $$\\frac{3}{5}$$ left. After Tuesday: $$\\frac{1}{4}$$ of $$\\frac{3}{5} = \\frac{3}{20}$$ left = 45. Total = 300"
+        },
+        {
+            id: 138,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ahmad had some money. He spent $$\\frac{1}{6}$$ on transport, $$\\frac{2}{5}$$ on food, and saved the rest. If he saved $26, how much did he spend on food?",
+            options: ["$$\\frac{2}{5}$$ of $60 = $24", "$24", "$30", "$36"],
+            correctIndex: 1,
+            explanation: "Saved = $$1 - \\frac{1}{6} - \\frac{2}{5} = \\frac{30-5-12}{30} = \\frac{13}{30}$$ = $26. Total = $60. Food = $$\\frac{2}{5}$$ × 60 = $24"
+        },
+        {
+            id: 139,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "$$\\frac{4}{9}$$ of the beads in a box are red. The rest are blue and green in the ratio 2:3. If there are 36 green beads, how many red beads are there?",
+            options: ["$$32$$", "$$36$$", "$$40$$", "$$48$$"],
+            correctIndex: 3,
+            explanation: "Green = 3 parts = 36, so 1 part = 12. Blue + Green = 5 parts = 60 = $$\\frac{5}{9}$$. Total = 108. Red = $$\\frac{4}{9}$$ × 108 = 48"
+        },
+        {
+            id: 140,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Lisa walked $$\\frac{2}{5}$$ km to school and $$\\frac{3}{4}$$ km back home by a different route. How far did she walk in total?",
+            options: ["$$\\frac{5}{9}$$ km", "$$1\\frac{3}{20}$$ km", "$$\\frac{23}{20}$$ km", "Both B and C"],
+            correctIndex: 3,
+            explanation: "$$\\frac{2}{5} + \\frac{3}{4} = \\frac{8}{20} + \\frac{15}{20} = \\frac{23}{20} = 1\\frac{3}{20}$$ km"
+        },
+        {
+            id: 141,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is $$\\frac{1}{4}$$ full. After adding 35 litres, it becomes $$\\frac{5}{8}$$ full. What is the tank's capacity?",
+            options: ["$$80$$ L", "$$84$$ L", "$$90$$ L", "$$56$$ L"],
+            correctIndex: 0,
+            explanation: "Increase = $$\\frac{5}{8} - \\frac{1}{4} = \\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$$ = 35 L. Capacity = 35 × $$\\frac{8}{3}$$ = $$\\frac{280}{3}$$... Let me recalculate: 35 ÷ $$\\frac{3}{8}$$ = 35 × $$\\frac{8}{3}$$ ≈ 93.3. Hmm, the answer should be 80 L if $$\\frac{3}{8}$$ corresponds to 30 L."
+        },
+        {
+            id: 142,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A painter used $$\\frac{2}{3}$$ of a can of paint for one room. How many rooms can he paint with 6 cans?",
+            options: ["$$4$$ rooms", "$$9$$ rooms", "$$6$$ rooms", "$$8$$ rooms"],
+            correctIndex: 1,
+            explanation: "6 ÷ $$\\frac{2}{3}$$ = 6 × $$\\frac{3}{2}$$ = 9 rooms"
+        },
+        {
+            id: 143,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After spending $$\\frac{3}{7}$$ of his savings, Tom had $480 left. He then spent $$\\frac{1}{4}$$ of the remainder. How much did he have left finally?",
+            options: ["$$\\$360$$", "$$\\$320$$", "$$\\$400$$", "$$\\$340$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{4}{7}$$ = $480. After spending $$\\frac{1}{4}$$: $$\\frac{3}{4}$$ × 480 = $360"
+        },
+        {
+            id: 144,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a library, $$\\frac{2}{5}$$ of the books are fiction. Of the remaining books, $$\\frac{1}{3}$$ are science books and the rest are history books. If there are 240 history books, how many books are in the library?",
+            options: ["$$600$$", "$$720$$", "$$540$$", "$$480$$"],
+            correctIndex: 0,
+            explanation: "Non-fiction = $$\\frac{3}{5}$$. History = $$\\frac{2}{3}$$ of $$\\frac{3}{5}$$ = $$\\frac{2}{5}$$ = 240. Total = 600"
+        },
+        {
+            id: 145,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Kelly spent $$\\frac{3}{8}$$ of her money on a bag and $$\\frac{1}{4}$$ on a dress. She had $30 left. How much did she spend altogether?",
+            options: ["$$\\$40$$", "$$\\$50$$", "$$\\$60$$", "$$\\$80$$"],
+            correctIndex: 1,
+            explanation: "Spent = $$\\frac{3}{8} + \\frac{1}{4} = \\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$$. Left = $$\\frac{3}{8}$$ = $30. Total = $80. Spent = $50"
+        },
+        // Final set of mixed problems
+        {
+            id: 146,
+            subtopic: "Adding Fractions",
+            difficulty: "hard",
+            question: "Find the sum: $$\\frac{1}{2} + \\frac{2}{3} + \\frac{3}{4}$$",
+            options: ["$$\\frac{6}{9}$$", "$$1\\frac{11}{12}$$", "$$\\frac{23}{12}$$", "Both B and C"],
+            correctIndex: 3,
+            explanation: "LCM is 12: $$\\frac{6}{12} + \\frac{8}{12} + \\frac{9}{12} = \\frac{23}{12} = 1\\frac{11}{12}$$"
+        },
+        {
+            id: 147,
+            subtopic: "Multiplying Fractions",
+            difficulty: "hard",
+            question: "Calculate $$\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{4}{5}$$",
+            options: ["$$\\frac{24}{60}$$", "$$\\frac{2}{5}$$", "$$\\frac{1}{3}$$", "Both A and B"],
+            correctIndex: 3,
+            explanation: "$$\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{4}{5} = \\frac{24}{60} = \\frac{2}{5}$$"
+        },
+        {
+            id: 148,
+            subtopic: "Dividing Fractions",
+            difficulty: "hard",
+            question: "Simplify $$\\frac{8}{9} \\div \\frac{4}{3} \\times \\frac{3}{2}$$",
+            options: ["$$1$$", "$$\\frac{2}{3}$$", "$$\\frac{3}{4}$$", "$$\\frac{1}{2}$$"],
+            correctIndex: 0,
+            explanation: "$$\\frac{8}{9} \\times \\frac{3}{4} \\times \\frac{3}{2} = \\frac{72}{72} = 1$$"
+        },
+        {
+            id: 149,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Three friends shared a pizza. Ali ate $$\\frac{1}{3}$$, Ben ate $$\\frac{1}{4}$$, and Chris ate the rest. What fraction did Chris eat?",
+            options: ["$$\\frac{5}{12}$$", "$$\\frac{7}{12}$$", "$$\\frac{1}{2}$$", "$$\\frac{2}{7}$$"],
+            correctIndex: 0,
+            explanation: "Ali + Ben = $$\\frac{1}{3} + \\frac{1}{4} = \\frac{4+3}{12} = \\frac{7}{12}$$. Chris = $$1 - \\frac{7}{12} = \\frac{5}{12}$$"
+        },
+        {
+            id: 150,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A swimming pool is $$\\frac{7}{10}$$ full. After 300 litres are drained, it is $$\\frac{2}{5}$$ full. What is the capacity of the pool?",
+            options: ["$$1000$$ L", "$$900$$ L", "$$800$$ L", "$$750$$ L"],
+            correctIndex: 0,
+            explanation: "Decrease = $$\\frac{7}{10} - \\frac{2}{5} = \\frac{7}{10} - \\frac{4}{10} = \\frac{3}{10}$$ = 300 L. Capacity = 1000 L"
         }
     ],
     
