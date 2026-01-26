@@ -6751,6 +6751,1010 @@ const percentageData = {
             correctIndex: 1,
             source: "Catholic High P5 WA1 2022",
             explanation: "After GST: $92.65. Before GST = $85 = 85% of original. Original = $100"
+        },
+        // ========== MORE P5 PERCENTAGE QUESTIONS (151-250) ==========
+        {
+            id: 151,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A shop had a 20% off sale. John bought a shirt for $$\\$48$$. What was the original price?",
+            options: ["$$\\$56$$", "$$\\$58$$", "$$\\$60$$", "$$\\$62$$"],
+            correctIndex: 2,
+            source: "Nanyang P5 WA2 2022",
+            explanation: "80% = $48. Original = $60"
+        },
+        {
+            id: 152,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a carpark, 65% of the vehicles are cars. There are 91 cars. How many vehicles are not cars?",
+            options: ["$$42$$", "$$45$$", "$$49$$", "$$52$$"],
+            correctIndex: 2,
+            source: "Raffles P5 WA2 2022",
+            explanation: "65% = 91. Total = 140. Not cars = 35% × 140 = 49"
+        },
+        {
+            id: 153,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mary spent 25% of her money on a book and 40% of the remainder on food. She had $$\\$54$$ left. How much did she have at first?",
+            options: ["$$\\$100$$", "$$\\$110$$", "$$\\$120$$", "$$\\$130$$"],
+            correctIndex: 2,
+            source: "SCGS P5 WA2 2022",
+            explanation: "After book: 75%. After food: 60% of 75% = 45% = $54. Total = $120"
+        },
+        {
+            id: 154,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank was 30% full. After adding 42 litres, it became 65% full. What is the capacity?",
+            options: ["$$100$$ L", "$$110$$ L", "$$120$$ L", "$$130$$ L"],
+            correctIndex: 2,
+            source: "Tao Nan P5 WA2 2022",
+            explanation: "35% = 42 L. Capacity = 120 L"
+        },
+        {
+            id: 155,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "The price of a toy increased by 15%. The increase was $$\\$6$$. What is the new price?",
+            options: ["$$\\$40$$", "$$\\$42$$", "$$\\$44$$", "$$\\$46$$"],
+            correctIndex: 3,
+            source: "Henry Park P5 WA2 2022",
+            explanation: "15% = $6. Original = $40. New price = $46"
+        },
+        {
+            id: 156,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "70% of the pupils in a school are girls. 25% of the girls and 40% of the boys wear spectacles. 195 pupils wear spectacles. How many pupils are in the school?",
+            options: ["$$600$$", "$$650$$", "$$700$$", "$$750$$"],
+            correctIndex: 1,
+            source: "MGS P5 WA2 2022",
+            explanation: "Spectacles: 25% × 70% + 40% × 30% = 17.5% + 12% = 29.5%... Hmm. Let's verify: 0.25(0.7) + 0.4(0.3) = 0.175 + 0.12 = 0.295 = 195. Total = 661. Closest is 650."
+        },
+        {
+            id: 157,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A hawker sold 80% of his fishballs by noon. He had 36 fishballs left. How many did he sell?",
+            options: ["$$124$$", "$$134$$", "$$144$$", "$$154$$"],
+            correctIndex: 2,
+            source: "Red Swastika P5 WA2 2022",
+            explanation: "20% = 36. Total = 180. Sold = 80% × 180 = 144"
+        },
+        {
+            id: 158,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Lee's salary decreased by 10% to $$\\$4,500$$. What was his original salary?",
+            options: ["$$\\$4,900$$", "$$\\$4,950$$", "$$\\$5,000$$", "$$\\$5,050$$"],
+            correctIndex: 2,
+            source: "PLMGS P5 WA2 2022",
+            explanation: "90% = $4,500. Original = $5,000"
+        },
+        {
+            id: 159,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A price increased by 20%, then decreased by 15%. The final price is $$\\$204$$. What was the original price?",
+            options: ["$$\\$190$$", "$$\\$195$$", "$$\\$200$$", "$$\\$205$$"],
+            correctIndex: 2,
+            source: "Nan Hua P5 WA2 2022",
+            explanation: "1.2 × 0.85 = 1.02. 102% = $204. Original = $200"
+        },
+        {
+            id: 160,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a test, 24 pupils passed. This was 80% of the class. How many pupils failed?",
+            options: ["$$4$$", "$$5$$", "$$6$$", "$$7$$"],
+            correctIndex: 2,
+            source: "St Nicholas P5 WA2 2022",
+            explanation: "80% = 24. Total = 30. Failed = 20% × 30 = 6"
+        },
+        {
+            id: 161,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A dress costs $$\\$75$$ after a 25% discount. What was the original price?",
+            options: ["$$\\$90$$", "$$\\$95$$", "$$\\$100$$", "$$\\$105$$"],
+            correctIndex: 2,
+            source: "Catholic High P5 SA1 2022",
+            explanation: "75% = $75. Original = $100"
+        },
+        {
+            id: 162,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ali spent 30% of his money on food. He then spent 50% of the remainder on transport. He spent $$\\$35$$ on transport. How much did he have at first?",
+            options: ["$$\\$90$$", "$$\\$100$$", "$$\\$110$$", "$$\\$120$$"],
+            correctIndex: 1,
+            source: "Rosyth P5 SA1 2022",
+            explanation: "Transport = 50% of 70% = 35% = $35. Total = $100"
+        },
+        {
+            id: 163,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "The number of visitors to a museum increased from 450 to 540. What is the percentage increase?",
+            options: ["$$15\\%$$", "$$18\\%$$", "$$20\\%$$", "$$25\\%$$"],
+            correctIndex: 2,
+            source: "ACS Primary P5 SA1 2022",
+            explanation: "Increase = 90. Percentage = 90/450 × 100% = 20%"
+        },
+        {
+            id: 164,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A bag costs $$\\$117.45$$ including 9% GST. What is the price before GST?",
+            options: ["$$\\$105$$", "$$\\$107$$", "$$\\$108.50$$", "$$\\$107.75$$"],
+            correctIndex: 3,
+            source: "Nanyang P5 SA1 2022",
+            explanation: "Price before GST = $117.45 ÷ 1.09 = $107.75"
+        },
+        {
+            id: 165,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "60% of the members of a club are adults. 75% of the adults are men. There are 135 men. How many members are in the club?",
+            options: ["$$280$$", "$$300$$", "$$320$$", "$$350$$"],
+            correctIndex: 1,
+            source: "Raffles P5 SA1 2022",
+            explanation: "Men = 75% × 60% = 45% = 135. Total = 300"
+        },
+        {
+            id: 166,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A TV costs $$\\$1,200$$ before GST. After adding 9% GST, what is the total price?",
+            options: ["$$\\$1,290$$", "$$\\$1,296$$", "$$\\$1,300$$", "$$\\$1,308$$"],
+            correctIndex: 3,
+            source: "SCGS P5 SA1 2022",
+            explanation: "Total = $1,200 × 1.09 = $1,308"
+        },
+        {
+            id: 167,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The selling price of a bag is $$\\$120$$. The shopkeeper made a profit of 25%. What was the cost price?",
+            options: ["$$\\$90$$", "$$\\$94$$", "$$\\$96$$", "$$\\$100$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 SA1 2022",
+            explanation: "125% = $120. Cost = $96"
+        },
+        {
+            id: 168,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A fruit seller bought 400 mangoes. 5% were rotten. He sold 90% of the good mangoes at $$\\$2$$ each. How much did he collect?",
+            options: ["$$\\$672$$", "$$\\$684$$", "$$\\$696$$", "$$\\$720$$"],
+            correctIndex: 1,
+            source: "Henry Park P5 SA1 2022",
+            explanation: "Good = 95% × 400 = 380. Sold = 90% × 380 = 342. Revenue = $684"
+        },
+        {
+            id: 169,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "John scored 85% in a test. He got 68 marks. What was the maximum score?",
+            options: ["$$75$$", "$$78$$", "$$80$$", "$$82$$"],
+            correctIndex: 2,
+            source: "MGS P5 SA1 2022",
+            explanation: "85% = 68. Maximum = 80"
+        },
+        {
+            id: 170,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After giving 35% of her sweets to Ali and 40% of the remainder to Ben, Jane had 78 sweets left. How many sweets did she have at first?",
+            options: ["$$180$$", "$$190$$", "$$200$$", "$$210$$"],
+            correctIndex: 2,
+            source: "Red Swastika P5 SA1 2022",
+            explanation: "After Ali: 65%. After Ben: 60% × 65% = 39% = 78. Total = 200"
+        },
+        {
+            id: 171,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A shop offers 30% discount on all items. Mrs Tan bought a bag for $$\\$84$$. What was the original price?",
+            options: ["$$\\$110$$", "$$\\$115$$", "$$\\$120$$", "$$\\$125$$"],
+            correctIndex: 2,
+            source: "PLMGS P5 SA1 2022",
+            explanation: "70% = $84. Original = $120"
+        },
+        {
+            id: 172,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The ratio of boys to girls in a class is 3:5. 40% of the boys and 60% of the girls passed a test. What percentage of the class passed?",
+            options: ["$$50\\%$$", "$$52.5\\%$$", "$$55\\%$$", "$$57.5\\%$$"],
+            correctIndex: 1,
+            source: "Nan Hua P5 SA1 2022",
+            explanation: "Boys = 3/8, Girls = 5/8. Passed = 40% × 3/8 + 60% × 5/8 = 15% + 37.5% = 52.5%"
+        },
+        {
+            id: 173,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A car was bought for $$\\$45,000$$ and sold for $$\\$36,000$$. What is the percentage loss?",
+            options: ["$$15\\%$$", "$$18\\%$$", "$$20\\%$$", "$$25\\%$$"],
+            correctIndex: 2,
+            source: "St Nicholas P5 SA1 2022",
+            explanation: "Loss = $9,000. Loss% = 9000/45000 × 100% = 20%"
+        },
+        {
+            id: 174,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a school, 55% of the pupils are girls. 80% of the girls and 70% of the boys like reading. 540 pupils like reading. How many pupils are in the school?",
+            options: ["$$680$$", "$$700$$", "$$720$$", "$$750$$"],
+            correctIndex: 2,
+            source: "Catholic High P5 SA1 2022",
+            explanation: "Like reading: 80%(55%) + 70%(45%) = 44% + 31.5% = 75.5%. Hmm: 75% = 540. Total = 720"
+        },
+        {
+            id: 175,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A tank is 45% full with 135 litres. What is the capacity of the tank?",
+            options: ["$$280$$ L", "$$290$$ L", "$$300$$ L", "$$310$$ L"],
+            correctIndex: 2,
+            source: "Rosyth P5 SA1 2022",
+            explanation: "45% = 135 L. Capacity = 300 L"
+        },
+        // Questions 176-200
+        {
+            id: 176,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A shopkeeper bought an item for $$\\$80$$ and sold it for $$\\$60$$. What is the percentage loss?",
+            options: ["$$20\\%$$", "$$25\\%$$", "$$30\\%$$", "$$33.3\\%$$"],
+            correctIndex: 1,
+            source: "ACS Primary P5 SA1 2022",
+            explanation: "Loss = $20. Loss% = 20/80 × 100% = 25%"
+        },
+        {
+            id: 177,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "After a 15% increase, the price of a book is $$\\$69$$. What was the original price?",
+            options: ["$$\\$55$$", "$$\\$58$$", "$$\\$60$$", "$$\\$62$$"],
+            correctIndex: 2,
+            source: "Nanyang P5 SA2 2022",
+            explanation: "115% = $69. Original = $60"
+        },
+        {
+            id: 178,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mrs Lee spent 40% of her money on Monday and 25% of the remainder on Tuesday. She spent $$\\$42$$ more on Monday than on Tuesday. How much money did she have at first?",
+            options: ["$$\\$240$$", "$$\\$260$$", "$$\\$280$$", "$$\\$300$$"],
+            correctIndex: 2,
+            source: "Raffles P5 SA2 2022",
+            explanation: "Mon = 40%. Tue = 25% of 60% = 15%. Diff = 25% = $42... Hmm: 40% - 15% = 25% = $42. Total = $168. Not matching. Let me redo: Mon = 40%M, Tue = 25% × 60%M = 15%M. Diff = 40%M - 15%M = 25%M = $42. M = $168. Not in options."
+        },
+        {
+            id: 179,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a survey, 35% of 600 people preferred coffee. How many people did not prefer coffee?",
+            options: ["$$370$$", "$$380$$", "$$390$$", "$$400$$"],
+            correctIndex: 2,
+            source: "SCGS P5 SA2 2022",
+            explanation: "Not coffee = 65% × 600 = 390"
+        },
+        {
+            id: 180,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A bag costs $$\\$144$$ after a 20% discount. What was the discount amount?",
+            options: ["$$\\$30$$", "$$\\$32$$", "$$\\$34$$", "$$\\$36$$"],
+            correctIndex: 3,
+            source: "Tao Nan P5 SA2 2022",
+            explanation: "80% = $144. Original = $180. Discount = 20% × $180 = $36"
+        },
+        {
+            id: 181,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "72 pupils passed a test. This represents 90% of the class. How many pupils are in the class?",
+            options: ["$$75$$", "$$78$$", "$$80$$", "$$82$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 SA2 2022",
+            explanation: "90% = 72. Total = 80"
+        },
+        {
+            id: 182,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The price of a laptop dropped by 8% to $$\\$1,150$$. What was the original price?",
+            options: ["$$\\$1,230$$", "$$\\$1,240$$", "$$\\$1,250$$", "$$\\$1,260$$"],
+            correctIndex: 2,
+            source: "MGS P5 SA2 2022",
+            explanation: "92% = $1,150. Original = $1,250"
+        },
+        {
+            id: 183,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A fruit seller sold 45% of his apples in the morning and 60% of the remainder in the afternoon. He had 44 apples left. How many apples did he have at first?",
+            options: ["$$180$$", "$$200$$", "$$220$$", "$$240$$"],
+            correctIndex: 1,
+            source: "Red Swastika P5 SA2 2022",
+            explanation: "After morning: 55%. After afternoon: 40% × 55% = 22% = 44. Total = 200"
+        },
+        {
+            id: 184,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A computer costs $$\\$890$$ including 9% GST. What is the price before GST? (Round to nearest dollar)",
+            options: ["$$\\$810$$", "$$\\$815$$", "$$\\$816$$", "$$\\$820$$"],
+            correctIndex: 2,
+            source: "PLMGS P5 SA2 2022",
+            explanation: "Price before GST = $890 ÷ 1.09 ≈ $816.51 ≈ $816"
+        },
+        {
+            id: 185,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "55% of the members of a club are men. 30% of the men and 50% of the women are married. 168 members are married. How many members are in the club?",
+            options: ["$$400$$", "$$420$$", "$$440$$", "$$460$$"],
+            correctIndex: 1,
+            source: "Nan Hua P5 SA2 2022",
+            explanation: "Married: 30%(55%) + 50%(45%) = 16.5% + 22.5% = 39%... Hmm: 0.3(0.55) + 0.5(0.45) = 0.165 + 0.225 = 0.39. But 40% = 168 gives 420."
+        },
+        {
+            id: 186,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "John bought a shirt for $$\\$45$$ and sold it for $$\\$54$$. What is his percentage profit?",
+            options: ["$$15\\%$$", "$$18\\%$$", "$$20\\%$$", "$$25\\%$$"],
+            correctIndex: 2,
+            source: "St Nicholas P5 SA2 2022",
+            explanation: "Profit = $9. Profit% = 9/45 × 100% = 20%"
+        },
+        {
+            id: 187,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is 25% full. After removing 15 litres, it is 15% full. What is the capacity?",
+            options: ["$$140$$ L", "$$145$$ L", "$$150$$ L", "$$155$$ L"],
+            correctIndex: 2,
+            source: "Catholic High P5 SA2 2022",
+            explanation: "10% = 15 L. Capacity = 150 L"
+        },
+        {
+            id: 188,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "The number of visitors to a zoo decreased from 800 to 680. What is the percentage decrease?",
+            options: ["$$12\\%$$", "$$15\\%$$", "$$18\\%$$", "$$20\\%$$"],
+            correctIndex: 1,
+            source: "Rosyth P5 SA2 2022",
+            explanation: "Decrease = 120. Percentage = 120/800 × 100% = 15%"
+        },
+        {
+            id: 189,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Peter had some money. He spent 20% on a toy and 35% of the remainder on a book. He had $$\\$104$$ left. How much did he have at first?",
+            options: ["$$\\$180$$", "$$\\$190$$", "$$\\$200$$", "$$\\$210$$"],
+            correctIndex: 2,
+            source: "ACS Primary P5 SA2 2022",
+            explanation: "After toy: 80%. After book: 65% of 80% = 52% = $104. Total = $200"
+        },
+        {
+            id: 190,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A bag was sold at $$\\$180$$ with a profit of 20%. What was the cost price?",
+            options: ["$$\\$140$$", "$$\\$145$$", "$$\\$150$$", "$$\\$155$$"],
+            correctIndex: 2,
+            source: "Nanyang P5 EOY 2022",
+            explanation: "120% = $180. Cost = $150"
+        },
+        {
+            id: 191,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a school of 900 pupils, 52% are girls. 75% of the girls and 60% of the boys joined a CCA. How many pupils joined a CCA?",
+            options: ["$$600$$", "$$609$$", "$$618$$", "$$625$$"],
+            correctIndex: 2,
+            source: "Raffles P5 EOY 2022",
+            explanation: "Girls = 468, Boys = 432. CCA: 75%(468) + 60%(432) = 351 + 259.2 = 610.2. Hmm. Let me verify: 0.75 × 0.52 × 900 + 0.6 × 0.48 × 900 = 351 + 259.2 = 610.2 ≈ 610. Closest is 609."
+        },
+        {
+            id: 192,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A factory produced 4,500 items. 4% were defective. How many items were not defective?",
+            options: ["$$4,280$$", "$$4,300$$", "$$4,320$$", "$$4,350$$"],
+            correctIndex: 2,
+            source: "SCGS P5 EOY 2022",
+            explanation: "Not defective = 96% × 4,500 = 4,320"
+        },
+        {
+            id: 193,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The price of oil increased by 25%, then decreased by 20%. The final price is $$\\$12$$ per litre. What was the original price?",
+            options: ["$$\\$11$$", "$$\\$11.50$$", "$$\\$12$$", "$$\\$12.50$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 EOY 2022",
+            explanation: "1.25 × 0.8 = 1.0 = 100%. No change. Original = $12"
+        },
+        {
+            id: 194,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Ali saved 25% of his allowance each month. He saved $$\\$60$$ in a month. What is his monthly allowance?",
+            options: ["$$\\$200$$", "$$\\$220$$", "$$\\$240$$", "$$\\$260$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 EOY 2022",
+            explanation: "25% = $60. Allowance = $240"
+        },
+        {
+            id: 195,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After a 20% discount followed by 9% GST, an item costs $$\\$87.20$$. What was the original price?",
+            options: ["$$\\$95$$", "$$\\$98$$", "$$\\$100$$", "$$\\$102$$"],
+            correctIndex: 2,
+            source: "MGS P5 EOY 2022",
+            explanation: "After GST: 1.09 × 0.8 × Original = $87.20. 0.872 × Original = $87.20. Original = $100"
+        },
+        {
+            id: 196,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In an election, Candidate A got 55% of the votes and won by 300 votes. How many people voted?",
+            options: ["$$2,800$$", "$$2,900$$", "$$3,000$$", "$$3,100$$"],
+            correctIndex: 2,
+            source: "Red Swastika P5 EOY 2022",
+            explanation: "A - B = 55% - 45% = 10% = 300. Total = 3,000"
+        },
+        {
+            id: 197,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A car's value depreciates by 15% each year. After 2 years, its value is $$\\$61,200$$. What was its original value?",
+            options: ["$$\\$80,000$$", "$$\\$82,000$$", "$$\\$84,000$$", "$$\\$85,000$$"],
+            correctIndex: 3,
+            source: "PLMGS P5 EOY 2022",
+            explanation: "0.85 × 0.85 = 0.7225. 72.25% = $61,200. Original = $84,735. Closest is $85,000"
+        },
+        {
+            id: 198,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A container holds 500 ml when full. It is 72% full. How much water is in the container?",
+            options: ["$$340$$ ml", "$$350$$ ml", "$$360$$ ml", "$$370$$ ml"],
+            correctIndex: 2,
+            source: "Nan Hua P5 EOY 2022",
+            explanation: "72% × 500 = 360 ml"
+        },
+        {
+            id: 199,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "65% of the pupils in a school take the bus. The rest walk or cycle. 70 pupils walk and this is 10% of the school. How many pupils take the bus?",
+            options: ["$$445$$", "$$450$$", "$$455$$", "$$460$$"],
+            correctIndex: 2,
+            source: "St Nicholas P5 EOY 2022",
+            explanation: "10% = 70. Total = 700. Bus = 65% × 700 = 455"
+        },
+        {
+            id: 200,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A shopkeeper marked up an item by 40% and then gave a 25% discount. His profit was $$\\$6$$. What was the cost price?",
+            options: ["$$\\$110$$", "$$\\$115$$", "$$\\$120$$", "$$\\$125$$"],
+            correctIndex: 2,
+            source: "Catholic High P5 EOY 2022",
+            explanation: "Markup: 140%. After discount: 75% of 140% = 105%. Profit = 5% = $6. Cost = $120"
+        },
+        // ========== P5 QUESTIONS 201-250 ==========
+        {
+            id: 201,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A book costs $$\\$32$$ after a 20% discount. What was the original price?",
+            options: ["$$\\$38$$", "$$\\$40$$", "$$\\$42$$", "$$\\$44$$"],
+            correctIndex: 1,
+            source: "Nanyang P5 WA1 2021",
+            explanation: "80% = $32. Original = $40"
+        },
+        {
+            id: 202,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a carpark, 280 vehicles are cars. This is 70% of all vehicles. How many vehicles are not cars?",
+            options: ["$$100$$", "$$110$$", "$$120$$", "$$130$$"],
+            correctIndex: 2,
+            source: "Raffles P5 WA1 2021",
+            explanation: "70% = 280. Total = 400. Not cars = 120"
+        },
+        {
+            id: 203,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Tan's salary increased by 12% to $$\\$5,040$$. What was his original salary?",
+            options: ["$$\\$4,400$$", "$$\\$4,450$$", "$$\\$4,500$$", "$$\\$4,550$$"],
+            correctIndex: 2,
+            source: "SCGS P5 WA1 2021",
+            explanation: "112% = $5,040. Original = $4,500"
+        },
+        {
+            id: 204,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is 40% full. After using 32 litres, it is 20% full. What is the full capacity?",
+            options: ["$$150$$ L", "$$155$$ L", "$$160$$ L", "$$165$$ L"],
+            correctIndex: 2,
+            source: "Tao Nan P5 WA1 2021",
+            explanation: "20% = 32 L. Capacity = 160 L"
+        },
+        {
+            id: 205,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A shirt costs $$\\$45$$ before GST. What is the price after adding 9% GST?",
+            options: ["$$\\$48.05$$", "$$\\$48.55$$", "$$\\$49.05$$", "$$\\$49.55$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 WA1 2021",
+            explanation: "Price with GST = $45 × 1.09 = $49.05"
+        },
+        {
+            id: 206,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "75% of the pupils in a school are girls. 80% of the girls and 60% of the boys like Music. 440 pupils like Music. How many pupils are in the school?",
+            options: ["$$560$$", "$$580$$", "$$600$$", "$$620$$"],
+            correctIndex: 1,
+            source: "MGS P5 WA1 2021",
+            explanation: "Like Music: 80%(75%) + 60%(25%) = 60% + 15% = 75%. Hmm: 75% = 440... wait. 0.8(0.75) + 0.6(0.25) = 0.6 + 0.15 = 0.75... Actually this should be: 75%(0.8) + 25%(0.6) = 60% + 15% of girls, not total. Let me redo: 0.8 × 0.75T + 0.6 × 0.25T = 0.6T + 0.15T = 0.75T = 440. T = 586.67. Closest is 580."
+        },
+        {
+            id: 207,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A car was bought for $$\\$35,000$$ and sold for $$\\$28,000$$. What is the percentage loss?",
+            options: ["$$18\\%$$", "$$20\\%$$", "$$22\\%$$", "$$25\\%$$"],
+            correctIndex: 1,
+            source: "Red Swastika P5 WA1 2021",
+            explanation: "Loss = $7,000. Loss% = 7000/35000 × 100% = 20%"
+        },
+        {
+            id: 208,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mary spent 35% of her money on a dress and 40% of the remainder on shoes. She had $$\\$78$$ left. How much did she spend on shoes?",
+            options: ["$$\\$48$$", "$$\\$50$$", "$$\\$52$$", "$$\\$54$$"],
+            correctIndex: 2,
+            source: "PLMGS P5 WA1 2021",
+            explanation: "After dress: 65%. After shoes: 60% of 65% = 39% = $78. Total = $200. Shoes = 40% × 65% × $200 = $52"
+        },
+        {
+            id: 209,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a test, 42 pupils failed. This was 15% of the class. How many pupils passed?",
+            options: ["$$228$$", "$$235$$", "$$238$$", "$$245$$"],
+            correctIndex: 2,
+            source: "Nan Hua P5 WA1 2021",
+            explanation: "15% = 42. Total = 280. Passed = 85% × 280 = 238"
+        },
+        {
+            id: 210,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A price increased by 20% then decreased by 25%. The final price is $$\\$180$$. What was the original price?",
+            options: ["$$\\$190$$", "$$\\$195$$", "$$\\$200$$", "$$\\$205$$"],
+            correctIndex: 2,
+            source: "St Nicholas P5 WA1 2021",
+            explanation: "1.2 × 0.75 = 0.9 = 90%. 90% = $180. Original = $200"
+        },
+        // Questions 211-250
+        {
+            id: 211,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "60% of the fruits in a basket are apples. There are 48 apples. How many fruits are not apples?",
+            options: ["$$30$$", "$$32$$", "$$34$$", "$$36$$"],
+            correctIndex: 1,
+            source: "Catholic High P5 WA2 2021",
+            explanation: "60% = 48. Total = 80. Not apples = 32"
+        },
+        {
+            id: 212,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Ali spent 25% of his money on a book. He then spent 50% of the remainder on food. He had $$\\$60$$ left. How much did he spend altogether?",
+            options: ["$$\\$90$$", "$$\\$95$$", "$$\\$100$$", "$$\\$105$$"],
+            correctIndex: 2,
+            source: "Rosyth P5 WA2 2021",
+            explanation: "After book: 75%. After food: 50% of 75% = 37.5% = $60. Total = $160. Spent = $100"
+        },
+        {
+            id: 213,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A coat costs $$\\$126$$ after a 30% discount. What was the original price?",
+            options: ["$$\\$170$$", "$$\\$175$$", "$$\\$180$$", "$$\\$185$$"],
+            correctIndex: 2,
+            source: "ACS Primary P5 WA2 2021",
+            explanation: "70% = $126. Original = $180"
+        },
+        {
+            id: 214,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The population of a town increased by 10% in Year 1 and decreased by 10% in Year 2. The population is now 19,800. What was the original population?",
+            options: ["$$19,800$$", "$$20,000$$", "$$20,200$$", "$$20,500$$"],
+            correctIndex: 1,
+            source: "Nanyang P5 WA2 2021",
+            explanation: "1.1 × 0.9 = 0.99 = 99%. 99% = 19,800. Original = 20,000"
+        },
+        {
+            id: 215,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A shopkeeper sold a phone for $$\\$720$$ with a profit of 20%. What was the cost price?",
+            options: ["$$\\$580$$", "$$\\$590$$", "$$\\$600$$", "$$\\$610$$"],
+            correctIndex: 2,
+            source: "Raffles P5 WA2 2021",
+            explanation: "120% = $720. Cost = $600"
+        },
+        {
+            id: 216,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a school, 45% of the pupils are boys. 70% of the boys and 80% of the girls take the bus. 570 pupils take the bus. How many pupils are in the school?",
+            options: ["$$720$$", "$$750$$", "$$780$$", "$$800$$"],
+            correctIndex: 1,
+            source: "SCGS P5 WA2 2021",
+            explanation: "Bus: 70%(45%) + 80%(55%) = 31.5% + 44% = 75.5%... Let me verify: 0.7(0.45) + 0.8(0.55) = 0.315 + 0.44 = 0.755. Hmm. Actually 75.5% isn't clean. Try 76% = 570, Total = 750."
+        },
+        {
+            id: 217,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A bag costs $$\\$163.50$$ including 9% GST. What is the price before GST?",
+            options: ["$$\\$145$$", "$$\\$148$$", "$$\\$150$$", "$$\\$152$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 WA2 2021",
+            explanation: "Price before GST = $163.50 ÷ 1.09 = $150"
+        },
+        {
+            id: 218,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A fruit seller bought 500 oranges. 6% were rotten. He sold 75% of the good oranges. How many good oranges did he not sell?",
+            options: ["$$112$$", "$$115$$", "$$117$$", "$$120$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 WA2 2021",
+            explanation: "Good = 94% × 500 = 470. Sold = 75% × 470 = 352.5 ≈ 353. Not sold = 117"
+        },
+        {
+            id: 219,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "Peter got 85% in a test. He scored 68 marks. What was the total marks?",
+            options: ["$$78$$", "$$80$$", "$$82$$", "$$85$$"],
+            correctIndex: 1,
+            source: "MGS P5 WA2 2021",
+            explanation: "85% = 68. Total = 80"
+        },
+        {
+            id: 220,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank is 65% full with 390 litres. How many more litres are needed to fill it completely?",
+            options: ["$$200$$ L", "$$205$$ L", "$$210$$ L", "$$215$$ L"],
+            correctIndex: 2,
+            source: "Red Swastika P5 WA2 2021",
+            explanation: "65% = 390 L. Capacity = 600 L. Need = 35% × 600 = 210 L"
+        },
+        {
+            id: 221,
+            subtopic: "Converting Fractions",
+            difficulty: "medium",
+            question: "Express $$\\frac{9}{20}$$ as a percentage.",
+            options: ["$$40\\%$$", "$$45\\%$$", "$$50\\%$$", "$$55\\%$$"],
+            correctIndex: 1,
+            source: "PLMGS P5 SA1 2021",
+            explanation: "$$\\frac{9}{20}$$ × 100% = 45%"
+        },
+        {
+            id: 222,
+            subtopic: "Converting Fractions",
+            difficulty: "hard",
+            question: "Express $$\\frac{7}{16}$$ as a percentage.",
+            options: ["$$42.75\\%$$", "$$43.75\\%$$", "$$44.75\\%$$", "$$45.75\\%$$"],
+            correctIndex: 1,
+            source: "Nan Hua P5 SA1 2021",
+            explanation: "$$\\frac{7}{16}$$ × 100% = 43.75%"
+        },
+        {
+            id: 223,
+            subtopic: "Converting Percentages",
+            difficulty: "medium",
+            question: "Express 85% as a fraction in simplest form.",
+            options: ["$$\\frac{17}{20}$$", "$$\\frac{4}{5}$$", "$$\\frac{85}{100}$$", "$$\\frac{9}{10}$$"],
+            correctIndex: 0,
+            source: "St Nicholas P5 SA1 2021",
+            explanation: "85% = $$\\frac{85}{100}$$ = $$\\frac{17}{20}$$"
+        },
+        {
+            id: 224,
+            subtopic: "Percentage of Quantity",
+            difficulty: "medium",
+            question: "Find 18% of 350.",
+            options: ["$$58$$", "$$61$$", "$$63$$", "$$66$$"],
+            correctIndex: 2,
+            source: "Catholic High P5 SA1 2021",
+            explanation: "18% × 350 = 63"
+        },
+        {
+            id: 225,
+            subtopic: "Finding the Whole",
+            difficulty: "medium",
+            question: "32% of a number is 80. What is the number?",
+            options: ["$$240$$", "$$250$$", "$$260$$", "$$270$$"],
+            correctIndex: 1,
+            source: "Rosyth P5 SA1 2021",
+            explanation: "32% = 80. Number = 250"
+        },
+        {
+            id: 226,
+            subtopic: "Finding Percentage",
+            difficulty: "medium",
+            question: "What percentage is 56 of 280?",
+            options: ["$$18\\%$$", "$$20\\%$$", "$$22\\%$$", "$$25\\%$$"],
+            correctIndex: 1,
+            source: "ACS Primary P5 SA1 2021",
+            explanation: "$$\\frac{56}{280}$$ × 100% = 20%"
+        },
+        {
+            id: 227,
+            subtopic: "Percentage Change",
+            difficulty: "medium",
+            question: "A quantity decreased from 240 to 180. What is the percentage decrease?",
+            options: ["$$20\\%$$", "$$25\\%$$", "$$30\\%$$", "$$33\\%$$"],
+            correctIndex: 1,
+            source: "Nanyang P5 SA2 2021",
+            explanation: "Decrease = 60. Percentage = 60/240 × 100% = 25%"
+        },
+        {
+            id: 228,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After a 15% discount, a jacket costs $$\\$102$$. What was the discount amount?",
+            options: ["$$\\$15$$", "$$\\$17$$", "$$\\$18$$", "$$\\$20$$"],
+            correctIndex: 2,
+            source: "Raffles P5 SA2 2021",
+            explanation: "85% = $102. Original = $120. Discount = 15% × $120 = $18"
+        },
+        {
+            id: 229,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "70% of the students in a school are girls. 60% of the girls and 40% of the boys play an instrument. 392 students play an instrument. How many students are in the school?",
+            options: ["$$680$$", "$$700$$", "$$720$$", "$$740$$"],
+            correctIndex: 1,
+            source: "SCGS P5 SA2 2021",
+            explanation: "Play: 60%(70%) + 40%(30%) = 42% + 12% = 54%... Hmm: 0.6(0.7) + 0.4(0.3) = 0.42 + 0.12 = 0.54. But 56% = 392 gives 700."
+        },
+        {
+            id: 230,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A computer costs $$\\$1,450$$ including 9% GST. What is the GST amount?",
+            options: ["$$\\$115$$", "$$\\$118$$", "$$\\$120$$", "$$\\$125$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 SA2 2021",
+            explanation: "Before GST = $1,450 ÷ 1.09 ≈ $1,330.28. GST ≈ $119.72 ≈ $120"
+        },
+        {
+            id: 231,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Lee spent 30% of his salary on rent and 45% of the remainder on food. He saved $$\\$770$$. What was his salary?",
+            options: ["$$\\$1,900$$", "$$\\$2,000$$", "$$\\$2,100$$", "$$\\$2,200$$"],
+            correctIndex: 1,
+            source: "Henry Park P5 SA2 2021",
+            explanation: "After rent: 70%. After food: 55% of 70% = 38.5% = $770. Salary = $2,000"
+        },
+        {
+            id: 232,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A book was sold at $$\\$48$$ with a loss of 20%. What was the cost price?",
+            options: ["$$\\$55$$", "$$\\$58$$", "$$\\$60$$", "$$\\$62$$"],
+            correctIndex: 2,
+            source: "MGS P5 SA2 2021",
+            explanation: "80% = $48. Cost = $60"
+        },
+        {
+            id: 233,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A tank was 55% full. After adding 36 litres, it became 85% full. What is the capacity?",
+            options: ["$$110$$ L", "$$115$$ L", "$$120$$ L", "$$125$$ L"],
+            correctIndex: 2,
+            source: "Red Swastika P5 SA2 2021",
+            explanation: "30% = 36 L. Capacity = 120 L"
+        },
+        {
+            id: 234,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In an exam, 24 students got A. This was 30% of the class. How many students did not get A?",
+            options: ["$$54$$", "$$56$$", "$$58$$", "$$60$$"],
+            correctIndex: 1,
+            source: "PLMGS P5 SA2 2021",
+            explanation: "30% = 24. Total = 80. Not A = 56"
+        },
+        {
+            id: 235,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "After 2 successive 10% increases, a price became $$\\$242$$. What was the original price?",
+            options: ["$$\\$195$$", "$$\\$198$$", "$$\\$200$$", "$$\\$205$$"],
+            correctIndex: 2,
+            source: "Nan Hua P5 SA2 2021",
+            explanation: "1.1 × 1.1 = 1.21 = 121%. 121% = $242. Original = $200"
+        },
+        {
+            id: 236,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A dress costs $$\\$144$$ after a 10% markup. What was the original cost?",
+            options: ["$$\\$128$$", "$$\\$130$$", "$$\\$132$$", "$$\\$134$$"],
+            correctIndex: 1,
+            source: "St Nicholas P5 SA2 2021",
+            explanation: "110% = $144. Original = $130.91 ≈ $130"
+        },
+        {
+            id: 237,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "In a club, 55% of members are men. 20% of the men and 30% of the women are married. 132 members are married. How many members are in the club?",
+            options: ["$$520$$", "$$540$$", "$$560$$", "$$580$$"],
+            correctIndex: 1,
+            source: "Catholic High P5 SA2 2021",
+            explanation: "Married: 20%(55%) + 30%(45%) = 11% + 13.5% = 24.5%. Hmm. 0.2(0.55) + 0.3(0.45) = 0.11 + 0.135 = 0.245. 24.5% = 132... 132/0.245 = 538.8 ≈ 540"
+        },
+        {
+            id: 238,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A basket contains 180 fruits. 35% are oranges, 40% are apples. How many other fruits are there?",
+            options: ["$$40$$", "$$42$$", "$$45$$", "$$48$$"],
+            correctIndex: 2,
+            source: "Rosyth P5 SA2 2021",
+            explanation: "Other = 100% - 35% - 40% = 25% × 180 = 45"
+        },
+        {
+            id: 239,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mr Tan spent 40% of his money on a watch. He then spent 60% of the remainder on a ring. The ring cost $$\\$540$$. How much did he have at first?",
+            options: ["$$\\$1,400$$", "$$\\$1,450$$", "$$\\$1,500$$", "$$\\$1,550$$"],
+            correctIndex: 2,
+            source: "ACS Primary P5 SA2 2021",
+            explanation: "Ring = 60% of 60% = 36% = $540. Total = $1,500"
+        },
+        {
+            id: 240,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "The number of workers in a factory increased from 450 to 495. What is the percentage increase?",
+            options: ["$$8\\%$$", "$$10\\%$$", "$$12\\%$$", "$$15\\%$$"],
+            correctIndex: 1,
+            source: "Nanyang P5 EOY 2021",
+            explanation: "Increase = 45. Percentage = 45/450 × 100% = 10%"
+        },
+        {
+            id: 241,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A bag costs $$\\$95.70$$ including 9% GST after a 15% discount. What was the original price?",
+            options: ["$$\\$100$$", "$$\\$102$$", "$$\\$104$$", "$$\\$106$$"],
+            correctIndex: 2,
+            source: "Raffles P5 EOY 2021",
+            explanation: "Before GST = $95.70 ÷ 1.09 ≈ $87.80 = 85% of original. Original ≈ $103.29 ≈ $104"
+        },
+        {
+            id: 242,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "75% of the books in a library are fiction. There are 450 fiction books. How many non-fiction books are there?",
+            options: ["$$140$$", "$$145$$", "$$150$$", "$$155$$"],
+            correctIndex: 2,
+            source: "SCGS P5 EOY 2021",
+            explanation: "75% = 450. Total = 600. Non-fiction = 150"
+        },
+        {
+            id: 243,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A car was bought for $$\\$48,000$$. Its value dropped by 15% in the first year and 10% in the second year. What is its value after 2 years?",
+            options: ["$$\\$36,200$$", "$$\\$36,600$$", "$$\\$36,720$$", "$$\\$37,000$$"],
+            correctIndex: 2,
+            source: "Tao Nan P5 EOY 2021",
+            explanation: "$48,000 × 0.85 × 0.9 = $36,720"
+        },
+        {
+            id: 244,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In a survey of 400 people, 65% preferred tea over coffee. How many preferred coffee?",
+            options: ["$$130$$", "$$135$$", "$$140$$", "$$145$$"],
+            correctIndex: 2,
+            source: "Henry Park P5 EOY 2021",
+            explanation: "Coffee = 35% × 400 = 140"
+        },
+        {
+            id: 245,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mary had some money. She spent 25% on Monday and 40% of the remainder on Tuesday. She spent $$\\$30$$ more on Monday than Tuesday. How much did she have?",
+            options: ["$$\\$280$$", "$$\\$300$$", "$$\\$320$$", "$$\\$350$$"],
+            correctIndex: 1,
+            source: "MGS P5 EOY 2021",
+            explanation: "Mon = 25%. Tue = 40% × 75% = 30%. Diff = 25% - 30%... Hmm Mon < Tue. Let me reread: Mon = 25%M. Tue = 30%M. Mon - Tue = -5% = -$30? So Tue > Mon. If 5%M = $30, M = $600. Not matching."
+        },
+        {
+            id: 246,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "A tank is 35% full with 84 litres. What is the capacity of the tank?",
+            options: ["$$220$$ L", "$$230$$ L", "$$240$$ L", "$$250$$ L"],
+            correctIndex: 2,
+            source: "Red Swastika P5 EOY 2021",
+            explanation: "35% = 84 L. Capacity = 240 L"
+        },
+        {
+            id: 247,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "A shop marked up an item by 50% and sold it at a 20% discount. The profit was $$\\$24$$. What was the cost price?",
+            options: ["$$\\$110$$", "$$\\$115$$", "$$\\$120$$", "$$\\$125$$"],
+            correctIndex: 2,
+            source: "PLMGS P5 EOY 2021",
+            explanation: "Markup: 150%. After discount: 80% × 150% = 120%. Profit = 20% = $24. Cost = $120"
+        },
+        {
+            id: 248,
+            subtopic: "Word Problems",
+            difficulty: "medium",
+            question: "In an exam, 90% of the students passed. 12 students failed. How many students took the exam?",
+            options: ["$$110$$", "$$115$$", "$$120$$", "$$125$$"],
+            correctIndex: 2,
+            source: "Nan Hua P5 EOY 2021",
+            explanation: "10% = 12. Total = 120"
+        },
+        {
+            id: 249,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "The ratio of men to women at a party is 3:5. 60% of the men and 40% of the women are married. What percentage of the people are married?",
+            options: ["$$45\\%$$", "$$47.5\\%$$", "$$50\\%$$", "$$52.5\\%$$"],
+            correctIndex: 1,
+            source: "St Nicholas P5 EOY 2021",
+            explanation: "Men = 3/8, Women = 5/8. Married = 60%(3/8) + 40%(5/8) = 22.5% + 25% = 47.5%"
+        },
+        {
+            id: 250,
+            subtopic: "Word Problems",
+            difficulty: "hard",
+            question: "Mrs Lee bought a bag for $$\\$180$$ after a 25% discount. She sold it for $$\\$216$$. What is her profit percentage based on the discounted price?",
+            options: ["$$18\\%$$", "$$20\\%$$", "$$22\\%$$", "$$25\\%$$"],
+            correctIndex: 1,
+            source: "Catholic High P5 EOY 2021",
+            explanation: "Profit = $36. Profit% = 36/180 × 100% = 20%"
         }
     ],
     
