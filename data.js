@@ -10273,11 +10273,11 @@ const percentageData = {
             id: 501,
             subtopic: "P6 Word Problems",
             difficulty: "hard",
-            question: "There were 25 more \\$1 coins than 20-cent coins. The total value of all the \\$1 coins and all the 20-cent coins is \\$51. Express the number of \\$1 coins as a fraction of the total number of coins.",
-            options: ["$\\frac{14}{19}$", "$\\frac{19}{14}$", "$\\frac{70}{165}$", "$\\frac{95}{165}$"],
+            question: "There were 25 more 20-cent coins than \\$1 coins. The difference in value between all the \\$1 coins and all the 20-cent coins is \\$51. Express the number of \\$1 coins as a fraction of the number of 20-cent coins.",
+            options: ["$\\frac{14}{19}$", "$\\frac{19}{14}$", "$\\frac{70}{95}$", "$\\frac{95}{70}$"],
             correctIndex: 0,
             source: "Top School Paper",
-            explanation: "Using Difference Method: Suppose all were 20¢ coins. Extra 25 coins as 20¢ = \\$0.20 × 25 = \\$5. Adjusted total = \\$51 + \\$5 = \\$56. Difference per coin = \\$1 - \\$0.20 = \\$0.80. Number of 20¢ coins = \\$56 ÷ \\$0.80 = 70. Number of \\$1 coins = 70 + 25 = 95. Total coins = 165. Fraction of \\$1 coins = $\\frac{70}{95+70} = \\frac{70}{165} = \\frac{14}{33}$. OR if asking \\$1 to 20¢ ratio: $\\frac{70}{95} = \\frac{14}{19}$"
+            explanation: "Using Difference Method: Suppose all coins were \\$1 coins. Extra 25 as \\$1 = \\$25. If all were \\$1: difference would increase by \\$0.80 per 20¢ coin converted. Value diff of 25 extra 20¢ coins vs \\$1 = \\$0.20 × 25 = \\$5. So \\$51 + \\$5 = \\$56. Each pair differs by \\$0.80. Number of \\$1 coins = \\$56 ÷ \\$0.80 = 70. Number of 20¢ coins = 70 + 25 = 95. Check: \\$70 - \\$19 = \\$51 ✓. Fraction = $\\frac{70}{95} = \\frac{14}{19}$"
         }
     ],
     
