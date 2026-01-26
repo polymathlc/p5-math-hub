@@ -5121,7 +5121,8 @@ const fractionsData = {
         "Mixed Numbers",
         "Comparing Fractions",
         "Word Problems",
-        "P6 Word Problems"
+        "P6 Word Problems",
+        "Branching and Remainder"
     ]
 };
 
@@ -10288,6 +10289,97 @@ const percentageData = {
             correctIndex: 1,
             source: "Top School Paper",
             explanation: "Using Difference Method: Extra 5 coins as 20¢ = \\$0.20 × 5 = \\$1. Adjusted value difference = \\$18.50 + \\$1 = \\$19.50. Difference per coin pair = \\$0.50 - \\$0.20 = \\$0.30. Number of 50¢ coins = \\$19.50 ÷ \\$0.30 = 65. Check: 65 × \\$0.50 = \\$32.50, 70 × \\$0.20 = \\$14.00, Difference = \\$18.50 ✓"
+        },
+        // ==================== BRANCHING AND REMAINDER CONCEPT ====================
+        {
+            id: 503,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "Edgar spent $\\frac{1}{4}$ of his money on a watch. He spent $\\frac{2}{5}$ of the remainder on 4 shirts and saved the rest. If the watch costs \\$168 more than one shirt, how much did Edgar save?",
+            options: ["\\$360", "\\$400", "\\$432", "\\$480"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Total = 40u. Watch = 10u, 4 shirts = 12u (1 shirt = 3u), Saved = 18u. Watch - 1 shirt = 7u = \\$168, so 1u = \\$24. Saved = 18 × \\$24 = \\$432"
+        },
+        {
+            id: 504,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "During P6 Post-Exam Activities, $\\frac{2}{7}$ of pupils and an additional 12 pupils attended guitar lessons. $\\frac{1}{4}$ of the remaining pupils and an additional 23 pupils attended photography. The rest (193 pupils) attended hip-hop. How many P6 pupils were there?",
+            options: ["385", "400", "420", "450"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Work backwards: Hip-hop = 3R - 23 = 193, so R = 72, 4R = 288. Then 5u - 12 = 288, u = 60. Total = 7u = 420"
+        },
+        {
+            id: 505,
+            subtopic: "Branching and Remainder",
+            difficulty: "medium",
+            question: "Diana had a sum of money. After spending $\\frac{2}{5}$ on a cake and $\\frac{5}{6}$ of the remainder on a present, she had \\$8 left. How much did Diana have at first?",
+            options: ["\\$60", "\\$72", "\\$80", "\\$96"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Left = $\\frac{1}{6}$ of $\\frac{3}{5}$ = $\\frac{1}{10}$ of total. \\$8 = $\\frac{1}{10}$ of total. Total = \\$80"
+        },
+        {
+            id: 506,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "A bag contains 20-cent, 50-cent and \\$1 coins. $\\frac{1}{4}$ are 20-cent coins. $\\frac{2}{5}$ of remainder are 50-cent coins, rest are \\$1 coins. Total value is \\$156. How many coins altogether?",
+            options: ["200", "220", "240", "260"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Using 20u total: 5u(20¢) + 6u(50¢) + 9u(\\$1). Value per set = \\$1 + \\$3 + \\$9 = \\$13. Sets = \\$156 ÷ \\$13 = 12. Coins = 20 × 12 = 240"
+        },
+        {
+            id: 507,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "Noah spent $\\frac{1}{3}$ of his money and \\$200 on a camera. He spent $\\frac{3}{4}$ of remainder and \\$75 on a watch. He spent $\\frac{2}{5}$ of remainder and \\$24 on a bag. He had \\$273 left. How much more did he spend on the watch than the camera?",
+            options: ["\\$320", "\\$345", "\\$360", "\\$385"],
+            correctIndex: 1,
+            source: "Polymath December WS 1",
+            explanation: "Work backwards: \\$273 + \\$24 = \\$297 (3/5), before bag = \\$495. \\$495 + \\$75 = \\$570 (1/4), before watch = \\$2280. \\$2280 + \\$200 = \\$2480 (2/3), original = \\$3720. Camera = \\$1440, Watch = \\$1785. Diff = \\$345"
+        },
+        {
+            id: 508,
+            subtopic: "Branching and Remainder",
+            difficulty: "medium",
+            question: "Muthu sold 147 marbles on Monday. He sold $\\frac{3}{7}$ of the remainder on Tuesday and had half of his marbles left. How many marbles did he sell altogether?",
+            options: ["441", "530", "588", "620"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Left = 4/7 of remainder = half of original. So remainder = 7 parts, original = 8 parts. Monday = 1 part = 147. Total sold = 147 + (3 × 147) = 588"
+        },
+        {
+            id: 509,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "Ben bought T-shirts. $\\frac{2}{5}$ were large. $\\frac{3}{5}$ of remainder were medium, rest were small. Small costs \\$8, medium \\$10, large \\$18. He paid \\$672 more for medium than small T-shirts. How much did he pay for large T-shirts?",
+            options: ["\\$2700", "\\$2800", "\\$2880", "\\$2950"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Total = 25u. Large = 10u, Medium = 9u, Small = 6u. Per set: Medium \\$90, Small \\$48, diff = \\$42. Sets = \\$672 ÷ \\$42 = 16. Large cost = 160 × \\$18 = \\$2880"
+        },
+        {
+            id: 510,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "A bus broke down. $\\frac{1}{4}$ of passengers tried 1st bus but 4 couldn't board. $\\frac{1}{2}$ of remaining tried 2nd bus but 6 couldn't. $\\frac{3}{4}$ of those left boarded the 3rd bus. 8 passengers still waited. How many passengers were on the broken bus?",
+            options: ["56", "60", "64", "72"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Work backwards: 1R = 8, so 4R = 32. 1p + 6 = 32, p = 26, 2p = 52. 3u + 4 = 52, u = 16. Total = 4u = 64"
+        },
+        {
+            id: 511,
+            subtopic: "Branching and Remainder",
+            difficulty: "hard",
+            question: "In a university, $\\frac{3}{5}$ of students and 24 more attended art. $\\frac{1}{3}$ of remaining and 34 more attended music. The rest (314 students) attended cooking. How many students are in the university?",
+            options: ["1200", "1300", "1365", "1400"],
+            correctIndex: 2,
+            source: "Polymath December WS 1",
+            explanation: "Work backwards: 2R - 34 = 314, R = 174, 3R = 522 (remaining after art). 2u - 24 = 522, u = 273. Total = 5u = 1365"
         }
     ],
     
@@ -10300,6 +10392,7 @@ const percentageData = {
         "Finding Percentage",
         "Percentage Change",
         "Word Problems",
-        "P6 Word Problems"
+        "P6 Word Problems",
+        "Branching and Remainder"
     ]
 };
