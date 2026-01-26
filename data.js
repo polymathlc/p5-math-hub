@@ -10278,6 +10278,16 @@ const percentageData = {
             correctIndex: 0,
             source: "Top School Paper",
             explanation: "Using Difference Method: Suppose all coins were \\$1 coins. Extra 25 as \\$1 = \\$25. If all were \\$1: difference would increase by \\$0.80 per 20¢ coin converted. Value diff of 25 extra 20¢ coins vs \\$1 = \\$0.20 × 25 = \\$5. So \\$51 + \\$5 = \\$56. Each pair differs by \\$0.80. Number of \\$1 coins = \\$56 ÷ \\$0.80 = 70. Number of 20¢ coins = 70 + 25 = 95. Check: \\$70 - \\$19 = \\$51 ✓. Fraction = $\\frac{70}{95} = \\frac{14}{19}$"
+        },
+        {
+            id: 502,
+            subtopic: "P6 Word Problems",
+            difficulty: "hard",
+            question: "Tom has some 50-cent coins and 20-cent coins. The 50-cent coins are \\$18.50 more than his 20-cent coins. He has 5 more 20-cent coins than 50-cent coins. How many 50-cent coins does Tom have?",
+            options: ["$60$", "$65$", "$70$", "$75$"],
+            correctIndex: 1,
+            source: "Top School Paper",
+            explanation: "Using Difference Method: Extra 5 coins as 20¢ = \\$0.20 × 5 = \\$1. Adjusted value difference = \\$18.50 + \\$1 = \\$19.50. Difference per coin pair = \\$0.50 - \\$0.20 = \\$0.30. Number of 50¢ coins = \\$19.50 ÷ \\$0.30 = 65. Check: 65 × \\$0.50 = \\$32.50, 70 × \\$0.20 = \\$14.00, Difference = \\$18.50 ✓"
         }
     ],
     
