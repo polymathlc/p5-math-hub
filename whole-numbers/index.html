@@ -1,12 +1,33 @@
 <!doctype html>
-<html lang="en-SG"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Whole numbers · Polymath Learning Centre</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#faf8f3;color:#202e31;font:16px/1.5 "Trebuchet MS",Arial,sans-serif}header{border-bottom:1px solid #d8d9cf}.mast,main{max-width:1080px;margin:auto;padding:16px 30px}.mast,.brand,.row,nav,.tools{display:flex;align-items:center;gap:12px}.mast,.row{justify-content:space-between}.brand{font-weight:700}.brand i{background:#174c46;color:#e6f294;width:35px;height:35px;border-radius:11px;text-align:center;font:bold italic 27px/35px Georgia}button,select,input{font:inherit;color:inherit}button,select{cursor:pointer}button{background:white;border:1px solid #adb8b1;border-radius:8px;padding:8px 14px;font-weight:600}button:hover{background:#edf2dd}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #d87931;outline-offset:2px}.title{padding:26px 0 12px}small{font-size:12px;font-weight:700;letter-spacing:.14em}.title h1,h2,h3{font-family:Georgia,serif;line-height:1.07}.title h1{font-size:clamp(44px,7vw,78px);letter-spacing:-.055em;margin:8px 0}.title h1 span{color:#c2683e}.title p{color:#4f605b}nav{gap:4px;flex-wrap:wrap;border-bottom:1px solid #c8cfc4;margin:5px 0 20px}nav button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;color:#52635c}nav button[aria-current=true]{border-color:#236457;color:#174a3e}.lab{background:#1d4943;color:#fff;border-radius:18px;padding:clamp(22px,4vw,38px);overflow:hidden}.lab small{color:#d5e7af}.lab h2{font-size:36px;margin:10px 0}.lab p{margin:8px 0 18px}.tiles{display:flex;gap:3px;flex-wrap:wrap}.tile{flex:1 1 48px;background:#f8f3df;color:#20443c;text-align:center;border-radius:7px;padding:10px 2px}.tile em,.tile b{display:block;font-style:normal}.tile b{font:34px Georgia}.tile em{font-size:12px}.tile:nth-last-child(n+4){background:#cde4cb}.tile:nth-last-child(n+7){background:#f1d9a6}.tools{margin-top:16px;flex-wrap:wrap}.lab input,.lab select{background:#fff;color:#203932;padding:7px;border-radius:6px;border:0;max-width:100%}.lab input{width:145px}.display{font:clamp(25px,5vw,46px)/1.3 Georgia;color:#eef3ad}.result{padding-top:12px;min-height:35px}.row{margin:28px 0 12px}.row h2{margin:0;font-size:32px}.row output{font-size:14px;color:#52635c}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-bottom:35px}.card{background:white;border:1px solid #d9dcd0;border-radius:12px;padding:19px}.card small{color:#547064}.card p{margin:8px 0 14px}.answer{display:flex;gap:6px}.answer input{min-width:0;flex:1;border:1px solid #aab7ae;border-radius:7px;padding:8px}.answer button{background:#234f47;color:white}.feedback{font-size:14px;color:#385c4c}.feedback:not(:empty){margin-top:8px}details{font-size:14px;margin-top:10px}summary{cursor:pointer;color:#445e52}#paper{display:none}@media(max-width:620px){.mast,main{padding:12px 15px}.brand{gap:6px;font-size:14px}.mast button{font-size:13px;padding:7px}.grid{grid-template-columns:1fr}nav button{flex:1;font-size:13px;padding:8px 3px}.tile{flex:1 1 20%}.lab h2{font-size:30px}}
-@page{size:A4 portrait;margin:15mm}@media print{body{background:white;color:#192b28;font:11pt/1.4 Arial}header,main{display:none}#paper{display:block}.sheet{break-after:page}.sheet:last-child{break-after:auto}.sheet h1{font:30pt Georgia;margin:3mm 0}.sheet .meta{border-bottom:2pt solid #31564e;padding-bottom:3mm}.sheet aside{border-left:3pt solid #55766b;padding:2mm 4mm;margin:5mm 0}.sheet ol{padding-left:8mm}.sheet li{padding:2mm 0;break-inside:avoid}.lines{height:16mm;border-bottom:1px solid #aaa}.sheet footer{border-top:1px solid #999;margin-top:6mm;padding-top:2mm;font-size:9pt}}
+<html lang="en-SG">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fffdf7">
+<title>Whole Number Studio · Polymath Learning Centre</title>
+<style>
+:root{--ink:#18283c;--muted:#526173;--paper:#faf9f3;--line:#d6dad5;--blue:#2457a3;--coral:#ad442f;--navy:#1c354c;--teal:#257765;--mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;--sans:"DM Sans","Segoe UI",Arial,sans-serif;--serif:"Instrument Serif",Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.48 var(--sans)}button,input,select{font:inherit;color:inherit}button,summary,select{cursor:pointer}button{background:none;border:0}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #2279c7;outline-offset:3px}button:disabled{cursor:default}h1,h2,h3,p{margin:0}h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.06;letter-spacing:-.038em}[hidden]{display:none!important}.wrap{width:min(1180px,calc(100% - 72px));margin-inline:auto}.mast{border-bottom:1px solid var(--line);background:#fffef9}.mast .wrap,.top-actions,.brand,.hero-meta,.action,.topic-btn,.lab-label,.split,.practice-head,.foot .wrap,.paperfoot,.group-title,.mini-info{display:flex;align-items:center}.mast .wrap{justify-content:space-between;min-height:70px;gap:14px}.brand{gap:10px;color:var(--ink);font-family:var(--serif);font-weight:700;font-size:25px;line-height:.95;letter-spacing:-1px}.brand small{display:block;font:700 8px/1.4 var(--sans);letter-spacing:2.1px;margin-top:4px}.mark{width:35px;height:35px;background:var(--navy);border-radius:8px;display:grid;align-content:center;gap:3px;padding:6px;transform:rotate(-4deg)}.mark i{display:block;height:3px;background:#ffc793;border-radius:4px}.mark i:nth-child(2){width:76%;background:#a3d7c8}.mark i:nth-child(3){width:50%;background:#f18a6a}.top-actions{gap:12px}.action{border:1.3px solid #aeb8bd;background:#fffef8;border-radius:8px;padding:9px 15px;justify-content:center;gap:8px;font-size:14px;font-weight:650;text-decoration:none}.action:hover{background:#e9edf0}.primary{background:var(--navy);border-color:var(--navy);color:white}.primary:hover{background:#2c4b67}.ico{width:18px;height:18px;flex:none;display:inline-flex;align-items:center;justify-content:center}.ico svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.eyebrow{font:700 11px/1.4 var(--mono);letter-spacing:1.4px;text-transform:uppercase}.hero{position:relative;display:grid;grid-template-columns:1fr .85fr;align-items:stretch;border:1px solid #d8d9c8;border-radius:20px;overflow:hidden;margin:26px 0 24px;background:#f2f0e3}.hero-copy{padding:clamp(25px,4vw,52px)}.hero-meta{gap:9px;color:#43534d}.hero-meta i{height:8px;width:8px;border-radius:50%;background:#d26642}.hero h1{font-size:clamp(52px,6.1vw,87px);margin:13px 0 14px;line-height:.98}.hero h1 em{font-weight:400;color:#aa4932}.hero-copy>p{max-width:410px;color:#455361;font-size:16px}.hero-art{position:relative;min-height:235px;overflow:hidden;isolation:isolate;background-color:#1e3b50;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:23px 23px;display:grid;place-items:center}.ab-frame{position:relative;width:min(74%,350px);padding:7px 10px;transform:rotate(-7deg);border-inline:10px solid #e6c9a2;border-radius:7px;box-shadow:inset 5px 0 0 #0002,5px 5px 0 #091c281f}.ab-row{display:flex;position:relative;height:44px;width:100%;align-items:center;gap:3px;padding-inline:3px;isolation:isolate}.ab-row::before{content:"";position:absolute;height:4px;left:-11px;right:-11px;top:calc(50% - 2px);background:#c9bca1;z-index:-1}.bead{display:block;width:clamp(14px,1.8vw,24px);height:35px;border-radius:50% 45%;background:#ec946c;box-shadow:inset 3px 0 0 #ffffff40,inset -4px -2px 0 #0002,1px 3px 0 #091c2820}.ab-row:nth-child(2) .bead{background:#eac96f}.ab-row:nth-child(3) .bead{background:#99cdb6}.ab-row:hover .bead{filter:brightness(1.1)}.ab-row:focus-visible{outline-color:#fff}.bead.pop{animation:slide .28s ease-out}.art-caption{position:absolute;right:16px;bottom:11px;color:#dce9e4;font:10px var(--mono);letter-spacing:.5px}.spark{position:absolute;color:#f7c179;font-size:22px;top:13%;right:12%;transform:rotate(12deg)}.spark.two{top:auto;bottom:14%;left:9%;color:#9cc8bb;font-size:17px}.topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;background:#eaece6;border:1px solid #d6dacf;border-radius:12px;padding:5px;margin-bottom:22px}.topic-btn{justify-content:center;gap:9px;min-height:46px;border-radius:8px;font-weight:650;line-height:1.13;color:#475665}.topic-btn[aria-pressed=true]{background:var(--navy);color:#fff;box-shadow:0 2px 3px #1232}.topic-btn:hover:not([aria-pressed=true]){background:#f7f8f1}.topic-btn .ico{width:21px}.lab{background:#fffefa;border:1px solid #cdd4d0;border-radius:16px;padding:clamp(18px,3vw,33px);box-shadow:0 3px 0 #24334508}.lab-label{gap:7px;color:var(--teal);margin-bottom:7px}.status-dot{width:7px;height:7px;border-radius:50%;background:#368a74}.lab-head{display:flex;justify-content:space-between;align-items:flex-end;gap:15px;flex-wrap:wrap}.lab h2,.practice-head h2{font-size:clamp(30px,3.5vw,43px)}.subnav{display:flex;gap:4px;padding:3px;border:1px solid var(--line);border-radius:7px;background:#f4f5f1;max-width:100%;flex-wrap:wrap}.subnav button{padding:5px 10px;border-radius:5px;font-weight:650;font-size:13px}.subnav button[aria-pressed=true]{background:#fff;color:#1b4c89;box-shadow:0 1px 4px #273d4f32}.model{margin-top:17px;background:#f4f6f4;background-image:radial-gradient(#a4b4b54a .9px,transparent 1px);background-size:12px 12px;border:1px solid #dce2dc;border-radius:11px;padding:clamp(16px,2.7vw,30px)}.model-grid{display:grid;grid-template-columns:minmax(150px,.85fr) minmax(0,2fr);gap:24px;align-items:center}.controls{display:grid;gap:9px;align-content:start}.controls label{display:grid;gap:3px;font-size:12px;font-weight:700;color:#47596b}.controls input,.controls select,.entry{width:100%;max-width:100%;padding:8px 10px;background:white;border:1px solid #aab8bd;border-radius:6px;min-height:40px;font:16px var(--mono)}.controls select{font:15px var(--sans)}.control-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}.model h3{font:700 12px var(--sans);letter-spacing:.04em;color:#526170}.tiles{display:flex;gap:clamp(2px,.5vw,7px);margin:7px 0;align-items:stretch}.digit{flex:1;min-width:0;background:#e2ede7;border:1px solid #adc8bd;border-radius:7px;text-align:center;padding:9px 0 6px;color:#245e53;box-shadow:0 2px 0 #668a7a21}.digit.group1{color:#244f82;background:#e0e9f7;border-color:#b4c5e2}.digit.group2{color:#924d26;background:#f7e5c5;border-color:#d7be98}.digit.chosen{outline:2px solid currentColor;outline-offset:-2px}.digit.empty{opacity:.52}.digit b{display:block;font:clamp(24px,3vw,41px)/1.05 var(--serif)}.digit small{font:600 clamp(8px,.95vw,11px) var(--mono)}.readout{font:clamp(18px,2vw,24px)/1.32 var(--serif);margin:7px 0 3px}.note{font-size:14px;color:#4c5d68}.visual{min-width:0}.bigexpr{font:clamp(25px,3.4vw,46px)/1.25 var(--serif);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.eqmark{color:var(--coral);padding:0 .12em}.diff{background:#fae8b9;color:#593e0c;border-bottom:2px solid #b88123}.track-wrap{padding:19px 4px 5px}.track{position:relative;height:5px;background:#abc2c9;margin:13px 0 5px}.track::before,.track::after,.midline{position:absolute;height:13px;width:2px;top:-4px;background:#304858;content:""}.track::before{left:0}.track::after{right:0}.midline{left:50%;background:#a88341}.marker{position:absolute;top:-6px;width:15px;height:15px;transform:translateX(-50%);border-radius:50%;background:#b55338;box-shadow:0 0 0 3px #fff}.axis{display:flex;justify-content:space-between;gap:5px;font:12px var(--mono);margin-top:12px}.steps{display:flex;gap:7px;align-items:stretch;flex-wrap:wrap;margin:12px 0}.step{background:#fff;border:1px solid #c9d5d4;padding:7px 12px;border-radius:6px}.step small{display:block;font:11px var(--mono);color:#536373}.step span{font:22px var(--serif)}.operation{display:inline-grid;place-items:center;background:white;color:var(--blue);border:1px solid #abbfd3;border-radius:7px;vertical-align:middle;padding:2px 7px;margin:0 3px;min-width:35px;font:inherit;line-height:1.1}.operation:hover{background:#dfebfa}.op-list{display:flex;flex-wrap:wrap;gap:4px}.op-list button{border:1px solid #bbc5c8;padding:4px 9px;background:#fff;border-radius:6px;font-size:13px}.op-list button[aria-pressed=true]{background:var(--navy);color:white}.feedback,.op-feedback{font-size:14px;margin-top:8px}.success{color:#1d6c52}.retry{color:#934028}.practice-head{margin:31px 0 13px;justify-content:space-between;gap:12px}.progress-pill{border:1px solid #c2c8c3;padding:5px 10px;border-radius:20px;color:#374f55;font:12px var(--mono);white-space:nowrap}.practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.qcard{background:#fffefa;border:1px solid #d2d9d3;border-radius:10px;padding:17px 20px;display:flex;flex-direction:column}.qcard.done{border-color:#7aaf98}.group-title{gap:8px;margin-bottom:9px}.qid{font:700 11px var(--mono);border-radius:5px;padding:3px 6px;color:#315c76;background:#e8eff1}.skill-name{font:600 11px var(--mono);color:#5c666d}.qcard p.prompt{font-size:17px;line-height:1.4;margin-bottom:14px}.answer{display:flex;gap:7px;margin-top:auto;align-items:center}.entry{font:15px var(--sans);min-width:0}.qcard details{font-size:13px;color:#485e6b;margin-top:7px}.qcard summary{width:fit-content}.foot{margin-top:34px;border-top:1px solid var(--line);padding:16px 0 25px}.foot .wrap,.paperfoot{justify-content:space-between;gap:12px;flex-wrap:wrap}.foot .note{font-size:12px}.textbtn{color:#244f82;text-decoration:underline;text-underline-offset:3px;font-size:14px}.paper-screen{padding:24px 0}.paper-tools{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 auto 16px;flex-wrap:wrap}.paper-tools .split{gap:9px;flex-wrap:wrap}.sheets{color:#1b2f40}.sheet{width:min(100%,210mm);padding:13mm 15mm;margin:0 auto 18px;background:white;border:1px solid #d1d4d4;box-shadow:0 4px 16px #24354811}.sheet .eyebrow{color:#35665d}.sheet h2{font-size:32px;margin:8px 0}.sheet .meta{display:flex;gap:15px;flex-wrap:wrap;font-size:13px;border-bottom:2px solid #2b4957;padding:8px 0 10px}.paper-guide{background:#f5f5ed;padding:8px 12px;border-left:3px solid #738a76;font-size:13px;margin:12px 0}.paper-guide p+p{margin-top:4px}.paper-qs{padding:0;list-style:none;counter-reset:q;margin:0}.paper-qs li{position:relative;counter-increment:q;padding:7px 0 5px 32px;break-inside:avoid;font-size:15px}.paper-qs li::before{content:counter(q,decimal-leading-zero);position:absolute;left:0;font:700 12px var(--mono);color:#435767;top:10px}.worklines{height:15mm;border-bottom:1px dotted #9fabad;position:relative}.worklines:after{content:"";position:absolute;left:0;right:0;top:50%;border-bottom:1px dotted #c4ccce}.paperfoot{border-top:1px solid #9eabae;margin-top:14px;padding-top:7px;font:10px var(--mono)}.key-line{font-size:13px;color:#3e515d;margin:4px 0 8px}.key-line strong{color:#183e38}.print-only{display:none}
+@keyframes slide{from{transform:translateX(9px);opacity:.3}to{transform:translateX(0);opacity:1}}@media(prefers-reduced-motion:no-preference){.reveal{animation:slide .2s ease-out}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media(max-width:820px){.wrap{width:calc(100% - 36px)}.hero-copy{padding:28px}.hero{grid-template-columns:1.1fr .85fr}.ab-frame{width:80%}.model-grid{grid-template-columns:minmax(140px,.72fr) minmax(0,1.6fr);gap:16px}}
+@media(max-width:640px){.wrap{width:calc(100% - 24px)}.mast .wrap{min-height:59px}.brand{font-size:22px}.action{padding:8px 10px;font-size:13px}.hero{margin:14px 0;grid-template-columns:minmax(0,1.5fr) minmax(90px,.85fr);border-radius:13px}.hero-copy{padding:18px 12px 19px 16px}.hero-copy>p{font-size:13px}.hero-meta{font-size:9px;letter-spacing:.5px}.hero h1{font-size:clamp(38px,8vw,50px);margin:9px 0 8px}.hero-art{min-height:100px}.ab-frame{width:79%;border-width:5px;padding:3px}.ab-row{height:clamp(20px,5vw,33px);gap:1px;padding:0}.ab-row::before{left:-5px;right:-5px;height:2px}.bead{width:8.2%;height:76%}.art-caption{font-size:8px;right:5px;bottom:6px}.spark{font-size:14px}.topics{gap:1px;padding:3px;margin-bottom:13px}.topic-btn{gap:3px;font-size:12px;padding:5px 2px;min-height:42px}.topic-btn .ico{width:15px}.model-grid{grid-template-columns:1fr;gap:12px}.model{padding:14px 10px}.controls{gap:7px}.lab{padding:16px 12px}.lab-head{gap:10px}.subnav button{font-size:12px}.digit{border-radius:4px}.digit b{font-size:25px}.practice-grid{grid-template-columns:1fr}.sheet{padding:16px}.paper-tools .action{font-size:12px}.axis{font-size:10px}.wide-only{display:none}.top-actions{gap:4px}}
+@page{size:A4 portrait;margin:13mm 15mm}
+@media print{body{background:white;font:11pt/1.35 Arial;color:#162b36}.screen-ui,.mast,.foot,.paper-tools{display:none!important}.paper-screen,.paper-screen[hidden],.print-only{display:block!important}.paper-screen,.paper-screen.wrap{width:100%;margin:0;padding:0}.sheet{margin:0;width:100%;height:268mm;padding:0;border:0;box-shadow:none;break-inside:avoid;break-after:page;display:flex;flex-direction:column}.sheet:last-child{break-after:auto}.sheet h2{font-size:26pt;margin:3mm 0}.sheet .meta{font-size:10pt;padding:2mm 0 3mm}.paper-guide{font-size:10pt;background:none;margin:4mm 0;padding:1mm 4mm}.paper-qs{display:flex;flex:1;flex-direction:column}.paper-qs li{flex:1;font-size:11pt;padding:1.5mm 0 0 8mm}.paper-qs li::before{top:2mm}.worklines{height:18mm}.paperfoot{font-size:8pt}.key-line{font-size:10pt}.sheet .eyebrow{font-size:8pt}}
 </style>
-<header><div class="mast"><span class="brand"><i aria-hidden="true">P</i> Polymath Learning Centre</span><button id="print">Print worksheet ↗</button></div></header>
-<main><div class="title"><small>PRIMARY 5 &nbsp; / &nbsp; MATHEMATICS</small><h1>Whole numbers<span>.</span></h1><p>Explore place value, scale numbers and work through calculations in the right order.</p></div>
-<nav aria-label="Lessons"></nav><div id="screen"></div></main><div id="paper"></div>
-<script>const topics = [
+</head>
+<body>
+<header class="mast"><div class="wrap"><div class="brand"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Polymath<small>LEARNING CENTRE</small></span></div><div class="top-actions"><button class="action" id="worksheet"><span class="ico" data-icon="print"></span>Print worksheet</button></div></div></header>
+<main id="lesson" class="screen-ui wrap">
+<section class="hero"><div class="hero-copy"><div class="hero-meta eyebrow"><i></i>Primary 5 &nbsp;/&nbsp; Mathematics</div><h1>Whole number <em>studio.</em></h1><p>Build numbers up to 10 million, scale them and solve expressions one step at a time.</p></div>
+<div class="hero-art"><span class="spark" aria-hidden="true">✦</span><span class="spark two" aria-hidden="true">✧</span><div class="ab-frame" id="abacus" aria-label="Interactive hundreds, tens and ones abacus"></div><span class="art-caption" id="ab-caption" aria-live="polite"></span></div></section>
+<nav class="topics" aria-label="Lesson topics" id="topic-nav"></nav>
+<section class="lab" aria-labelledby="lab-title"><div class="lab-label eyebrow"><i class="status-dot"></i>Interactive lab</div><div class="lab-head"><h2 id="lab-title"></h2><div id="modes" class="subnav" aria-label="Lab activities"></div></div><div class="model" id="model"></div></section>
+<section aria-labelledby="practice-title"><div class="practice-head"><h2 id="practice-title">Your turn</h2><output class="progress-pill" id="progress"></output></div><div id="practice" class="practice-grid"></div></section>
+</main>
+<main id="print-view" class="paper-screen wrap" hidden><div class="paper-tools"><button id="back" class="textbtn">← Back to lesson</button><div class="split"><label for="paper-type">Print version</label><select id="paper-type"><option value="student">Student worksheet</option><option value="key">Worked answer key</option></select><button id="print-now" class="action primary"><span class="ico" data-icon="print"></span>Print / save PDF</button></div></div><div id="sheets" class="sheets"></div></main>
+<footer class="foot"><div class="wrap"><span class="note">Polymath Learning Centre · Primary 5 Mathematics</span><button class="textbtn" id="download">Download offline app ↓</button></div></footer>
+<script>
+const topics = [
   {name:'Place value',title:'Inside a number',guide:'Read each group of three digits as millions, thousands and ones. Compare from the left. To round, look one place to the right of the rounding place. A digit of 5 or more rounds up.',example:'6,405,028 = six million four hundred and five thousand and twenty-eight.',questions:[
     ['Write 3,070,015 in words.','three million seventy thousand and fifteen','Read the groups as 3 million, 70 thousand and 15.'],
     ['Write nine million eight thousand and sixty in figures.','9008060','Use three digits for each group after the millions: 9 | 008 | 060.'],
@@ -29,21 +50,6 @@
     ['90 − (12 + 8) × 3','30','Find the sum inside the brackets, multiply by 3, then subtract.'],
     ['96 ÷ (14 − 6) × 2 + 5','29','Calculate the brackets, then divide and multiply from left to right before adding 5.']]}
 ];
-const $ = id => document.getElementById(id);
-function el(tag, text, cls) {
-  const node = document.createElement(tag);
-  if (text !== undefined) node.textContent = text;
-  if (cls) node.className = cls;
-  return node;
-}
-function clean(value) {
-  return value.trim().toLowerCase().replace(/-/g,' ').replace(/\band\b/g,'').replace(/\s+/g,' ').trim();
-}
-function matches(input, answer) {
-  if (/^\d+$/.test(answer)) return /^(?:\d+|\d{1,3}(?:,\d{3})+)$/.test(input.trim()) && Number(input.replaceAll(',',''))===Number(answer);
-  return clean(input.replaceAll(',',' '))===clean(answer);
-}
-const fmt = n => n.toLocaleString('en-SG');
 const units = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split(' ');
 function words(n) {
   if(n<20) return units[n];
@@ -52,62 +58,278 @@ function words(n) {
     if(n>=size) return words(Math.floor(n/size))+' '+label+(n%size?(n%size<100?' and ':' ')+words(n%size):'');
   }
 }
-const attempts = topics.map(t=>t.questions.map(()=>({value:'',message:'',done:false})));
-let active=0;
-function renderLab(lab) {
-  const area=el('div');lab.append(area);
-  if(active===0){
-    area.innerHTML='<div class="tiles"></div><div class="tools"><label>Number <input id="number" type="number" min="0" max="10000000" value="6405028"></label><label>Round to <select id="round"></select></label></div><div class="result" aria-live="polite"></div>';
-    for(const n of [10,100,1000,10000,100000,1000000]) $('round').add(new Option(fmt(n),n));
-    $('round').value=1000;
-    const update=()=>{
-      const n=$('number').valueAsNumber, tiles=area.querySelector('.tiles'), result=area.querySelector('.result');
-      tiles.replaceChildren();
-      if(!Number.isInteger(n)||n<0||n>10000000){result.textContent='Enter a whole number from 0 to 10,000,000.';return;}
-      const labels=['10M','1M','100k','10k','1k','100','10','1'];
-      const digits=String(n);
-      [...digits].forEach((d,i)=>{const tile=el('span',undefined,'tile');tile.append(el('b',d),el('em',labels[8-digits.length+i]));tiles.append(tile);});
-      const unit=Number($('round').value);
-      result.textContent=words(n)+'. Rounded to the nearest '+fmt(unit)+': '+fmt(Math.round(n/unit)*unit)+'.';
-    };
-    area.oninput=update;update();
-  } else if(active===1){
-    area.innerHTML='<div class="display" aria-live="polite"></div><div class="tools"><label>Operation <select id="op"><option>×</option><option>÷</option></select></label><label>Factor <select id="factor"></select></label><label>Power of ten <select id="power"></select></label></div><div class="result"></div>';
-    for(let n=1;n<=9;n++) $('factor').add(new Option(n,n));
-    for(const n of [10,100,1000]) $('power').add(new Option(fmt(n),n));
-    $('factor').value=3;$('power').value=100;
-    const update=()=>{const f=+$('factor').value,p=+$('power').value,m=f*p,mul=$('op').value==='×',base=24*m;
-      area.querySelector('.display').textContent=mul?'24 × '+fmt(m)+' = '+fmt(base):fmt(base)+' ÷ '+fmt(m)+' = 24';
-      area.querySelector('.result').textContent=mul?'24 × '+f+' = '+fmt(24*f)+'. Then '+fmt(24*f)+' × '+fmt(p)+' = '+fmt(base)+'.':fmt(base)+' ÷ '+fmt(p)+' = '+fmt(24*f)+'. Then '+fmt(24*f)+' ÷ '+f+' = 24.';
-    };area.onchange=update;update();
-  }else{
-    const steps=[['42 − (8 + 4) ÷ 3','Which part must you calculate first?'],['42 − 12 ÷ 3','The brackets give 12. Which operation comes next?'],['42 − 4','12 ÷ 3 gives 4. Now subtract.'],['38','The calculation is complete.']];
-    let step=0;const expression=el('div',undefined,'display'),note=el('p'),button=el('button');expression.setAttribute('aria-live','polite');area.append(expression,note,button);
-    const update=()=>{expression.textContent=steps[step][0];note.textContent=steps[step][1];button.textContent=step===3?'Start again':'Reveal next step →';};
-    button.onclick=()=>{step=(step+1)%steps.length;update();};update();
-  }
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('en-SG');
+const placeNames = ['ones','tens','hundreds','thousands','ten-thousands','hundred-thousands','millions','ten-millions'];
+const placeTags = ['1','10','100','1k','10k','100k','1M','10M'];
+const topicIcons = ['columns','scale','order'];
+const icons = {
+  print:'<path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/><path d="M17 12h1"/>',
+  columns:'<rect x="3" y="10" width="4" height="10" rx="1"/><rect x="10" y="4" width="4" height="16" rx="1"/><rect x="17" y="7" width="4" height="13" rx="1"/>',
+  scale:'<path d="m4 5 7 7m0-7-7 7m10 4h7"/><circle cx="17.5" cy="12" r=".7"/><circle cx="17.5" cy="20" r=".7"/>',
+  order:'<path d="M6 3H4v18h2m12-18h2v18h-2M9 9h6m-3-3v6m-3 4h6"/>'
+};
+const icon = name => '<svg viewBox="0 0 24 24" aria-hidden="true">'+icons[name]+'</svg>';
+const classNames = [['Number words','Figures','Place value','Compare','Nearest thousand','Nearest 100,000'],['Multiply by 10','Multiply by 100','Divide by 1,000','Factorise','Divide by a multiple','Word problem'],['Multiplication first','Brackets first','Equal priority','Left to right','Three operations','Mixed operations']];
+const workings = [
+  ['3 | 070 | 015 gives 3 million, 70 thousand and 15.','9 million + 8 thousand + 60 = 9,008,060.','5 × 10,000 = 50,000.','Compare the hundred-thousands digits. 0 < 9, so the first number is smaller.','6,749,499 is 499 above 6,749,000 and 501 below 6,750,000.','9,950,000 is exactly halfway. Round up to 10,000,000.'],
+  ['48 × 10 = 480. Each digit moves one place to the left.','73 × 10 × 10 = 730 × 10 = 7,300.','6,000 ÷ 10 ÷ 10 ÷ 10 = 600 ÷ 10 ÷ 10 = 6.','35 × 4 × 100 = 140 × 100 = 14,000.','18,000 ÷ 10 ÷ 3 = 1,800 ÷ 3 = 600.','96,000 ÷ 1,000 ÷ 2 = 96 ÷ 2 = 48 bags.'],
+  ['18 + 24 = 42.','24 × 4 = 96.','9 × 3 = 27.','32 + 6 = 38.','90 − 20 × 3 = 90 − 60 = 30.','96 ÷ 8 × 2 + 5 = 12 × 2 + 5 = 24 + 5 = 29.']
+];
+const labs=['Place value explorer','The scale machine','Operation workshop'];
+const modeNames=['Read & write','Compare','Round'];
+const state={topic:0,mode:0,number:'6,405,028',other:'6,450,028',round:1000,selected:6,op:'×',base:'2,400',factor:3,power:100,example:0};
+const storageKey='polymath-whole-number-studio-v2';
+let answers = topics.map(t=>t.questions.map(()=>({value:'',done:false})));
+function cleanWords(value){
+  return value.toLowerCase().replace(/[-‐‑–,]/g,' ').replace(/\band\b/g,' ').replace(/\s+/g,' ').trim();
 }
-function render(){
-  const t=topics[active],screen=$('screen');screen.replaceChildren();
-  document.querySelectorAll('nav button').forEach((b,i)=>b.setAttribute('aria-current',String(i===active)));
-  const lab=el('section',undefined,'lab');lab.append(el('small','WORKED EXAMPLE'),el('h2',t.title),el('p',t.guide));screen.append(lab);renderLab(lab);
-  const row=el('div',undefined,'row'),progress=el('output');const count=()=>progress.textContent=attempts[active].filter(a=>a.done).length+' of 6 correct';
-  row.append(el('h2','Your turn'),progress);count();
-  const grid=el('div',undefined,'grid');screen.append(lab,row,grid);
-  t.questions.forEach(([q,a,h],i)=>{const state=attempts[active][i],card=el('article',undefined,'card'),prompt=el('p',q),form=el('form',undefined,'answer'),input=el('input'),check=el('button','Check'),feedback=el('div',state.message,'feedback'),hint=el('details');
-    prompt.id='q'+i;input.setAttribute('aria-labelledby',prompt.id);input.value=state.value;input.placeholder='Your answer';feedback.setAttribute('role','status');
-    hint.append(el('summary','Hint'),el('p',h));form.append(input,check);card.append(el('small','QUESTION '+(i+1)),prompt,form,feedback,hint);grid.append(card);
-    input.oninput=()=>{state.value=input.value;state.done=false;feedback.textContent=state.message='';count();};
-    form.onsubmit=e=>{e.preventDefault();state.done=matches(input.value,a);state.message=state.done?'Correct. '+h:input.value.trim()?'Try again. '+h:'Enter an answer first.';feedback.textContent=state.message;count();};
+function parseWhole(value){
+  const s=String(value).trim();
+  if(!/^(?:\d+|\d{1,3}(?:,\d{3})+|\d{1,3}(?:[ \u00a0\u202f]\d{3})+)$/.test(s))return NaN;
+  const n=Number(s.replace(/[,\s]/g,''));
+  return Number.isSafeInteger(n)?n:NaN;
+}
+function matches(value,answer){
+  if(/^\d+$/.test(answer))return parseWhole(value)===Number(answer);
+  if(['<','>','='].includes(answer))return value.trim()===answer;
+  return cleanWords(value)===cleanWords(answer);
+}
+try {
+  const saved=JSON.parse(localStorage.getItem(storageKey));
+  if(Array.isArray(saved))answers=answers.map((section,t)=>section.map((_,q)=>{
+    const last=saved[t]?.[q],value=typeof last?.value==='string'?last.value:'';
+    return {value,done:last?.done===true&&matches(value,topics[t].questions[q][1])};
+  }));
+} catch {}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify(answers));}catch{}}
+function element(tag,cls,text){
+  const n=document.createElement(tag);
+  if(cls)n.className=cls;
+  if(text!==undefined)n.textContent=text;
+  return n;
+}
+function button(text,cls,onClick){
+  const b=element('button',cls,text);b.type='button';b.onclick=onClick;return b;
+}
+function field(label,input){const l=element('label','',label);l.append(input);return l;}
+function numberBox(value,onInput){
+  const input=element('input');input.type='text';input.inputMode='numeric';input.value=value;input.autocomplete='off';input.oninput=()=>onInput(input.value);return input;
+}
+function select(items,selected,update){
+  const s=element('select');
+  for(const [value,label] of items)s.add(new Option(label,String(value)));
+  s.value=String(selected);s.onchange=()=>update(s.value);return s;
+}
+function newModel(){
+  const box=element('div','model-grid'),controls=element('div','controls'),visual=element('div','visual');
+  visual.setAttribute('aria-live','polite');box.append(controls,visual);$('model').replaceChildren(box);return {controls,visual};
+}
+const abDigits=[2,4,6];
+function renderAbacus(active=-1){
+  const rack=$('abacus');
+  ['Hundreds','Tens','Ones'].forEach((name,i)=>{
+    let row=rack.children[i];
+    if(!row){row=button('','ab-row',()=>{abDigits[i]=(abDigits[i]+1)%10;renderAbacus(i);});rack.append(row);}
+    row.replaceChildren();row.title=name+' · tap to add a bead';row.setAttribute('aria-label',name+', '+abDigits[i]+' beads. Add one, wrapping to zero after nine.');
+    for(let j=0;j<abDigits[i];j++)row.append(element('span','bead'+(active===i&&j===abDigits[i]-1?' pop':'')));
+  });
+  $('ab-caption').textContent='Tap a row · '+Number(abDigits.join(''));
+}
+function drawPlace(){
+  const {controls,visual}=newModel();
+  const update=()=>{
+    const n=parseWhole(state.number),other=parseWhole(state.other);
+    visual.replaceChildren();
+    if(!(n<=10000000)||(state.mode===1&&!(other<=10000000))){
+      visual.append(element('p','retry','Enter each number as a whole number from 0 to 10,000,000.'));return;
+    }
+    if(state.mode===0){
+      visual.append(element('h3','','Tap a digit to see its value'));
+      const row=element('div','tiles');
+      const ds=String(n);const selected=Math.min(state.selected,ds.length-1);
+      const detail=element('p','note');
+      const setSelected=p=>{
+        state.selected=p;
+        for(const b of row.children){
+          const chosen=Number(b.dataset.place)===p;b.classList.toggle('chosen',chosen);b.setAttribute('aria-pressed',String(chosen));
+        }
+        const digit=Number(ds[ds.length-1-p]);
+        detail.textContent='The '+digit+' in the '+placeNames[p]+' place has a value of '+fmt(digit*10**p)+'.';
+      };
+      for(let p=7;p>=0;p--){
+        const d=ds[ds.length-1-p],tile=d===undefined?element('div'):button('','',()=>setSelected(p));
+        tile.className='digit group'+Math.floor(p/3)+(d===undefined?' empty':'');tile.dataset.place=p;
+        if(d===undefined)tile.setAttribute('aria-hidden','true');else tile.setAttribute('aria-label',d+' in the '+placeNames[p]+' place');
+        tile.append(element('b','',d??'–'),element('small','',placeTags[p]));row.append(tile);
+      }
+      const spoken=words(n);visual.append(row,element('p','readout',spoken[0].toUpperCase()+spoken.slice(1)),detail);setSelected(selected);
+    }else if(state.mode===1){
+      const a=String(n).padStart(8,'0'),b=String(other).padStart(8,'0'),idx=[...a].findIndex((d,i)=>d!==b[i]);
+      function marked(num){
+        const span=element('span');let place=String(num).length-1;
+        for(const c of fmt(num)){
+          span.append(element('span',c!==','&&7-place===idx?'diff':'',c));if(c!==',')place--;
+        }return span;
+      }
+      const eq=element('div','bigexpr');eq.append(marked(n),element('span','eqmark',n===other?' = ':n>other?' > ':' < '),marked(other));
+      const note=idx<0?'Every place has the same digit. The two numbers are equal.':'Compare from the left. The first difference is in the '+placeNames[7-idx]+' place. '+a[idx]+' is '+(n>other?'greater':'less')+' than '+b[idx]+'.';
+      visual.append(eq,element('p','note',note));
+    }else{
+      const unit=state.round,lower=Math.floor(n/unit)*unit,upper=lower+unit,atLimit=lower===10000000,start=atLimit?lower-unit:lower,end=atLimit?lower:upper,middle=start+unit/2;
+      const answer=Math.round(n/unit)*unit;
+      const trackWrap=element('div','track-wrap'),track=element('div','track'),mark=element('span','marker'),axis=element('div','axis');
+      mark.style.left=((n-start)/unit*100)+'%';track.append(element('span','midline'),mark);
+      axis.append(element('span','',fmt(start)),element('span','',fmt(middle)),element('span','',fmt(end)));trackWrap.append(track,axis);
+      const reason=n%unit===0?'It is already a multiple of '+fmt(unit)+'.':n===middle?'It is exactly halfway. Round up to the higher multiple.':fmt(n)+' is '+(n<middle?'below':'above')+' the midpoint of '+fmt(middle)+', so round '+(n<middle?'down':'up')+'.';
+      visual.append(element('div','bigexpr',fmt(n)+' ≈ '+fmt(answer)),trackWrap,element('p','note',reason));
+    }
+  };
+  controls.append(field(state.mode===1?'First number':'Your number',numberBox(state.number,v=>{state.number=v;update();})));
+  if(state.mode===1)controls.append(field('Second number',numberBox(state.other,v=>{state.other=v;update();})));
+  if(state.mode===2)controls.append(field('Round to the nearest',select([10,100,1000,10000,100000,1000000].map(n=>[n,fmt(n)]),state.round,v=>{state.round=Number(v);update();})));
+  update();
+}
+function drawScale(){
+  const {controls,visual}=newModel();
+  const update=()=>{
+    const n=parseWhole(state.base),multiply=state.op==='×',f=state.factor,p=state.power,m=f*p;
+    visual.replaceChildren();
+    if(!(n<=10000000)){visual.append(element('p','retry','Enter a whole number from 0 to 10,000,000.'));return;}
+    if(!multiply&&n%m!==0){
+      const groups=Math.floor(n/m),remainder=n%m;
+      visual.append(element('div','bigexpr reveal',fmt(n)+' ÷ '+fmt(m)+' = '+fmt(groups)+' R '+fmt(remainder)),
+        element('p','note',fmt(groups)+' whole groups of '+fmt(m)+' use '+fmt(groups*m)+'. There are '+fmt(remainder)+' left over.'),
+        element('p','note','Check: '+fmt(groups)+' × '+fmt(m)+' + '+fmt(remainder)+' = '+fmt(n)+'.'));return;
+    }
+    const intermediate=multiply?n*f:n/p,result=multiply?intermediate*p:intermediate/f;
+    const heading=element('div','bigexpr reveal',fmt(n)+' '+state.op+' '+fmt(m)+' = '+fmt(result));
+    const row=element('div','steps');
+    const first=element('div','step'),second=element('div','step');
+    first.append(element('small','','STEP 1'),element('span','',fmt(n)+' '+state.op+' '+fmt(multiply?f:p)+' = '+fmt(intermediate)));
+    second.append(element('small','','STEP 2'),element('span','',fmt(intermediate)+' '+state.op+' '+fmt(multiply?p:f)+' = '+fmt(result)));
+    row.append(first,second);
+    const shifts=Math.log10(p);
+    visual.append(heading,row,element('p','note',fmt(m)+' = '+f+' × '+fmt(p)+'. '+(multiply?'Multiplying':'Dividing')+' by '+fmt(p)+' moves each digit '+shifts+' place'+(shifts===1?'':'s')+' to the '+(multiply?'left.':'right.')));
+  };
+  const input=numberBox(state.base,v=>{state.base=v;update();});
+  controls.append(field('Starting number',input));
+  const sub=element('div','control-row');
+  sub.append(field('Operation',select([['×','Multiply ×'],['÷','Divide ÷']],state.op,v=>{
+    state.op=v;update();
+  })),field('Factor',select(Array.from({length:9},(_,i)=>[i+1,i+1]),state.factor,v=>{state.factor=Number(v);update();})));
+  controls.append(sub,field('Power of ten',select([10,100,1000].map(n=>[n,fmt(n)]),state.power,v=>{state.power=Number(v);update();})));update();
+}
+const examples=[
+  ['Brackets',[42,'−','(',8,'+',4,')','÷',3]],
+  ['Same priority',[72,'÷',8,'×',3,'−',5]],
+  ['Mixed signs',[50,'−',18,'+',6,'×',2]],
+  ['Two brackets',['(',15,'+',9,')','÷','(',8,'−',4,')']]
+];
+let expression=[...examples[0][1]];
+let history=[];
+function nextOperation(tokens){
+  const end=tokens.indexOf(')'),start=end<0?0:tokens.lastIndexOf('(',end)+1,stop=end<0?tokens.length:end;
+  let index=tokens.findIndex((v,i)=>i>=start&&i<stop&&['×','÷'].includes(v));
+  if(index<0)index=tokens.findIndex((v,i)=>i>=start&&i<stop&&['+','−'].includes(v));
+  return {index,inBrackets:end>=0};
+}
+const calculate=(a,op,b)=>op==='×'?a*b:op==='÷'?a/b:op==='+'?a+b:a-b;
+function simplify(tokens,index){
+  const a=tokens[index-1],op=tokens[index],b=tokens[index+1],value=calculate(a,op,b),result=[...tokens];
+  result.splice(index-1,3,value);
+  if(result[index-2]==='('&&result[index]===')')result.splice(index-2,3,value);
+  return {tokens:result,fact:a+' '+op+' '+b+' = '+value};
+}
+function drawOrder(focusModel=false){
+  const {controls,visual}=newModel();
+  controls.append(element('h3','','Choose an expression'));
+  const choices=element('div','op-list');
+  function reset(i){state.example=i;expression=[...examples[i][1]];history=[];drawOrder(true);}
+  examples.forEach(([name],i)=>{const b=button(name,'',()=>reset(i));b.setAttribute('aria-pressed',String(state.example===i));choices.append(b);});
+  controls.append(choices,element('p','note','Work without a calculator. Tap the operation you would do next.'));
+  const {index,inBrackets}=nextOperation(expression),eq=element('div','bigexpr'),feedback=element('p','op-feedback'),trace=element('p','note',history.join('   ·   '));
+  feedback.setAttribute('role','status');
+  const rule=inBrackets?'Work inside brackets first.':expression.includes('×')||expression.includes('÷')?'Multiply and divide from left to right.':'Add and subtract from left to right.';
+  expression.forEach((token,i)=>{
+    if(['×','÷','+','−'].includes(token)){
+      const b=button(token,'operation',()=>{
+        const otherBracket=inBrackets&&expression[i-2]==='('&&expression[i+2]===')';
+        if(i!==index&&!otherBracket){feedback.className='op-feedback retry';feedback.textContent='Try again. '+rule;return;}
+        const next=simplify(expression,i);history.push(next.fact);expression=next.tokens;drawOrder(true);
+      });
+      b.setAttribute('aria-label','Choose '+expression.slice(Math.max(0,i-1),i+2).join(' '));eq.append(b);
+    }else eq.append(document.createTextNode(String(token)));
+  });
+  visual.append(eq,trace,feedback);
+  if(index<0){feedback.textContent='Solved. The value of the expression is '+expression[0]+'.';feedback.className='op-feedback success';visual.append(button('Try again','textbtn',()=>reset(state.example)));}
+  else feedback.textContent=rule;
+  if(focusModel)(visual.querySelector('button')||eq).focus({preventScroll:true});
+}
+function progress(){
+  $('progress').textContent=answers[state.topic].filter(a=>a.done).length+' / 6 correct';
+}
+function renderPractice(){
+  const grid=$('practice');grid.replaceChildren();progress();
+  topics[state.topic].questions.forEach(([q,a,h],i)=>{
+    const t=state.topic,attempt=answers[t][i],card=element('article','qcard'),title=element('div','group-title'),prompt=element('p','prompt',q),form=element('form','answer'),input=element('input','entry'),check=element('button','action primary','Check'),feedback=element('div','feedback'),hint=element('details');
+    title.append(element('span','qid','Q'+String(i+1).padStart(2,'0')),element('span','skill-name',classNames[t][i]));
+    prompt.id='question-'+t+'-'+i;input.setAttribute('aria-labelledby',prompt.id);input.placeholder='Your answer';input.autocomplete='off';input.maxLength=180;if(/^\d+$/.test(a))input.inputMode='numeric';
+    feedback.setAttribute('role','status');input.value=attempt.value;check.type='submit';
+    hint.append(element('summary','','Show hint'),element('p','',h));
+    const correct=()=>{feedback.className='feedback success';feedback.textContent='Correct. '+workings[t][i];card.classList.add('done');};
+    if(attempt.done)correct();
+    input.oninput=()=>{attempt.value=input.value;attempt.done=false;feedback.textContent='';card.classList.remove('done');save();progress();};
+    form.onsubmit=e=>{e.preventDefault();attempt.value=input.value;attempt.done=matches(input.value,a);if(attempt.done)correct();else{feedback.className='feedback retry';feedback.textContent=input.value.trim()?'Try again. '+h:'Enter an answer first.';}save();progress();};
+    form.append(input,check);card.append(title,prompt,form,feedback,hint);grid.append(card);
   });
 }
+function drawLab(){
+  const modes=$('modes');modes.hidden=state.topic!==0;modes.replaceChildren();$('lab-title').textContent=labs[state.topic];
+  if(state.topic===0){
+    modeNames.forEach((name,i)=>{const b=button(name,'',()=>{state.mode=i;drawLab();$('modes').children[i].focus({preventScroll:true});});b.setAttribute('aria-pressed',String(state.mode===i));modes.append(b);});
+    drawPlace();
+  }else if(state.topic===1)drawScale();else drawOrder();
+}
+function switchTopic(t){
+  state.topic=t;
+  for(const [i,b] of [...$('topic-nav').children].entries())b.setAttribute('aria-pressed',String(i===t));
+  drawLab();renderPractice();
+}
+function paper(key){
+  const sheets=$('sheets');sheets.replaceChildren();
+  topics.forEach((topic,t)=>{
+    const sheet=element('section','sheet'),meta=element('div','meta'),example=element('div','paper-guide'),list=element('ol','paper-qs'),foot=element('div','paperfoot');
+    meta.append(element('span','','Name __________________________'),element('span','','Date __________________'));
+    example.append(element('p','',topic.guide),element('p','','Worked example · '+topic.example));
+    topic.questions.forEach(([q,a],i)=>{
+      const li=element('li','',q);
+      if(key){const line=element('p','key-line');line.append(element('strong','',/^\d+$/.test(a)?fmt(Number(a)):a),document.createTextNode('  ·  '+workings[t][i]));li.append(line);}
+      else li.append(element('div','worklines'));
+      list.append(li);
+    });
+    foot.append(element('span','','Whole Number Studio · '+(key?'Worked answer key':'Student worksheet')),element('span','',(t+1)+' / 3'));
+    sheet.append(element('div','eyebrow','Polymath Learning Centre  /  Primary 5 Mathematics'),element('h2','',topic.name),meta,example,list,foot);sheets.append(sheet);
+  });
+}
+let beforePreviewY=0;
+function paperView(open){
+  if(open)beforePreviewY=window.scrollY;
+  $('lesson').hidden=open;$('print-view').hidden=!open;$('worksheet').hidden=open;
+  if(open){paper($('paper-type').value==='key');$('back').focus({preventScroll:true});window.scrollTo(0,0);}
+  else{$('worksheet').focus({preventScroll:true});window.scrollTo(0,beforePreviewY);}
+}
+const offlineSource='<!doctype html>\n'+document.documentElement.outerHTML;
+$('download').onclick=()=>{
+  const url=URL.createObjectURL(new Blob([offlineSource],{type:'text/html;charset=utf-8'}));
+  const link=element('a');link.href=url;link.download='Polymath-Whole-Number-Studio.html';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),15000);
+};
+document.querySelectorAll('[data-icon]').forEach(n=>n.innerHTML=icon(n.dataset.icon));
 topics.forEach((t,i)=>{
-  const b=el('button',t.name);b.onclick=()=>{active=i;render();};document.querySelector('nav').append(b);
-  const sheet=el('section',undefined,'sheet'),aside=el('aside'),list=el('ol');
-  aside.append(el('div',t.guide),el('div','Example: '+t.example));
-  sheet.append(el('small','POLYMATH LEARNING CENTRE  /  PRIMARY 5 MATHEMATICS'),el('h1',t.name),el('p','Name _________________________     Date ______________','meta'),aside,list);
-  t.questions.forEach(([q])=>{const li=el('li',q);li.append(el('div',undefined,'lines'));list.append(li);});
-  sheet.append(el('footer','Whole numbers     •     Show your working.                                      '+(i+1)+' / 3'));$('paper').append(sheet);
+  const b=button('','topic-btn',()=>switchTopic(i)),pict=element('span','ico');pict.innerHTML=icon(topicIcons[i]);b.append(pict,document.createTextNode(t.name));$('topic-nav').append(b);
 });
-$('print').onclick=()=>window.print();render();
-</script></html>
+$('worksheet').onclick=()=>paperView(true);$('back').onclick=()=>paperView(false);
+$('paper-type').onchange=()=>paper($('paper-type').value==='key');$('print-now').onclick=()=>window.print();
+window.addEventListener('beforeprint',()=>paper(!$('print-view').hidden&&$('paper-type').value==='key'));
+renderAbacus();switchTopic(0);paper(false);
+</script></body></html>
