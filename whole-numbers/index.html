@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-SG"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Whole numbers · Polymath Learning Centre</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#faf8f3;color:#202e31;font:16px/1.5 "Trebuchet MS",Arial,sans-serif}header{border-bottom:1px solid #d8d9cf}.mast,main{max-width:1080px;margin:auto;padding:16px 30px}.mast,.brand,.row,nav,.tools{display:flex;align-items:center;gap:12px}.mast,.row{justify-content:space-between}.brand{font-weight:700}.brand i{background:#174c46;color:#e6f294;width:35px;height:35px;border-radius:11px;text-align:center;font:bold italic 27px/35px Georgia}button,select,input{font:inherit;color:inherit}button,select{cursor:pointer}button{background:white;border:1px solid #adb8b1;border-radius:8px;padding:8px 14px;font-weight:600}button:hover{background:#edf2dd}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #d87931;outline-offset:2px}.title{padding:26px 0 12px}small{font-size:12px;font-weight:700;letter-spacing:.14em}.title h1,h2,h3{font-family:Georgia,serif;line-height:1.07}.title h1{font-size:clamp(44px,7vw,78px);letter-spacing:-.055em;margin:8px 0}.title h1 span{color:#c2683e}.title p{color:#4f605b}nav{gap:4px;flex-wrap:wrap;border-bottom:1px solid #c8cfc4;margin:5px 0 20px}nav button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;color:#52635c}nav button[aria-current=true]{border-color:#236457;color:#174a3e}.lab{background:#1d4943;color:#fff;border-radius:18px;padding:clamp(22px,4vw,38px);overflow:hidden}.lab small{color:#d5e7af}.lab h2{font-size:36px;margin:10px 0}.lab p{margin:8px 0 18px}.tiles{display:flex;gap:3px;flex-wrap:wrap}.tile{flex:1 1 48px;background:#f8f3df;color:#20443c;text-align:center;border-radius:7px;padding:10px 2px}.tile em,.tile b{display:block;font-style:normal}.tile b{font:34px Georgia}.tile em{font-size:12px}.tile:nth-last-child(n+4){background:#cde4cb}.tile:nth-last-child(n+7){background:#f1d9a6}.tools{margin-top:16px;flex-wrap:wrap}.lab input,.lab select{background:#fff;color:#203932;padding:7px;border-radius:6px;border:0;max-width:100%}.lab input{width:145px}.display{font:clamp(25px,5vw,46px)/1.3 Georgia;color:#eef3ad}.result{padding-top:12px;min-height:35px}.row{margin:28px 0 12px}.row h2{margin:0;font-size:32px}.row output{font-size:14px;color:#52635c}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding-bottom:35px}.card{background:white;border:1px solid #d9dcd0;border-radius:12px;padding:19px}.card small{color:#547064}.card p{margin:8px 0 14px}.answer{display:flex;gap:6px}.answer input{min-width:0;flex:1;border:1px solid #aab7ae;border-radius:7px;padding:8px}.answer button{background:#234f47;color:white}.feedback{font-size:14px;color:#385c4c}.feedback:not(:empty){margin-top:8px}details{font-size:14px;margin-top:10px}summary{cursor:pointer;color:#445e52}#paper{display:none}@media(max-width:620px){.mast,main{padding:12px 15px}.brand{gap:6px;font-size:14px}.mast button{font-size:13px;padding:7px}.grid{grid-template-columns:1fr}nav button{flex:1;font-size:13px;padding:8px 3px}.tile{flex:1 1 20%}.lab h2{font-size:30px}}
+@page{size:A4 portrait;margin:15mm}@media print{body{background:white;color:#192b28;font:11pt/1.4 Arial}header,main{display:none}#paper{display:block}.sheet{break-after:page}.sheet:last-child{break-after:auto}.sheet h1{font:30pt Georgia;margin:3mm 0}.sheet .meta{border-bottom:2pt solid #31564e;padding-bottom:3mm}.sheet aside{border-left:3pt solid #55766b;padding:2mm 4mm;margin:5mm 0}.sheet ol{padding-left:8mm}.sheet li{padding:2mm 0;break-inside:avoid}.lines{height:16mm;border-bottom:1px solid #aaa}.sheet footer{border-top:1px solid #999;margin-top:6mm;padding-top:2mm;font-size:9pt}}
+</style>
+<header><div class="mast"><span class="brand"><i aria-hidden="true">P</i> Polymath Learning Centre</span><button id="print">Print worksheet ↗</button></div></header>
+<main><div class="title"><small>PRIMARY 5 &nbsp; / &nbsp; MATHEMATICS</small><h1>Whole numbers<span>.</span></h1><p>Explore place value, scale numbers and work through calculations in the right order.</p></div>
+<nav aria-label="Lessons"></nav><div id="screen"></div></main><div id="paper"></div>
+<script>const topics = [
+  {name:'Place value',title:'Inside a number',guide:'Read each group of three digits as millions, thousands and ones. Compare from the left. To round, look one place to the right of the rounding place. A digit of 5 or more rounds up.',example:'6,405,028 = six million four hundred and five thousand and twenty-eight.',questions:[
+    ['Write 3,070,015 in words.','three million seventy thousand and fifteen','Read the groups as 3 million, 70 thousand and 15.'],
+    ['Write nine million eight thousand and sixty in figures.','9008060','Use three digits for each group after the millions: 9 | 008 | 060.'],
+    ['In 8,452,306, what is the value of the digit 5?','50000','The 5 is in the ten-thousands place.'],
+    ['Fill in <, > or = between 7,090,500 and 7,900,050.','<','The first different digits are in the hundred-thousands place: 0 is less than 9.'],
+    ['Round 6,749,499 to the nearest thousand.','6749000','The hundreds digit is 4. Keep the thousands digit and replace the last three digits with zeros.'],
+    ['Round 9,950,000 to the nearest hundred thousand.','10000000','9,950,000 is halfway between 9,900,000 and 10,000,000. Round up.']]},
+  {name:'Multiply & divide',title:'The scale machine',guide:'Split a multiple into a small factor and a power of ten. Multiplying or dividing by 10 changes each digit’s place by one column.',example:'14 × 300 = 14 × 3 × 100 = 4,200.',questions:[
+    ['48 × 10','480','Move each digit one place to the left.'],
+    ['73 × 100','7300','Move each digit two places to the left.'],
+    ['6,000 ÷ 1,000','6','Move each digit three places to the right.'],
+    ['35 × 400','14000','First multiply 35 by 4. Then multiply by 100.'],
+    ['18,000 ÷ 30','600','Divide by 10, then divide the result by 3.'],
+    ['A school packs 96,000 beads into bags of 2,000. How many bags does it fill?','48','Divide by 1,000, then divide by 2.']]},
+  {name:'Order of operations',title:'One step at a time',guide:'Work inside brackets first. Then multiply and divide from left to right. Finally add and subtract from left to right. Work without a calculator.',example:'42 − (8 + 4) ÷ 3 = 42 − 12 ÷ 3 = 42 − 4 = 38.',questions:[
+    ['18 + 6 × 4','42','Multiply 6 by 4 before adding 18.'],
+    ['(18 + 6) × 4','96','Add inside the brackets first.'],
+    ['72 ÷ 8 × 3','27','Division and multiplication have equal priority. Start on the left.'],
+    ['50 − 18 + 6','38','Subtraction and addition have equal priority. Start on the left.'],
+    ['90 − (12 + 8) × 3','30','Find the sum inside the brackets, multiply by 3, then subtract.'],
+    ['96 ÷ (14 − 6) × 2 + 5','29','Calculate the brackets, then divide and multiply from left to right before adding 5.']]}
+];
+const $ = id => document.getElementById(id);
+function el(tag, text, cls) {
+  const node = document.createElement(tag);
+  if (text !== undefined) node.textContent = text;
+  if (cls) node.className = cls;
+  return node;
+}
+function clean(value) {
+  return value.trim().toLowerCase().replace(/-/g,' ').replace(/\band\b/g,'').replace(/\s+/g,' ').trim();
+}
+function matches(input, answer) {
+  if (/^\d+$/.test(answer)) return /^(?:\d+|\d{1,3}(?:,\d{3})+)$/.test(input.trim()) && Number(input.replaceAll(',',''))===Number(answer);
+  return clean(input.replaceAll(',',' '))===clean(answer);
+}
+const fmt = n => n.toLocaleString('en-SG');
+const units = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split(' ');
+function words(n) {
+  if(n<20) return units[n];
+  if(n<100) return ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'][Math.floor(n/10)]+(n%10?'-'+words(n%10):'');
+  for(const [size,label] of [[1000000,'million'],[1000,'thousand'],[100,'hundred']]) {
+    if(n>=size) return words(Math.floor(n/size))+' '+label+(n%size?(n%size<100?' and ':' ')+words(n%size):'');
+  }
+}
+const attempts = topics.map(t=>t.questions.map(()=>({value:'',message:'',done:false})));
+let active=0;
+function renderLab(lab) {
+  const area=el('div');lab.append(area);
+  if(active===0){
+    area.innerHTML='<div class="tiles"></div><div class="tools"><label>Number <input id="number" type="number" min="0" max="10000000" value="6405028"></label><label>Round to <select id="round"></select></label></div><div class="result" aria-live="polite"></div>';
+    for(const n of [10,100,1000,10000,100000,1000000]) $('round').add(new Option(fmt(n),n));
+    $('round').value=1000;
+    const update=()=>{
+      const n=$('number').valueAsNumber, tiles=area.querySelector('.tiles'), result=area.querySelector('.result');
+      tiles.replaceChildren();
+      if(!Number.isInteger(n)||n<0||n>10000000){result.textContent='Enter a whole number from 0 to 10,000,000.';return;}
+      const labels=['10M','1M','100k','10k','1k','100','10','1'];
+      const digits=String(n);
+      [...digits].forEach((d,i)=>{const tile=el('span',undefined,'tile');tile.append(el('b',d),el('em',labels[8-digits.length+i]));tiles.append(tile);});
+      const unit=Number($('round').value);
+      result.textContent=words(n)+'. Rounded to the nearest '+fmt(unit)+': '+fmt(Math.round(n/unit)*unit)+'.';
+    };
+    area.oninput=update;update();
+  } else if(active===1){
+    area.innerHTML='<div class="display" aria-live="polite"></div><div class="tools"><label>Operation <select id="op"><option>×</option><option>÷</option></select></label><label>Factor <select id="factor"></select></label><label>Power of ten <select id="power"></select></label></div><div class="result"></div>';
+    for(let n=1;n<=9;n++) $('factor').add(new Option(n,n));
+    for(const n of [10,100,1000]) $('power').add(new Option(fmt(n),n));
+    $('factor').value=3;$('power').value=100;
+    const update=()=>{const f=+$('factor').value,p=+$('power').value,m=f*p,mul=$('op').value==='×',base=24*m;
+      area.querySelector('.display').textContent=mul?'24 × '+fmt(m)+' = '+fmt(base):fmt(base)+' ÷ '+fmt(m)+' = 24';
+      area.querySelector('.result').textContent=mul?'24 × '+f+' = '+fmt(24*f)+'. Then '+fmt(24*f)+' × '+fmt(p)+' = '+fmt(base)+'.':fmt(base)+' ÷ '+fmt(p)+' = '+fmt(24*f)+'. Then '+fmt(24*f)+' ÷ '+f+' = 24.';
+    };area.onchange=update;update();
+  }else{
+    const steps=[['42 − (8 + 4) ÷ 3','Which part must you calculate first?'],['42 − 12 ÷ 3','The brackets give 12. Which operation comes next?'],['42 − 4','12 ÷ 3 gives 4. Now subtract.'],['38','The calculation is complete.']];
+    let step=0;const expression=el('div',undefined,'display'),note=el('p'),button=el('button');expression.setAttribute('aria-live','polite');area.append(expression,note,button);
+    const update=()=>{expression.textContent=steps[step][0];note.textContent=steps[step][1];button.textContent=step===3?'Start again':'Reveal next step →';};
+    button.onclick=()=>{step=(step+1)%steps.length;update();};update();
+  }
+}
+function render(){
+  const t=topics[active],screen=$('screen');screen.replaceChildren();
+  document.querySelectorAll('nav button').forEach((b,i)=>b.setAttribute('aria-current',String(i===active)));
+  const lab=el('section',undefined,'lab');lab.append(el('small','WORKED EXAMPLE'),el('h2',t.title),el('p',t.guide));screen.append(lab);renderLab(lab);
+  const row=el('div',undefined,'row'),progress=el('output');const count=()=>progress.textContent=attempts[active].filter(a=>a.done).length+' of 6 correct';
+  row.append(el('h2','Your turn'),progress);count();
+  const grid=el('div',undefined,'grid');screen.append(lab,row,grid);
+  t.questions.forEach(([q,a,h],i)=>{const state=attempts[active][i],card=el('article',undefined,'card'),prompt=el('p',q),form=el('form',undefined,'answer'),input=el('input'),check=el('button','Check'),feedback=el('div',state.message,'feedback'),hint=el('details');
+    prompt.id='q'+i;input.setAttribute('aria-labelledby',prompt.id);input.value=state.value;input.placeholder='Your answer';feedback.setAttribute('role','status');
+    hint.append(el('summary','Hint'),el('p',h));form.append(input,check);card.append(el('small','QUESTION '+(i+1)),prompt,form,feedback,hint);grid.append(card);
+    input.oninput=()=>{state.value=input.value;state.done=false;feedback.textContent=state.message='';count();};
+    form.onsubmit=e=>{e.preventDefault();state.done=matches(input.value,a);state.message=state.done?'Correct. '+h:input.value.trim()?'Try again. '+h:'Enter an answer first.';feedback.textContent=state.message;count();};
+  });
+}
+topics.forEach((t,i)=>{
+  const b=el('button',t.name);b.onclick=()=>{active=i;render();};document.querySelector('nav').append(b);
+  const sheet=el('section',undefined,'sheet'),aside=el('aside'),list=el('ol');
+  aside.append(el('div',t.guide),el('div','Example: '+t.example));
+  sheet.append(el('small','POLYMATH LEARNING CENTRE  /  PRIMARY 5 MATHEMATICS'),el('h1',t.name),el('p','Name _________________________     Date ______________','meta'),aside,list);
+  t.questions.forEach(([q])=>{const li=el('li',q);li.append(el('div',undefined,'lines'));list.append(li);});
+  sheet.append(el('footer','Whole numbers     •     Show your working.                                      '+(i+1)+' / 3'));$('paper').append(sheet);
+});
+$('print').onclick=()=>window.print();render();
+</script></html>
